@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Paso 4: Inicia Jupyter Notebook
 
-Para ejecutar el modelo de predicción fenotípica en un entorno interactivo, utiliza Jupyter Notebook:
+Para ejecutar el modelo de predicción fenotípica en Jupyter Notebook:
 
 ```bash
 jupyter notebook

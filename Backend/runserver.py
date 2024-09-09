@@ -2,6 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from db.database import engine, Base
 from dotenv import load_dotenv
+from controller.prediction import predict_phenotype
 
 app = FastAPI()
 
@@ -21,11 +22,11 @@ Base.metadata.create_all(bind=engine)
 async def read_root():
     return {"message": "Backend Is Running"}    
 
-
 @app.post("/predict")
 async def predict_dna_sequence(sequence: str):
-    # Aquí se agregará la lógica para predecir características fenotípicas a partir de ADN
-    return {"sequence": sequence, "prediction": "Predicción no implementada"}
+    prediction = predict_phenotype(sequence)
+    return {"sequence": sequence, "prediction": prediction}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    load_dotenv()  # Load environment variables from .env file
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
