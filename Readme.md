@@ -1,6 +1,17 @@
 # Proyecto de Biotecnología para la Feria Tecnológica
 ![alt CRIsPR CRAFT](./assets//logo.png)
 
+Crearemos una red neuronal perceptrón multicapa (MLP) con conexiones residuales para predecir fenotipos a partir de datos genotípicos. El modelo incorporará el mapeo genotipo-fenotipo, utilizando características de entrada como los polimorfismos de nucleótido único (SNP) y las posiciones de los cromosomas para inferir rasgos fenotípicos, incorporaremos estadísticas de resumen (si están disponibles) y nos centraremos en las leyes mendelianas de la herencia para predecir fenotipos simples.
+
+## Conjunto de datos propuesto: genome.csv
+Estructura:
+- rsid: Identificador del SNP.
+- cromosoma: Número de cromosoma.
+- posición: Posición física del SNP en el cromosoma.
+- genotipo: Información del alelo (por ejemplo, AA, AG, GG).
+#### Modificaciones:
+- Puede añadir etiquetas fenotípicas (por ejemplo, color de ojos, altura, susceptibilidad a enfermedades) para el aprendizaje supervisado.
+
 ## 1. Requerimientos del Proyecto
 
 ### Funcionales
