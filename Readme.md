@@ -12,6 +12,21 @@ Estructura:
 #### Modificaciones:
 - Puede añadir etiquetas fenotípicas (por ejemplo, color de ojos, altura, susceptibilidad a enfermedades) para el aprendizaje supervisado.
 
+## Arquitectura del Modelo
+
+### Capa de Entrada:
+- **Cromosoma (numérico)**: Valores enteros que representan los cromosomas (1-22, X=23, Y=24).
+- **Posición**: Ubicación física en el cromosoma.
+- **Genotipo**: Codificado como vectores one-hot (por ejemplo, AA = [1, 0, 0], AG = [0, 1, 0], GG = [0, 0, 1]).
+
+### Capas Ocultas:
+- **Capas Densas con activación ReLU**: Para capturar relaciones no lineales entre SNPs y fenotipo.
+- **Conexiones Residuales**: Para combinar efectos lineales de los genotipos e interacciones no lineales, similar a la arquitectura descrita en el artículo.
+
+### Capa de Salida:
+- **Para clasificación binaria** (por ejemplo, presencia/ausencia de enfermedad), usar una función de activación sigmoide.
+- **Para clasificación multiclase** (por ejemplo, color de ojos), usar una función de activación softmax.
+
 ## 1. Requerimientos del Proyecto
 
 ### Funcionales
