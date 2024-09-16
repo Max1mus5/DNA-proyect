@@ -27,6 +27,11 @@ Estructura:
 - **Para clasificación binaria** (por ejemplo, presencia/ausencia de enfermedad), usar una función de activación sigmoide.
 - **Para clasificación multiclase** (por ejemplo, color de ojos), usar una función de activación softmax.
 
+## Técnicas clave 
+- **Regularización**: Regularización L2 y dropout para evitar el sobreajuste. 
+- **Optimización**: Optimizador Adam con ajuste de la tasa de aprendizaje. 
+- **Predicción de fenotipos**: Aprovecha los principios de la herencia mendeliana y las técnicas de aprendizaje automático para inferir el fenotipo a partir del genotipo.
+
 ## 1. Requerimientos del Proyecto
 
 ### Funcionales
