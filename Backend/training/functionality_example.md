@@ -4,21 +4,34 @@
 
 El análisis de SNPs (polimorfismos de nucleótido único) en el ADN nos permite comprender cómo variaciones genéticas pueden influir en la predisposición a ciertas enfermedades. Las redes neuronales son herramientas poderosas que pueden aprender a partir de estas variaciones para predecir fenotipos, como la presencia o ausencia de enfermedades. En esta exposición, desglosaremos el procesamiento de una cadena de ADN a través de un modelo de red neuronal.
 
+
+
+## Estructura del ADN:
+<div align="center">
+  <img src="../../assets/DNA.png" alt="ADN structure" width="400"/>
+</div>
+
+## Entendiendo los [SNPs](https://learn.genetics.utah.edu/content/precision/snips/)
+![SNPsDiagram](../../assets/SNPs.svg)
+
 ## 1. Capa de Entrada
 
-La capa de entrada es crucial, ya que transforma la información genética en un formato comprensible para la red neuronal. En este contexto, consideramos tres elementos clave:
+Comprendiendo ahora la estructura del ADN, y cuando se identifica un SNP, vamos a ver los puntos clave de la capa de entrada de nuestro modelo de red neuronal:
 
-- **Cromosoma (numérico)**: Representa el cromosoma donde se encuentra el SNP. Por ejemplo, el cromosoma 12 se representaría simplemente como el número 12.
+- **[Cromosoma](https://www.chromosomewalk.ch/en/list-of-chromosomes/) (numérico)**: Representa el cromosoma donde se encuentra el SNP. Por ejemplo, el cromosoma 12 se representaría simplemente como el número 1.
 
-- **Posición**: Indica la ubicación exacta del SNP en el cromosoma. Por ejemplo, si el SNP está en la posición 345678, se codifica como 345678.
+- **Posición**: Indica la ubicación exacta del SNP en el cromosoma. Por ejemplo, si el SNP está en la posición 72017, se codifica como 72017.
 
-- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipos. Por ejemplo, para el genotipo GG, el vector sería [0, 0, 1] (donde [1, 0, 0] representa AA y [0, 1, 0] representa AG).
+- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipos. Por ejemplo, para el genotipo AA, el vector sería [0, 0, 1] (donde [1, 0, 0] representa AA y [0, 1, 0] representa AG).
 
 Así, un vector de entrada para un SNP específico podría verse así:
 
 ```
-[12, 345678, 0, 0, 1]
+[1, 72017, 1, 0, 0]
 ```
+<div align="center">
+  <img src="../../assets/SNP-dataset.svg" alt="One-hot encoding" width="500"/>
+</div>
 
 ## 2. Capas Ocultas
 
