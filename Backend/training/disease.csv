@@ -1,4 +1,3412 @@
-rsid,genotype,magnitude,reputation
-Rs4477212,A;A,-1,unmeasured
-Rs3094315,A;A,-1,unmeasured
-Rs3,C;C,0,Good
+rsid,genotype,magnitude,reputation,summary
+rs1801253,GG,0,Good,
+rs1801253,CC,1.1,,responds well to bucindolol; may also depend on rs1801252
+rs17822931,CC,2,,Wet earwax. Normal body odour. Normal colostrum.
+rs17822931,TT,2.5,Good,Dry earwax. No body odour. Likely Asian ancestry. Reduced colostrum.
+rs16891982,CC,1.1,Good,"generally non-European, but if European, 7x more likely to have black hair"
+rs16891982,GG,1.1,,Generally European; Light skin; Possibly an increased risk of melanoma
+rs1426654,AA,2.7,,"probably light-skinned, European ancestry"
+rs1426654,GG,2.6,,"probably darker-skinned, Asian or African ancestry"
+rs351855,CC,0,Good,normal
+rs351855,TT,2.9,Bad,"2x increased prostate cancer risk; among breast cancer patients, herceptin is less effective"
+rs713598,GG,1.1,Bad,Possibly unable to taste bitter in some foods.
+rs713598,CC,1.1,Good,Can taste bitter.
+rs1726866,CC,0.1,Good,can taste bitter
+rs1726866,TT,1.1,,possible unable to taste bitter
+rs2227564,TT,0,Good,common in clinvar
+rs4680,GG,2.5,Good,"(warrior) multiple associations, see details"
+rs4680,AA,2.5,Good,(worrier) advantage in memory and attention tasks
+rs2476601,AA,3.2,Bad,2x risk of rheumatoid arthritis and other autoimmune diseases
+rs2476601,GG,0,Good,Normal risk for autoimmune disorders
+rs3135506,GG,0,Good,common on affy axiom data
+rs6265,GG,0,Good,common/normal
+rs6265,AA,2.6,Bad,introversion; depression resistant; impaired motor skills learning; somewhat quicker mental decline in Alzheimer patients
+rs4420638,GG,3,Bad,"2x+ increased Alzheimer's risk, further genotyping suggested ; increased LDL cholesterol"
+rs237025,CT,0,,
+rs7903146,TT,3.5,Bad,2x increased risk for Type-2 diabetes
+rs429358,CC,1.2,Bad,one of 2 snps relevant to classifying APOE genotype
+rs5082,CC,2.5,,"saturated fat contributes to obesity, but 0.57 % lower risk for coronary artery disease"
+rs3816873,TT,0,Good,None
+rs3816873,CC,2.2,Good,reduced risk of type-2 diabetes
+rs3948464,TT,0,Good,common in clinvar
+rs3948464,CC,0,,
+rs5370,GG,0,,common
+rs5370,TT,1.2,Bad,possibly lower HDL cholesterol in women
+rs696217,GG,0,Good,common in clinvar
+rs800292,CC,2,Bad,5% higher risk of Age related macular degeneration
+rs800292,TT,2,Good,5% decreased risk of macular degeneration
+rs7775,CC,0,,
+rs7775,GG,0,,
+rs1041981,AA,2,Bad,Higher myocardial infarction risk
+rs11556045,AA,0,Good,common in clinvar
+rs11556045,GG,0,Good,benign polymorphism
+rs1800450,GG,0,Good,common in clinvar
+rs1800450,AA,1.6,Bad,mannose binding deficiency but of low clinical importance
+rs1801270,CC,0,Good,normal risk
+rs2303067,GG,0,,normal
+rs709932,GG,0,Good,common in clinvar
+rs1045485,GG,0,Good,common/normal
+rs1045485,CC,2,Good,Reduced Risk of Breast Cancer
+rs1065852,CC,0,Good,normal
+rs1065852,TT,3.2,Bad,"Homozygous for CYP2D6 decreased or non-functioning variants; possibly less response to some drugs, including tamoxifen"
+rs2987983,CC,2,Bad,1.2x increased risk of prostate cancer
+rs2987983,CT,2,Bad,1.2x increased risk of prostate cancer
+rs2987983,TT,0,,normal risk
+rs7412,CC,1,,part of APOE4 genoset evaluation
+rs7412,TT,1,,part of APOE4 genoset evaluation
+rs429358,TT,0,Good,common
+rs324650,TT,0.1,,
+rs662,AA,2,Bad,"~2x higher risk of of coronary heart disease reported in some studies, but lower risk seen in other studies"
+rs662,GG,1.3,,Mixed; conflicting results reported related to stroke and CAD
+rs854560,AA,2,Bad,"higher risk for heart disease, diabetic retinopathy"
+rs12026,CC,0,Good,common in clinvar
+rs1799864,GG,0,Good,common in clinvar
+rs6025,AA,7,Bad,11.4x higher risk of thrombosis
+rs6025,GG,0,Good,normal/common risk of thrombosis
+rs2476601,AG,2,Bad,Increased Risk of Multiple Autoimmune Disorders
+rs1061147,AC,1,Good,Normal 0.97x risk for Age Related Macular Degeneration.
+rs1061170,CT,2.5,Bad,2.5x risk for AMD; higher mortality among nonagenarians
+rs4950928,GC,2,Good,Half the risk (maybe) of Asthma.
+rs7903146,CT,2.1,Bad,1.4x increased risk for diabetes (and perhaps colon cancer).
+rs12255372,GT,2,Bad,1.3x increased type-2 diabetes risk
+rs1219648,AG,2,Bad,1.20x risk for breast cancer
+rs4430796,AG,0,,normal risk
+rs1859962,GT,0,Good,normal risk
+rs4633,CT,2,Bad,higher risk for endometrial cancer
+rs175174,AG,0,,
+rs16947,AG,0.1,,a common variant
+rs4444903,AG,2,Bad,3.5x risk of hep-cancer in cirrhosis patients; higher glioma risk
+rs16891982,CG,2,,"if European, 7x more likely to have black hair"
+rs11556045,AG,0,Good,benign polymorphism
+rs1799971,AG,2.5,Bad,"stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful"
+rs324650,AT,0.1,,
+rs1726866,CT,0.1,,can taste bitter
+rs713598,CG,1.1,Good,Can taste bitter.
+rs6983267,GT,2.7,Bad,1.3x risk of prostate cancer; aspirin reduces risk of colorectal cancer
+rs1333040,CT,0,Bad,"1.24x increased myocardial infarction risk, ~1.24x increased intracranial aneurysm risk"
+rs2383206,AG,2,Bad,1.4x increased risk for heart disease
+rs4950928,CC,1.9,Bad,Normal (higher) risk of Asthma.
+rs6602024,GG,0,Good,normal
+rs806380,GG,2.1,Good,uncommon. lowest odds of cannabis dependence
+rs908832,GG,0,Good,normal
+rs2395029,TT,0,Good,common
+rs3810682,GG,0,Good,common
+rs28929768,TT,0,Good,common in clinvar
+rs28999110,CC,0,Good,common in clinvar
+rs28999111,CC,0,Good,common in clinvar
+rs28999112,CC,0,Good,common in clinvar
+rs28999114,AA,0,Good,common in clinvar
+rs669,AA,0,Good,normal
+rs669,GG,2,Bad,3.8x or higher increased risk for Alzheimers
+rs661,GG,0,Good,normal
+rs661,AA,9,Bad,early onset Alzheimer's disease
+rs6647,TT,0,Good,Normal; two copies of Pi-M1V allele
+rs6647,CC,0,Good,Normal; two copies of Pi-M1A allele
+rs1303,TT,0,Good,common in clinvar
+rs28929471,GG,0,Good,common in complete genomics
+rs28929474,GG,0,Good,common in complete genomics
+rs28929474,AA,5.5,Bad,Alpha-1 Antitrypsin Deficiency
+rs17580,AA,0,Good,common in complete genomics
+rs17580,TT,2.5,Bad,a slightly reduced functionality form of Alpha-1 Antitrypsin Deficiency
+rs28931568,GG,0,Good,common in complete genomics
+rs28931568,AA,4,Bad,high risk of emphysema due to Alpha 1-Antitrypsin Deficiency
+rs28931569,TT,0,Good,common in complete genomics
+rs28931569,CC,4,,high risk of emphysema
+rs28931570,CC,0,Good,common in complete genomics
+rs28929473,AA,0,Good,common in complete genomics
+rs28929473,TT,0,,
+rs28931572,TT,0,Good,common in complete genomics
+rs28931572,AA,0,,
+rs769455,CC,0,Good,common in clinvar
+rs769452,TT,0,Good,common in clinvar
+rs28931576,AA,0,Good,common in clinvar
+rs28931578,GG,0,Good,common in clinvar
+rs28931579,AA,0,Good,common in clinvar
+rs28931580,AA,0,Good,common in clinvar
+rs4987076,GG,0,Good,common in clinvar
+rs28929478,GG,0,Good,common in clinvar
+rs28929478,AA,0,Good,common on affy axiom data
+rs28931581,CC,0,Good,common in clinvar
+rs28931582,TT,0,Good,common in clinvar
+rs28929479,TT,0,Good,common in clinvar
+rs28931586,TT,0,Good,common in clinvar
+rs1801252,AA,0,Good,None
+rs1801252,GG,3,,
+rs1042714,CC,0,Good,normal
+rs1800888,CC,0,Good,normal
+rs1800888,TT,2.5,Bad,increased risk of coronary artery disease
+rs4994,TT,0,Good,normal
+rs4994,CC,2,Bad,2x higher risk in certain women for cardiac events; associated with elite endurance performance in men
+rs11276,GG,0,Good,common in clinvar
+rs28362459,TT,0,Good,common in clinvar
+rs8192466,CC,0,Good,common
+rs8192466,TT,4,,uncertain
+rs28897672,TT,0,Good,normal
+rs4986852,GG,0,Good,normal
+rs4986852,AA,2,,predisposition to breast cancer?
+rs1800709,CC,0,Good,normal
+rs1800709,TT,2,,predisposition to breast cancer?
+rs28931588,GG,0,Good,common in complete genomics
+rs28931589,GG,0,Good,common in complete genomics
+rs28931590,AA,0,Good,common in complete genomics
+rs28931590,TT,2.5,Bad,ACUTE MYELOID LEUKEMIA
+rs2303790,AA,0,Good,common in clinvar
+rs5882,GG,2.1,Good,"Longer lifespan, 0.28x lower risk of dementia, 0.31x lower risk of Alzheimer's."
+rs5882,AA,2,Bad,Faster aging. Increased risk for Dementia. Less good cholesterol.
+rs28931591,CC,0,Good,common in clinvar
+rs2230199,CC,0,Good,common
+rs2230199,GG,2,Bad,2.5x+ risk of ARMD
+rs1047286,CC,0,Good,common in clinvar
+rs1047286,TT,1.7,Bad,1.7x increased risk for age-related macular degeneration
+rs28929485,CC,0,Good,common in clinvar
+rs28929485,TT,6,Bad,Deafness and keratitis; possible dominant or recessive
+rs28931592,AA,0,Good,common in clinvar
+rs28931592,TT,0,,
+rs28931593,GG,0,Good,common in clinvar
+rs28931594,GG,0,Good,common in clinvar
+rs28931595,GG,0,Good,common in clinvar
+rs28931600,GG,0,Good,common in clinvar
+rs28931601,GG,0,Good,common in clinvar
+rs11547328,CC,0,Good,common in complete genomics
+rs231775,AA,1,Good,no increased risk of autoimmune thyroid disease
+rs28931606,TT,0,Good,common in clinvar
+rs28931607,GG,0,Good,common in clinvar
+rs28931608,GG,0,Good,common in clinvar
+rs4986893,GG,0,Good,normal
+rs4986893,AA,2.1,,poor metabolizer of several commonly prescribed drugs
+rs28399504,AA,0,Good,normal
+rs28399504,GG,2.5,Bad,poor metabolizer
+rs28931609,CC,0,Good,common in clinvar
+rs28931610,CC,0,Good,common in clinvar
+rs28931610,TT,6,Bad,carrier of a skin fragility/woolly hair syndrome allele
+rs28931611,TT,0,Good,common in clinvar
+rs28931612,GG,0,Good,common in complete genomics
+rs11570255,GG,0,Good,common in complete genomics
+rs11570351,GG,0,Good,common on affy axiom data
+rs5352,GG,0,Good,common
+rs5352,AA,3.5,Bad,Hirschsprung disease?
+rs2234922,AA,0,Good,common in clinvar
+rs460897,GG,0,Good,common in complete genomics
+rs28929498,AA,0,Good,common in clinvar
+rs28931614,GG,0,Good,common in clinvar
+rs28933068,CC,0,Good,common in clinvar
+rs28931615,CC,0,Good,common in clinvar
+rs4647924,CC,0,Good,common in clinvar
+rs28928868,GG,0,Good,common in clinvar
+rs6165,GG,0,Good,common in clinvar
+rs6166,GG,1,Bad,Females slightly more likely to be sterile
+rs6166,AA,0,Good,common/normal
+rs28928870,CC,0,Good,common in clinvar
+rs28928871,GG,0,Good,common in clinvar
+rs17855739,GG,0,Good,common in clinvar
+rs28928872,GG,0,Good,common in clinvar
+rs28928872,CC,0,,
+rs28932769,TT,0,Good,common in clinvar
+rs28933074,AA,0,Good,common in clinvar
+rs1169305,TT,0,Good,common in clinvar
+rs1169305,CC,0,Good,common in complete genomics
+rs28928890,AA,0,Good,common in clinvar
+rs28933081,GG,0,Good,common in clinvar
+rs28928891,AA,0,Good,common in clinvar
+rs28928892,CC,0,Good,common in clinvar
+rs28933082,CC,0,Good,common in clinvar
+rs1494558,AA,0,Good,common in clinvar
+rs1494558,GG,0,Good,benign polymorphism
+rs1494555,CC,0,Good,common in clinvar
+rs1494555,TT,0,Good,benign polymorphism
+rs1801275,AA,0,,
+rs28933087,TT,0,Good,normal
+rs28933087,GG,3,,homozygote for pachyonychia congenita Type I mutation
+rs11554495,GG,0,Good,common in clinvar
+rs28928894,TT,0,Good,normal
+rs28928894,CC,3,,homozygote for pachyonychia congenita Type I mutation
+rs28928895,TT,0,Good,normal
+rs28928895,AA,0,,
+rs28933088,TT,0,Good,common in clinvar
+rs28928896,AA,0,Good,common in clinvar
+rs28928897,GG,0,Good,common in complete genomics
+rs28928898,TT,0,Good,common in clinvar
+rs28928899,TT,0,Good,common in clinvar
+rs28933089,TT,0,Good,common in clinvar
+rs28928900,CC,0,Good,common in clinvar
+rs28933090,TT,0,Good,common in clinvar
+rs28933091,CC,0,Good,common in clinvar
+rs28933092,AA,0,Good,common in clinvar
+rs28928901,CC,0,Good,common in clinvar
+rs28928902,CC,0,Good,common in clinvar
+rs28933093,GG,0,Good,common in clinvar
+rs28928903,GG,0,Good,common in clinvar
+rs28928904,TT,0,Good,common in complete genomics
+rs28928905,GG,0,Good,common in clinvar
+rs12720441,CC,0,Good,common in complete genomics
+rs28928906,GG,0,Good,common in clinvar
+rs3218713,GG,0,Good,common in clinvar
+rs3218713,AA,6,Bad,Familial Hypertrophic Cardiomyopathy
+rs3218714,CC,0,Good,common in clinvar
+rs3218714,TT,6,Bad,Familial Hypertrophic Cardiomyopathy
+rs28933098,CC,0,Good,common in clinvar
+rs28928910,CC,0,Good,common in clinvar
+rs1799983,GG,0,,normal risk
+rs28933100,GG,0,Good,common in clinvar
+rs17158558,CC,0,Good,normal
+rs28933368,GG,0,Good,common in complete genomics
+rs28933369,GG,0,Good,common in complete genomics
+rs28933370,AA,0,Good,common in complete genomics
+rs28933372,GG,0,Good,common in clinvar
+rs28933372,CC,0,,
+rs3188996,TT,0,Good,common in complete genomics
+rs28933373,AA,0,Good,common in clinvar
+rs28933970,TT,0,Good,common in clinvar
+rs28933971,GG,0,Good,common in clinvar
+rs28933972,CC,0,Good,common in clinvar
+rs1057141,AA,0,Good,common in clinvar
+rs28933973,CC,0,Good,common in clinvar
+rs28933374,CC,0,Good,common in clinvar
+rs28933375,AA,0,Good,common in clinvar
+rs28933375,GG,5,Bad,Familial Hemophagocytic Lymphohistiocytosis and Lymphoma
+rs28933376,CC,0,Good,common in clinvar
+rs2236225,CC,0,Good,common/normal
+rs2236225,TT,1.5,Bad,Slightly (~1.5x) higher risk for Caucasian mothers to give birth to NTD children
+rs28933977,CC,0,Good,common in clinvar
+rs5917,GG,0,Good,common
+rs5918,TT,0,Good,average
+rs5918,CC,2.5,Bad,"MI risk, aspirin resistance"
+rs13306487,GG,0,Good,common in complete genomics
+rs28933377,TT,0,Good,common in clinvar
+rs28933378,TT,0,Good,common in clinvar
+rs6133,GG,0,Good,common in clinvar
+rs28933379,GG,0,Good,common in complete genomics
+rs28933381,GG,0,Good,common in clinvar
+rs28933382,CC,0,Good,common in clinvar
+rs28933383,CC,0,Good,common in complete genomics
+rs28933384,CC,0,Good,common in clinvar
+rs1799990,AA,2.3,Bad,Increased chance of Prion Disease (PrP 129 Met homozygote)
+rs1799990,GG,2,Good,"Resistance to vCJD (PrP 129 Val homozygous), 1.7x reduced risk of sporadic CJD and 0.87x reduced risk for late-onset Alzheimer in a Caucasian population"
+rs28933385,GG,0,Good,Prion protein Codon 200 (E) - Non pathogenic variant
+rs16990018,AA,0,Good,PrP Codon 171 Asn - Non-pathogenic variant
+rs16990018,GG,2,,
+rs28932472,CC,0,Good,normal
+rs28933386,AA,0,Good,common in clinvar
+rs28933386,GG,0,,
+rs4253527,CC,0,Good,common on affy axiom data
+rs28933392,GG,0,Good,common in clinvar
+rs28933990,CC,0,Good,common in clinvar
+rs3092891,CC,0,Good,common in clinvar
+rs16879498,CC,0,Good,common in clinvar
+rs29001637,CC,0,Good,common in clinvar
+rs28933394,CC,0,Good,common in clinvar
+rs29001653,AA,0,Good,common in clinvar
+rs28933993,AA,0,Good,common in clinvar
+rs29001566,CC,0,Good,common in clinvar
+rs28933395,CC,0,Good,common in clinvar
+rs486907,GG,1,Good,Normal prostate cancer risk
+rs486907,AA,2,Bad,2x increased prostate cancer risk
+rs28933396,GG,0,Good,common in clinvar
+rs28933397,CC,0,Good,common in complete genomics
+rs28933398,TT,0,Good,common in clinvar
+rs28933399,TT,0,Good,common in clinvar
+rs28933400,TT,0,Good,common in clinvar
+rs28933401,GG,0,Good,common in clinvar
+rs28934002,CC,0,Good,common in clinvar
+rs28999969,GG,0,Good,common in clinvar
+rs28999970,GG,0,Good,common in clinvar
+rs28999971,GG,0,Good,common in clinvar
+rs28933408,CC,0,Good,common in clinvar
+rs28934568,TT,0,Good,common in clinvar
+rs28934568,CC,3,,
+rs1042522,CC,3,Good,Live 3 years longer. Chemotherapy is more effective.
+rs1042522,GG,2,Bad,Common variant. Slightly shorter lifespan.
+rs28934571,GG,0,Good,common in complete genomics
+rs11540652,GG,0,Good,common in clinvar
+rs28934873,TT,0,Good,common in clinvar
+rs28934573,CC,0,Good,common in clinvar
+rs28934574,CC,0,Good,common in clinvar
+rs28934575,GG,0,Good,common in clinvar
+rs28934576,GG,0,Good,common in clinvar
+rs28934576,AA,5,Bad,Li-Fraumeni Syndrome
+rs28934874,CC,0,Good,common in clinvar
+rs28934577,TT,0,Good,common in clinvar
+rs28934577,AA,0,,
+rs28934578,GG,0,Good,common in clinvar
+rs28934578,AA,8,Bad,info@snpedia.com would like to hear from you
+rs28934875,GG,0,Good,common in clinvar
+rs28934875,CC,0,,
+rs28934580,GG,0,Good,common in clinvar
+rs28934581,AA,0,Good,common in clinvar
+rs6336,CC,0,Good,common in clinvar
+rs6339,GG,0,Good,common in clinvar
+rs28934876,AA,0,Good,common in clinvar
+rs28934582,GG,0,Good,common in clinvar
+rs28934583,TT,0,Good,common in clinvar
+rs28934584,GG,0,Good,common in clinvar
+rs28934591,CC,0,Good,common in complete genomics
+rs28934592,GG,0,Good,common in complete genomics
+rs28934593,GG,0,Good,common in complete genomics
+rs28934594,CC,0,Good,common in clinvar
+rs13551,AA,0,Good,common in clinvar
+rs1800562,GG,0,Good,Not a C282Y hemochromatosis carrier.
+rs1800562,AA,5.1,Bad,"Two copies of C282Y, likely affected by hemochromatosis which may be serious if male or post-menopausal."
+rs28934889,GG,0,Good,common in complete genomics
+rs28934595,AA,0,Good,common in clinvar
+rs28934596,TT,0,Good,common in clinvar
+rs28934597,GG,0,Good,common in clinvar
+rs28934891,GG,0,Good,common in clinvar
+rs28934892,CC,0,Good,common in clinvar
+rs28934897,GG,0,Good,common in clinvar
+rs11934801,GG,0,Good,common in clinvar
+rs11461,CC,0,Good,common in clinvar
+rs5030849,GG,0,Good,common in clinvar
+rs28934904,CC,0,Good,common in clinvar
+rs28934905,TT,0,Good,common in clinvar
+rs28934906,CC,0,Good,common in clinvar
+rs28934907,CC,0,Good,common in clinvar
+rs28934908,CC,0,Good,common in clinvar
+rs28935468,CC,0,Good,common in clinvar
+rs28935168,CC,0,Good,common in clinvar
+rs28935168,GG,0,,
+rs28935169,AA,0,Good,common in clinvar
+rs28935169,TT,0,,
+rs28935469,CC,0,Good,common in clinvar
+rs28935470,GG,0,Good,common in clinvar
+rs28935471,AA,0,Good,common in clinvar
+rs28935472,GG,0,Good,common in clinvar
+rs28935473,CC,0,Good,common in clinvar
+rs28936069,GG,0,Good,common in clinvar
+rs28936070,GG,0,Good,common in clinvar
+rs28936071,AA,0,Good,common in clinvar
+rs28935170,GG,0,Good,common in clinvar
+rs28936072,TT,0,Good,common in clinvar
+rs28935174,GG,0,Good,common in clinvar
+rs28935475,CC,0,Good,common in clinvar
+rs28935476,CC,0,Good,common in clinvar
+rs28935477,CC,0,Good,common in clinvar
+rs28935478,AA,0,Good,common in clinvar
+rs28935177,AA,0,Good,common in clinvar
+rs1800278,AA,0,Good,common in clinvar
+rs1800278,GG,0.5,,
+rs28936077,TT,0,Good,common in clinvar
+rs28935479,GG,0,Good,common in clinvar
+rs28935480,GG,0,Good,common in clinvar
+rs1800321,AA,0,Good,common in clinvar
+rs28935481,AA,0,Good,common in clinvar
+rs28935481,TT,0,,
+rs28935482,GG,0,Good,common in clinvar
+rs28935482,CC,2,,
+rs28935496,CC,0,Good,common in clinvar
+rs28934611,TT,0,Good,common in clinvar
+rs28937294,GG,0,Good,common in clinvar
+rs28935499,GG,0,Good,common in clinvar
+rs28935499,AA,5.5,Bad,Hemophilia A (severity varies)
+rs28935203,AA,0,Good,common in clinvar
+rs28935203,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28933668,CC,0,Good,common in clinvar
+rs28933669,TT,0,Good,common in clinvar
+rs28933669,CC,5.5,Bad,Hemophilia A (severity varies)
+rs28933670,TT,0,Good,common in clinvar
+rs28933670,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28933671,AA,0,Good,common in clinvar
+rs28933671,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28933672,GG,0,Good,common in clinvar
+rs28933672,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28937272,AA,0,Good,common in clinvar
+rs28937272,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28937282,CC,0,Good,common in clinvar
+rs28937282,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28937285,GG,0,Good,common in clinvar
+rs28937285,AA,5.5,Bad,Hemophilia A (severity varies)
+rs28933673,GG,0,Good,common in clinvar
+rs28933673,AA,3,,
+rs28937287,TT,0,Good,common in clinvar
+rs28937287,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28937289,GG,0,Good,common in clinvar
+rs28937289,AA,5.5,Bad,Hemophilia A (severity varies)
+rs28933674,GG,0,Good,common in clinvar
+rs28933674,AA,5.5,Bad,Hemophilia A (severity varies)
+rs28933675,CC,0,Good,common in clinvar
+rs28933675,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28933676,AA,0,Good,common in clinvar
+rs28933676,CC,5.5,Bad,Hemophilia A (severity varies)
+rs28933677,CC,0,Good,common in clinvar
+rs28933677,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28933678,GG,0,Good,common in clinvar
+rs28933679,AA,0,Good,common in clinvar
+rs28933679,GG,3,,
+rs28933680,CC,0,Good,common in clinvar
+rs28933680,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28933681,GG,0,Good,common in clinvar
+rs28933681,AA,5.5,Bad,Hemophilia A (severity varies)
+rs28933682,AA,0,Good,common in clinvar
+rs28933682,GG,5.5,Bad,Hemophilia A (severity varies)
+rs28933683,CC,0,Good,common in clinvar
+rs6318,GG,0,Good,common in clinvar
+rs6318,CC,2.5,Bad,1.4x increased risk for cardiac events in patients; apparently stress (cortisol) related
+rs28933691,GG,0,Good,common in clinvar
+rs28937313,AA,0,Good,common in clinvar
+rs28937314,AA,0,Good,common in clinvar
+rs28933692,GG,0,Good,common in clinvar
+rs28933693,CC,0,Good,common in clinvar
+rs28933693,TT,5,Bad,Limb-girdle muscular dystrophy-dystroglycanopathy
+rs28937315,AA,0,Good,common in clinvar
+rs28937316,GG,0,Good,common in clinvar
+rs28937316,AA,5,Bad,long QT syndrome
+rs28937317,AA,0,Good,common in clinvar
+rs28937318,GG,0,Good,common in clinvar
+rs7626962,GG,0,Good,common in clinvar
+rs7626962,TT,2,Bad,Now: Benign? Formerly: increased susceptibility to long QT syndrome
+rs28937319,CC,0,Good,common in clinvar
+rs28933695,GG,0,Good,common in clinvar
+rs144848,TT,0,Good,normal
+rs144848,GG,2,Bad,very slightly increased breast cancer risk
+rs28937321,GG,0,Good,common in clinvar
+rs28933696,CC,0,Good,common in clinvar
+rs28933697,CC,0,Good,common in clinvar
+rs28933698,TT,0,Good,common in clinvar
+rs28936668,AA,0,Good,common in clinvar
+rs28936669,AA,0,Good,common in clinvar
+rs28936368,CC,0,Good,common in clinvar
+rs28938468,CC,0,Good,common in clinvar
+rs28936370,GG,0,Good,common in clinvar
+rs28938469,CC,0,Good,common in clinvar
+rs28936371,CC,0,Good,common in clinvar
+rs28936374,GG,0,Good,common in clinvar
+rs906807,AA,0,Good,common in clinvar
+rs28936670,CC,0,Good,common in clinvar
+rs28936671,CC,0,Good,common in clinvar
+rs28936672,GG,0,Good,common in clinvar
+rs28936375,CC,0,Good,common in clinvar
+rs28936376,GG,0,Good,common in clinvar
+rs28936673,AA,0,Good,common in clinvar
+rs28936674,GG,0,Good,common in clinvar
+rs28936675,GG,0,Good,common in clinvar
+rs28936379,AA,0,Good,common in clinvar
+rs28936381,AA,0,Good,common in clinvar
+rs28936382,AA,0,Good,common in clinvar
+rs28936383,CC,0,Good,common in clinvar
+rs28936383,GG,5,Bad,Limb-girdle muscular dystrophy-dystroglycanopathy
+rs1799999,GG,0,,normal risk
+rs1799999,TT,3,Bad,insulin resistance
+rs28936676,AA,0,Good,common in clinvar
+rs28936677,TT,0,Good,common in clinvar
+rs28936677,CC,3.5,Bad,Variegate porphyria
+rs12735723,CC,0,Good,common in clinvar
+rs12735723,GG,3.5,Bad,Variegate porphyria
+rs1566734,TT,0,Good,common in clinvar
+rs28936678,TT,0,Good,common in clinvar
+rs28936679,GG,0,Good,common in complete genomics
+rs28936387,TT,0,Good,common in clinvar
+rs28936388,CC,0,Good,common in clinvar
+rs28936395,GG,0,Good,common in clinvar
+rs28936396,CC,0,Good,common in clinvar
+rs28938472,AA,0,Good,common in clinvar
+rs1137101,AA,0,Good,common in clinvar
+rs1137101,GG,1.5,Bad,Slight increase in obesity and T2DM risk
+rs1137100,AA,0,Good,common in clinvar
+rs11694,TT,0,Good,common in clinvar
+rs28936680,TT,0,Good,common in clinvar
+rs28936681,TT,0,Good,common in clinvar
+rs28936682,CC,0,Good,common in clinvar
+rs28936683,TT,0,Good,common in clinvar
+rs28936397,AA,0,Good,common in clinvar
+rs28936684,GG,0,Good,common in clinvar
+rs1801725,GG,0,Good,common in clinvar
+rs28936685,TT,0,Good,common in clinvar
+rs28936686,GG,0,Good,common in clinvar
+rs28936399,TT,0,Good,common in clinvar
+rs28936401,CC,0,Good,common in clinvar
+rs28936687,GG,0,Good,common in clinvar
+rs28936688,GG,0,Good,common in clinvar
+rs28936407,GG,0,Good,common in complete genomics
+rs28997576,GG,0,Good,common in complete genomics
+rs28936691,AA,0,Good,common in clinvar
+rs28936692,GG,0,Good,common in clinvar
+rs28936692,CC,0,,
+rs28936693,TT,0,Good,common in clinvar
+rs28936693,AA,0,,
+rs28936694,GG,0,Good,common in clinvar
+rs1805018,TT,0,Good,common in complete genomics
+rs28938474,GG,0,Good,common in clinvar
+rs28936696,AA,0,Good,common in clinvar
+rs28936697,CC,0,Good,common in clinvar
+rs28936698,AA,0,Good,common in clinvar
+rs28936698,TT,0,,
+rs17860403,CC,0,Good,common in clinvar
+rs28936699,CC,0,Good,common in complete genomics
+rs17860424,CC,0,Good,common in clinvar
+rs28936415,GG,0,Good,common in clinvar
+rs28936415,AA,5,Bad,Congenital Disorder of Glycosylation Type 1a
+rs28936702,CC,0,Good,common in clinvar
+rs28936703,CC,0,Good,common in clinvar
+rs28936704,AA,0,Good,common in clinvar
+rs28936416,TT,0,Good,common in clinvar
+rs28938168,GG,0,Good,common in clinvar
+rs1805389,CC,0,Good,common in clinvar
+rs1805388,CC,0,Good,common in clinvar
+rs28939668,GG,0,Good,common in clinvar
+rs17848368,CC,0,Good,common in clinvar
+rs28939675,TT,0,Good,common in clinvar
+rs28939677,CC,0,Good,common in clinvar
+rs28939680,CC,0,Good,common in clinvar
+rs29001571,CC,0,Good,common in clinvar
+rs28937568,CC,0,Good,common in clinvar
+rs28937569,CC,0,Good,common in clinvar
+rs28939681,CC,0,Good,common in clinvar
+rs28939683,AA,0,Good,common in clinvar
+rs28939684,CC,0,Good,common in clinvar
+rs7014851,TT,0,Good,common
+rs28937571,AA,0,Good,common in clinvar
+rs28939688,GG,0,Good,common in clinvar
+rs11258194,TT,0,Good,common on affy axiom data
+rs28937573,CC,0,Good,common in clinvar
+rs28938172,TT,0,Good,common in complete genomics
+rs28938172,CC,8.7,Bad,"Parkinson's disease, type 7, early-onset"
+rs11053646,CC,0,Good,common in complete genomics
+rs28937575,GG,0,Good,common in clinvar
+rs28939693,AA,0,Good,common in clinvar
+rs28939693,TT,0,,
+rs28937578,CC,0,Good,common in complete genomics
+rs28939695,GG,0,Good,common in clinvar
+rs28938173,CC,0,Good,common in clinvar
+rs28938173,AA,3,Bad,Familial Hypertrophic Cardiomyopathy
+rs28938174,AA,0,Good,common in clinvar
+rs28989186,CC,0,Good,common in clinvar
+rs28989181,CC,0,Good,common in clinvar
+rs28989183,GG,0,Good,common in clinvar
+rs28989182,GG,0,Good,common in clinvar
+rs28989185,TT,0,Good,common in clinvar
+rs28989187,GG,0,Good,common in clinvar
+rs324420,CC,0,Good,normal
+rs324420,AA,2.5,Bad,significantly increased risk for substance use disorders; possibly higher pain tolerance
+rs28937580,CC,0,Good,common in complete genomics
+rs28937581,GG,0,Good,common in clinvar
+rs4986790,AA,0,Good,normal
+rs4986790,GG,2.5,Bad,complex; numerous associations reported
+rs4986791,CC,0,Good,normal
+rs4986791,TT,2.5,,complex; see details
+rs5744168,CC,0,Good,common in complete genomics
+rs28937582,AA,0,Good,common in clinvar
+rs28938175,CC,0,Good,common in clinvar
+rs11568372,AA,0,Good,common in clinvar
+rs2238472,GG,0,Good,common in clinvar
+rs2238472,AA,1,Good,most likely a benign polymorphism
+rs28939701,CC,0,Good,common in clinvar
+rs28939702,CC,0,Good,common in clinvar
+rs28937583,TT,0,Good,common in complete genomics
+rs28937584,GG,0,Good,common in clinvar
+rs28937587,GG,0,Good,common in clinvar
+rs2073711,TT,2,Good,Back Pain: lower risk of Lumbar Disc Disease.
+rs2073711,CC,2,Bad,Back Pain: normal (higher) risk of Lumbar Disc Disease.
+rs4988321,GG,0,Good,normal
+rs28939709,GG,0,Good,common in clinvar
+rs28937588,GG,0,Good,common in complete genomics
+rs28939710,GG,0,Good,common in complete genomics
+rs28937590,AA,0,Good,common in clinvar
+rs28937590,GG,8,Bad,GRACILE syndrome
+rs28937591,CC,0,Good,common in clinvar
+rs28937591,GG,3,,deafness expected
+rs28374544,AA,0,Good,common in clinvar
+rs28939712,CC,0,Good,common in clinvar
+rs28939712,TT,7.7,Bad,Familial dysautonomia
+rs28937592,CC,0,Good,common in clinvar
+rs28937593,GG,0,Good,common in clinvar
+rs28937594,TT,0,Good,common in clinvar
+rs28937594,CC,6,Bad,"Inclusion Body Myopathy, type 2"
+rs28939714,CC,0,Good,common in clinvar
+rs28939716,CC,0,Good,common in clinvar
+rs28939716,GG,3,,
+rs28938176,TT,0,Good,common in clinvar
+rs28939717,AA,0,Good,common in clinvar
+rs28937596,TT,0,Good,common in clinvar
+rs28937597,CC,0,Good,common in clinvar
+rs2301612,CC,0,Good,common in clinvar
+rs2301612,GG,0,Good,benign polymorphism
+rs28939719,TT,0,Good,common in clinvar
+rs28939720,CC,0,Good,common in clinvar
+rs28937598,CC,0,Good,common in clinvar
+rs28937868,GG,0,Good,common in clinvar
+rs28939068,TT,0,Good,common in clinvar
+rs28939068,AA,5,Bad,
+rs28939069,CC,0,Good,common in clinvar
+rs28939070,GG,0,Good,common in clinvar
+rs28937870,CC,0,Good,common in complete genomics
+rs28937870,GG,0,,
+rs28937871,AA,0,Good,common in complete genomics
+rs28756986,GG,0,Good,common in clinvar
+rs28756986,CC,0,Good,
+rs28939071,GG,0,Good,common in complete genomics
+rs28937872,CC,0,Good,common in clinvar
+rs17215437,GG,0,Good,common in complete genomics
+rs28937873,GG,0,Good,common in clinvar
+rs28939370,TT,0,Good,common in clinvar
+rs28939072,TT,0,Good,common in clinvar
+rs28939073,CC,0,Good,common in clinvar
+rs28937874,AA,0,Good,common in clinvar
+rs28939075,TT,0,Good,common in clinvar
+rs28939076,CC,0,Good,common in clinvar
+rs28939077,AA,0,Good,common in clinvar
+rs28939078,GG,0,Good,common in clinvar
+rs288326,GG,0,Good,common in complete genomics
+rs28937876,GG,0,Good,common in clinvar
+rs28937876,TT,2,,
+rs28939079,AA,0,Good,common in clinvar
+rs28939080,GG,0,Good,common in clinvar
+rs3807153,TT,0,Good,normal
+rs3807153,CC,0.1,Good,benign
+rs28939081,GG,0,Good,common in clinvar
+rs28939082,GG,0,Good,common in clinvar
+rs28937877,AA,0,Good,common in clinvar
+rs28937878,CC,0,Good,common in clinvar
+rs28937879,TT,0,Good,common in clinvar
+rs28937880,GG,0,Good,common in clinvar
+rs28937882,CC,0,Good,common in clinvar
+rs28937883,GG,0,Good,common in clinvar
+rs10151259,GG,0,Good,common in clinvar
+rs10151259,TT,2,Bad,Recessive genotype uncertain pathogenicity
+rs28939085,CC,0,Good,common in clinvar
+rs28937884,TT,0,Good,common in clinvar
+rs28937885,TT,0,Good,common in clinvar
+rs28939086,AA,0,Good,common in clinvar
+rs28939086,CC,5,Bad,Pendred Syndrome
+rs28939087,CC,0,Good,common in clinvar
+rs28937886,CC,0,Good,common in clinvar
+rs28903098,CC,0,Good,common in clinvar
+rs28903098,GG,0,,
+rs28939378,CC,0,Good,common in clinvar
+rs2066845,GG,0,Good,common in complete genomics
+rs2066844,CC,0,Good,common in complete genomics
+rs2066844,TT,3.1,Bad,Significance unclear; possibly higher risk for Crohn's disease
+rs28937887,GG,0,Good,common in clinvar
+rs28937889,AA,0,Good,common in clinvar
+rs28939088,TT,0,Good,common in clinvar
+rs28937890,CC,0,Good,common in clinvar
+rs28937891,GG,0,Good,common in clinvar
+rs28937892,CC,0,Good,common in clinvar
+rs28937893,GG,0,Good,common in clinvar
+rs28937894,CC,0,Good,common in clinvar
+rs28937895,GG,0,Good,common in clinvar
+rs26722,CC,0,Good,normal
+rs28939089,GG,0,Good,common in clinvar
+rs28937896,TT,0,Good,common in clinvar
+rs28939092,AA,0,Good,common in clinvar
+rs28939094,AA,0,Good,common in clinvar
+rs381737,TT,0,Good,common in clinvar
+rs381737,AA,6,Bad,Gaucher disease (predicted if orientation is correct)
+rs28937897,TT,0,Good,common in complete genomics
+rs28937899,CC,0.3,Good,common in clinvar
+rs28937900,CC,0,Good,common in clinvar
+rs28937900,AA,5,Bad,Limb-girdle muscular dystrophy-dystroglycanopathy
+rs28937901,CC,0,Good,common in clinvar
+rs28937902,CC,0,Good,common in clinvar
+rs28937903,CC,0,Good,common in clinvar
+rs28937904,GG,0,Good,common in clinvar
+rs28937905,CC,0,Good,common in clinvar
+rs28937906,CC,0,Good,common in clinvar
+rs28937907,CC,0,Good,common in clinvar
+rs28937907,TT,6,Bad,possible polycystic kidney disease
+rs28937908,TT,0,Good,common in clinvar
+rs28937909,GG,0,Good,common in clinvar
+rs28940868,CC,0,Good,normal
+rs28940868,AA,5,Bad,likely to have Pompe disease
+rs1800309,GG,0,Good,common in clinvar
+rs28941768,CC,0,Good,common in clinvar
+rs3970559,GG,0,Good,common in clinvar
+rs2904551,AA,0,Good,common in clinvar
+rs1807467,GG,0,Good,common in clinvar
+rs450046,CC,0,Good,common in clinvar
+rs450046,TT,0,,
+rs2904552,CC,0,Good,common in clinvar
+rs2870984,GG,0,Good,common in clinvar
+rs28942068,CC,0,Good,common in clinvar
+rs28942068,GG,3,,
+rs28940869,CC,0,Good,common in clinvar
+rs28941769,AA,0,Good,common in clinvar
+rs28940870,CC,0,Good,normal
+rs28942071,CC,0,Good,common in clinvar
+rs28942071,TT,8.8,Bad,Tay-Sachs disease (predicted)
+rs28941770,GG,0,Good,common in clinvar
+rs28941771,TT,0,Good,common in clinvar
+rs28941771,CC,8.8,Bad,Tay-Sachs disease (predicted)
+rs28940871,CC,0,Good,common in clinvar
+rs28940871,GG,5,,"23andMe = Tay-Sachs disease likely, but on other platforms this may be the normal form"
+rs28942072,TT,0,Good,common in clinvar
+rs28942073,CC,0,Good,common in clinvar
+rs820878,TT,0,Good,common in clinvar
+rs820878,CC,0,Good,common in complete genomics
+rs28942074,GG,0,Good,common in clinvar
+rs28942074,TT,5.7,Bad,Wilson's disease; variable age of onset
+rs28942075,GG,0,Good,common in clinvar
+rs28942076,GG,0,Good,common in clinvar
+rs28940872,CC,0,Good,common in clinvar
+rs28940874,CC,0,Good,common in clinvar
+rs28941773,CC,0,Good,common in clinvar
+rs28941773,TT,2,,
+rs28940875,CC,0,Good,common in clinvar
+rs28942077,TT,0,Good,common in clinvar
+rs28940876,CC,0,Good,common in clinvar
+rs1042602,CC,0,Good,None
+rs28940877,TT,0,Good,common in clinvar
+rs28940878,AA,0,Good,common in clinvar
+rs28940879,GG,0,Good,common in clinvar
+rs28940880,GG,0,Good,common in clinvar
+rs28940881,AA,0,Good,common in clinvar
+rs28941774,CC,0,Good,common in clinvar
+rs28941774,TT,3.5,Bad,Porphyria
+rs28941775,AA,0,Good,common in clinvar
+rs28941775,GG,3.5,Bad,Porphyria
+rs28942078,GG,0,Good,common in complete genomics
+rs28942078,AA,3,,
+rs28942079,GG,0,Good,common in clinvar
+rs28942080,GG,0,Good,common in complete genomics
+rs28942080,AA,3,,
+rs28942081,GG,0,Good,common in complete genomics
+rs28942081,AA,3,,
+rs28941776,GG,0,Good,common in complete genomics
+rs28941776,AA,3,,
+rs28942082,GG,0,Good,common in complete genomics
+rs28942082,TT,3,,
+rs28942083,GG,0,Good,common in complete genomics
+rs28942083,AA,3,,
+rs28942084,CC,0,Good,common in complete genomics
+rs28942084,TT,2,,hypercholesterolemia risk; homozygote
+rs28942085,AA,0,Good,common in complete genomics
+rs28940882,GG,0,Good,common in complete genomics
+rs28940883,AA,0,Good,common in complete genomics
+rs28940884,AA,0,Good,common in complete genomics
+rs3180383,GG,0,Good,common in complete genomics
+rs28940885,GG,0,Good,common in complete genomics
+rs28942087,TT,0,Good,common in clinvar
+rs28940886,GG,0,Good,common in clinvar
+rs28940887,CC,0,Good,common in clinvar
+rs28940888,CC,0,Good,common in clinvar
+rs28730837,CC,0,Good,common in clinvar
+rs2070075,CC,0,Good,common in complete genomics
+rs28942088,GG,0,Good,common in clinvar
+rs28940889,CC,0,Good,common in clinvar
+rs28941778,GG,0,Good,common in clinvar
+rs28942089,CC,0,Good,common in clinvar
+rs28941777,TT,0,Good,common in clinvar
+rs28941779,TT,0,Good,common in clinvar
+rs28942090,TT,0,Good,common in clinvar
+rs28942091,CC,0,Good,common in complete genomics
+rs28942092,CC,0,Good,common in complete genomics
+rs28941780,GG,0,Good,common in clinvar
+rs28942093,CC,0,Good,common in clinvar
+rs28942094,CC,0,Good,common in clinvar
+rs28942095,CC,0,Good,common in clinvar
+rs28940891,TT,0,Good,common in complete genomics
+rs28942096,CC,0,Good,common in clinvar
+rs28942097,CC,0,Good,common in clinvar
+rs28941781,CC,0,Good,common in clinvar
+rs9282858,GG,0,Good,common in clinvar
+rs9332964,GG,0,Good,not linked to micropenis
+rs9332964,AA,4,Bad,micropenis
+rs28942098,GG,0,Good,common in clinvar
+rs28940892,AA,0,Good,common in clinvar
+rs28941782,GG,0,Good,common in clinvar
+rs28942099,CC,0,Good,common in clinvar
+rs28942100,CC,0,Good,common in clinvar
+rs28941783,GG,0,Good,common in clinvar
+rs12720459,CC,0,Good,common in clinvar
+rs17215500,CC,0,Good,common in clinvar
+rs17221854,CC,0,Good,common in clinvar
+rs17221854,TT,4,Bad,increased susceptibility to long QT syndrome
+rs28941784,CC,0,Good,common in clinvar
+rs2071421,AA,0,Good,common in clinvar
+rs2071421,GG,0,Good,Benign variant (on its own)
+rs28940893,CC,0,Good,common in clinvar
+rs28940894,AA,0,Good,common in clinvar
+rs28940895,CC,0,Good,common in clinvar
+rs28904921,TT,0,Good,common in complete genomics
+rs3092857,AA,0,Good,common in complete genomics
+rs28942103,AA,0,Good,common in clinvar
+rs28940896,CC,0,Good,common in clinvar
+rs28940897,AA,0,Good,common in clinvar
+rs28942104,CC,0,Good,common in clinvar
+rs28942105,AA,0,Good,common in clinvar
+rs28942106,AA,0,Good,common in clinvar
+rs28942107,CC,0,Good,common in clinvar
+rs28942108,CC,0,Good,common in clinvar
+rs28941785,CC,0,Good,common in clinvar
+rs28941786,CC,0,Good,common in clinvar
+rs28942109,GG,0,Good,common in clinvar
+rs28942110,TT,0,Good,common in clinvar
+rs10246939,TT,1.1,,possibly unable to taste bitterness
+rs10246939,CC,0.1,,can taste bitter
+rs28942111,TT,0,Good,common in clinvar
+rs28942112,TT,0,Good,common in clinvar
+rs28362286,CC,0,Good,common in complete genomics
+rs28362286,AA,3,Good,Lowered LDL-C and lower risk for coronary events
+rs28940268,GG,0,Good,common in clinvar
+rs28940268,AA,4,Bad,"Lamellar ichthyosis, type 2"
+rs28940269,AA,0,Good,common in clinvar
+rs28940568,GG,0,Good,common in clinvar
+rs28940568,AA,4,Bad,"Lamellar ichthyosis, type 2"
+rs28940270,GG,0,Good,common in clinvar
+rs28940270,AA,4,Bad,"Lamellar ichthyosis, type 2"
+rs28940271,GG,0,Good,common in clinvar
+rs28940271,AA,4,Bad,"Lamellar ichthyosis, type 2"
+rs28940272,AA,0,Good,common in clinvar
+rs7076156,AA,2,,
+rs7076156,GG,0,,
+rs28940569,GG,0,Good,common in clinvar
+rs28940273,GG,0,Good,common in clinvar
+rs28940273,CC,2.5,,
+rs28940274,TT,0,Good,common in clinvar
+rs28941468,GG,0,Good,common in clinvar
+rs28941469,TT,0,Good,common in clinvar
+rs28940275,AA,0,Good,common in clinvar
+rs28940276,GG,0,Good,common in clinvar
+rs28940570,CC,0,Good,common in clinvar
+rs28940278,GG,0,Good,common in clinvar
+rs28940571,CC,0,Good,common in clinvar
+rs28940572,GG,0,Good,common in clinvar
+rs28940573,CC,0,Good,common in clinvar
+rs28940279,AA,0,Good,common in clinvar
+rs28940279,CC,8,Bad,Canavan disease (predicted)
+rs28940574,CC,0,Good,common in clinvar
+rs28940574,AA,8,Bad,Canavan disease (predicted)
+rs12948217,CC,0,Good,common in clinvar
+rs28940575,TT,0,Good,common in clinvar
+rs28940575,AA,0,,
+rs28940576,CC,0,Good,common in clinvar
+rs28940280,GG,0,Good,common in clinvar
+rs28940578,GG,0,Good,common in clinvar
+rs28940578,AA,3.5,Bad,familial Mediterranean fever
+rs28940579,TT,0,Good,common in clinvar
+rs28940579,CC,3.5,Bad,familial Mediterranean fever
+rs28940580,GG,0,Good,common in clinvar
+rs3743930,GG,0,Good,common in clinvar
+rs3743930,CC,2.1,Bad,some reports of familial Mediterranean fever
+rs11466023,CC,0,Good,common in clinvar
+rs11466023,TT,2,Bad,mild familial Mediterranean fever
+rs11466024,GG,0,Good,common in clinvar
+rs11466024,AA,1,,benign
+rs28940281,CC,0,Good,common in clinvar
+rs28940282,CC,0,Good,common in clinvar
+rs28941470,GG,0,Good,common in clinvar
+rs28941471,GG,0,Good,common in clinvar
+rs28940583,GG,0,Good,common in clinvar
+rs28940283,AA,0,Good,common in clinvar
+rs28940284,CC,0,Good,common in complete genomics
+rs28940284,AA,8.9,Bad,"Parkinson's disease, type 6, early-onset"
+rs28940285,TT,0,Good,common in complete genomics
+rs28940285,CC,8.9,Bad,"Parkinson's disease, type 6, early-onset"
+rs28940585,CC,0,Good,common in clinvar
+rs28940585,TT,8,Bad,Argininosuccinate lyase deficiency
+rs28941472,AA,0,Good,common in clinvar
+rs28941472,GG,8,Bad,Argininosuccinate lyase deficiency
+rs28940286,CC,0,Good,common in clinvar
+rs28940286,TT,8,Bad,Argininosuccinate lyase deficiency
+rs28941473,GG,0,Good,common in clinvar
+rs28941473,AA,8,Bad,Argininosuccinate lyase deficiency
+rs28940287,CC,0,Good,common in clinvar
+rs28940287,TT,8,Bad,Argininosuccinate lyase deficiency
+rs28941474,TT,0,Good,common in clinvar
+rs28940586,TT,0,Good,common in clinvar
+rs28940289,CC,0,Good,common in clinvar
+rs28940290,CC,0,Good,common in clinvar
+rs29001665,CC,0,Good,common in clinvar
+rs29001584,TT,0,Good,common in clinvar
+rs28941475,CC,0,Good,common in clinvar
+rs28940291,GG,0,Good,common in complete genomics
+rs28940292,GG,0,Good,common in complete genomics
+rs28940293,TT,0,Good,common in complete genomics
+rs28940294,GG,0,Good,common in complete genomics
+rs28940295,CC,0,Good,common in complete genomics
+rs28940296,GG,0,Good,common in complete genomics
+rs4673,TT,1,,Conflicting impact reported wrt heart disease risk; may depend on ethnicity
+rs4673,CC,0,Good,normal
+rs28941476,GG,0,Good,common in clinvar
+rs28940297,TT,0,Good,common in clinvar
+rs28940298,CC,0,Good,common in clinvar
+rs28940300,CC,0,Good,common in clinvar
+rs28940301,CC,0,Good,common in clinvar
+rs28940306,CC,0,Good,common in clinvar
+rs28940307,CC,0,Good,common in clinvar
+rs28940308,GG,0,Good,common in clinvar
+rs28940588,GG,0,Good,common in clinvar
+rs28940309,AA,0,Good,common in clinvar
+rs28940310,GG,0,Good,common in clinvar
+rs28940589,GG,0,Good,common in clinvar
+rs28940590,GG,0,Good,common in clinvar
+rs28940591,TT,0,Good,common in clinvar
+rs3804505,CC,0,Good,common on affy axiom data
+rs3804505,TT,2,,"rare, related to myoclonic epilepsy"
+rs28940313,AA,0,Good,common in clinvar
+rs28940314,CC,0,Good,common in clinvar
+rs28940315,CC,0,Good,common in clinvar
+rs7732671,GG,0,Good,common in clinvar
+rs28934602,TT,0,Good,common in clinvar
+rs13073139,GG,0,Good,common in clinvar
+rs419598,TT,0,Good,normal
+rs28934601,AA,0,Good,common in clinvar
+rs28929483,CC,0,Good,common in clinvar
+rs4987188,GG,0,Good,common in complete genomics
+rs4253208,CC,0,Good,common in clinvar
+rs28934604,GG,0,Good,common in clinvar
+rs28934605,GG,0,Good,common in clinvar
+rs28934606,GG,0,Good,common in clinvar
+rs28934606,CC,0,,
+rs28934607,CC,0,Good,common in clinvar
+rs5361,CC,2.5,Bad,4x increased risk for recurrent venous thromboembolism.
+rs671,GG,2,Good,"Alcohol Flush: Normal, doesn't flush. Normal hangovers. Normal risk of Alcoholism. Normal risk of Esophageal Cancer. Disulfiram is effective for alcoholism."
+rs671,AA,4,Bad,Asian Flusher; increased risk of esophageal cancer; East Asian ancestry; Disulfiram not effective for alcoholism.
+rs28999113,TT,0,Good,common in clinvar
+rs4961,GG,0,Good,normal
+rs4961,TT,2.1,Bad,1.8x increased risk for high blood pressure
+rs17602729,CC,0,Good,normal
+rs2066702,CC,0,Good,common
+rs28929469,CC,0,Good,common in clinvar
+rs28931573,CC,0,Good,common in clinvar
+rs28931573,TT,3,,homozygous for the APOA1 Milano variant
+rs28931574,GG,0,Good,common in clinvar
+rs28929476,GG,0,Good,common in clinvar
+rs28931575,TT,0,Good,common in clinvar
+rs5742904,GG,0,Good,normal
+rs5742904,AA,4,Bad,"Hypercholesterolemia, Type B; homozygote"
+rs28362692,CC,0,Good,common in complete genomics
+rs5036,AA,0,Good,common in clinvar
+rs28931583,CC,0,Good,common in clinvar
+rs28931583,GG,0,,
+rs2285644,CC,1,Good,Diego blood group Di(a-b+); found in > 99% of Caucasians and Blacks
+rs2285644,TT,1,Good,Diego blood group Di(a+b-); ancestors very likely to include some East Asians/Mongolians and/or indigenous North/South Americans
+rs28931584,GG,0,Good,common in clinvar
+rs28929480,GG,0,Good,common in clinvar
+rs28931585,CC,0,Good,common in clinvar
+rs8176058,CC,0,Good,"common; Kell group, k antigen (k/k)"
+rs28399653,GG,0,Good,Lu(b)/Lu(b) genotype; i.e. Lu(b) homozygote
+rs1135062,AA,0,Good,"Au(a)/Au(a) genotype; basically, Au(a) homozygote"
+rs1135062,GG,0,Good,Au(b)/Au(b) genotype; Au(b) homozygote
+rs28930068,GG,0,Good,common in clinvar
+rs28930068,AA,5,Bad,Hypokalemic periodic paralysis risk
+rs28930069,CC,0,Good,common in clinvar
+rs28930069,GG,5,Bad,Hypokalemic periodic paralysis risk
+rs6267,GG,0,Good,common
+rs28931602,TT,0,Good,common in clinvar
+rs28931603,CC,0,Good,common in clinvar
+rs28929488,GG,0,Good,common in clinvar
+rs28931604,CC,0,Good,common in clinvar
+rs28931605,CC,0,Good,common in clinvar
+rs1800435,GG,0,Good,common in clinvar
+rs1800443,TT,0,Good,common in clinvar
+rs1800443,GG,3.5,,Rare DRD4 polymorphism
+rs28931613,GG,0,Good,common in clinvar
+rs28929495,GG,0,Good,common in clinvar
+rs6063,GG,0,Good,common
+rs6063,AA,2,,
+rs28928874,TT,0,Good,common in clinvar
+rs28928874,AA,0,,
+rs28928875,GG,0,Good,common in complete genomics
+rs28928876,CC,0,Good,common in complete genomics
+rs28928878,GG,0,Good,common in complete genomics
+rs28928879,AA,0,Good,common in complete genomics
+rs28928880,AA,0,Good,common in complete genomics
+rs28928881,GG,0,Good,common in complete genomics
+rs28928882,CC,0,Good,common in complete genomics
+rs28928883,AA,0,Good,common in complete genomics
+rs28928884,CC,0,Good,common in complete genomics
+rs28928885,CC,0,Good,common in complete genomics
+rs28928886,GG,0,Good,common in complete genomics
+rs1061009,CC,0,Good,common in complete genomics
+rs28928889,CC,0,Good,common in complete genomics
+rs28933076,GG,0,Good,common in complete genomics
+rs28933077,TT,0,Good,common in complete genomics
+rs1061234,CC,0,Good,common in clinvar
+rs1061234,TT,0,Good,common in complete genomics
+rs5907,GG,0,Good,common in clinvar
+rs1064422,CC,0,Good,common in clinvar
+rs1127354,CC,0,Good,common in clinvar
+rs28928893,TT,0,Good,common in clinvar
+rs1800447,TT,0,Good,common in clinvar
+rs1800449,GG,0,Good,common in clinvar
+rs2228479,GG,0,Good,common in clinvar
+rs1805007,CC,0,Good,normal risk
+rs1805008,CC,0,Good,common in clinvar
+rs1805008,TT,3,Bad,~7-10x higher likelihood of red hair; higher risk of melanoma
+rs1805005,GG,0,Good,common in clinvar
+rs28928907,GG,0,Good,common in complete genomics
+rs28928908,CC,0,Good,common in complete genomics
+rs17292650,GG,0,Good,common in complete genomics
+rs28928909,GG,0,Good,common in clinvar
+rs16139,AA,0,Good,common in clinvar
+rs1049564,CC,0,Good,common in clinvar
+rs11554290,AA,0,Good,common in complete genomics
+rs28933371,TT,0,Good,common in clinvar
+rs1800454,GG,0,Good,normal
+rs1800454,AA,1.5,,affected
+rs241447,AA,0,Good,common in clinvar
+rs241448,TT,0,Good,common
+rs241448,CC,2.1,Bad,2.14x increased risk for Alzheimer's
+rs28933979,GG,0,Good,common in clinvar
+rs28933981,CC,0,Good,common in clinvar
+rs1800458,GG,0,Good,common in clinvar
+rs28933985,GG,0,Good,common in clinvar
+rs1799807,AA,0,Good,Typical BuChE
+rs1799807,GG,4,Bad,"Homozygous for ""atypical"" BuChE; see warning re drug (incl. anesthetic) use"
+rs28933389,CC,0,Good,common in clinvar
+rs28933389,TT,3.5,Bad,Pseudocholinesterase Deficiency
+rs28933390,GG,0,Good,common in clinvar
+rs28933390,TT,4,Bad,Pseudocholinesterase Deficiency
+rs28935769,AA,0,Good,common in clinvar
+rs28933391,CC,0,Good,common in clinvar
+rs7418956,GG,0,Good,common in clinvar
+rs28933402,GG,0,Good,common in clinvar
+rs1799899,GG,0,Good,common in complete genomics
+rs28933406,CC,0,Good,common in complete genomics
+rs28933407,CC,0,Good,common in clinvar
+rs28934872,GG,0,Good,common in clinvar
+rs28934872,AA,4,Bad,Tuberous sclerosis
+rs28934878,TT,0,Good,common in clinvar
+rs28934880,CC,0,Good,common in clinvar
+rs28934880,AA,7,Bad,3HSDB2 deficiency; congenital adrenal hyperplasia
+rs28934588,TT,0,Good,common in clinvar
+rs28934589,AA,0,Good,common in clinvar
+rs28934590,CC,0,Good,common in complete genomics
+rs6046,CC,0,Bad,common in clinvar
+rs28934274,GG,0,Good,common in clinvar
+rs28934886,GG,0,Good,common in clinvar
+rs28934603,TT,0,Good,common in clinvar
+rs2228063,AA,0,Good,common
+rs10250779,GG,0,Good,common in clinvar
+rs28934608,CC,0,Good,common in clinvar
+rs28934609,CC,0,Good,common in clinvar
+rs1801265,CC,0,Good,common in clinvar
+rs1801265,TT,0,Good,common in clinvar
+rs1801198,GG,2,Bad,Some increase in peripheral neuropathy risk in older adults taking folate
+rs1801198,CC,0,Good,common
+rs11555096,CC,0,Good,common in clinvar
+rs28934610,GG,0,Good,common in clinvar
+rs28935171,GG,0,Good,common in clinvar
+rs28935474,CC,0,Good,normal
+rs28935484,AA,0,Good,common in clinvar
+rs28935484,TT,0,,
+rs1050829,AA,0,Good,G6PD Type B
+rs1050829,GG,2.1,Bad,G6PD Type A; possibly benign though
+rs1050828,GG,0,Good,common in clinvar
+rs1050828,AA,4,Bad,G6PD deficiency; Hb1Ac value may need adjusting for diabetes diagnosis
+rs28933684,CC,0,Good,common in clinvar
+rs28933685,AA,0,Good,common in clinvar
+rs28937312,TT,0,Good,common in clinvar
+rs2234036,GG,0,Good,common in clinvar
+rs1804495,GG,0,Good,common in clinvar
+rs1804495,TT,0.3,,
+rs1050086,GG,0,Good,common in clinvar
+rs28933688,GG,0,Good,common in clinvar
+rs28933688,CC,0,,
+rs28933689,TT,0,Good,common in clinvar
+rs28933689,AA,0,,
+rs28933690,TT,0,Good,common in clinvar
+rs28937320,GG,0,Good,common in clinvar
+rs29001685,TT,0,Good,common in clinvar
+rs3732379,CC,0,Good,normal
+rs28936408,TT,0,Good,common in clinvar
+rs28936408,AA,0,,
+rs28936409,GG,0,Good,common in clinvar
+rs28936409,CC,0,,
+rs28936695,TT,0,Good,common in clinvar
+rs28938473,CC,0,Good,common in clinvar
+rs28938473,TT,5,Bad,"Fundus flavimaculatus, a type of Stargardt disease, likely"
+rs28936700,GG,0,Good,common in clinvar
+rs28936701,CC,0,Good,common in clinvar
+rs9282671,TT,0,Good,common in complete genomics
+rs9282671,AA,1.5,Bad,small chance of slightly increasing risk for a form of glaucoma
+rs28938169,CC,0,Good,common in clinvar
+rs28939672,CC,0,Good,common in clinvar
+rs28938170,GG,0,Good,common in clinvar
+rs28938171,GG,0,Good,common in clinvar
+rs28939679,CC,0,Good,common in clinvar
+rs213950,GG,0,Good,normal
+rs11971167,GG,0,Good,common in clinvar
+rs1800098,GG,0,Good,common in clinvar
+rs28937579,AA,0,Good,common in clinvar
+rs17073260,CC,0,Good,common in clinvar
+rs28939711,CC,0,Good,common in clinvar
+rs2293869,AA,0,Good,common in clinvar
+rs28937595,GG,0,Good,common in clinvar
+rs28937869,CC,0,Good,common in clinvar
+rs28937869,TT,4,Bad,Ehlers-Danlos syndrome
+rs28937875,GG,0,Good,common in clinvar
+rs4792311,GG,1,Good,Normal risk of prostate cancer
+rs4792311,AA,2,Bad,Increased risk of prostate cancer
+rs28939084,CC,0,Good,common in clinvar
+rs9264942,CC,2.2,Good,90% reduction in HIV viral load
+rs9264942,CT,2.1,Good,60% reduction in HIV viral load
+rs9264942,TT,0,,normal
+rs2395029,GG,4,Bad,HLA-B*5701 homozygote likely if Caucasian or Hispanic; high risk for hypersensitivity to various drugs including abacavir; 2x psoriasis risk; see details
+rs931127,AA,2.1,Bad,2.15x more likely positive lymph node
+rs931127,GG,0,,more favorable
+rs1800401,CC,1,,blue/gray eyes possible
+rs1800401,TT,1,,brown/black eyes more likely
+rs1800407,GG,1,,blue/gray eyes more possible
+rs1800407,AA,1,,green/hazel/brown/black eyes more likely
+rs1805006,CC,0,Good,common in complete genomics
+rs1805006,AA,3,Bad,Melanoma risk; red hair
+rs1805009,GG,0,Good,common in clinvar
+rs1805009,CC,3,Bad,"red hair possible, higher risk of melanoma"
+rs1804197,CC,0,Good,common in complete genomics
+rs1804197,AA,2,Bad,Increased risk of familial colorectal cancer and Asperger's syndrome
+rs4880,TT,1.1,,complex! see rs4880
+rs4880,CC,1.1,,complex! see rs4880
+rs1057910,AA,0.1,Good,normal; no effect on warfarin metabolism
+rs1057910,CC,4,Bad,CYP2C9*3 homozygote; average 80% reduction in warfarin metabolism; reduced metabolism of number of other drugs
+rs1799853,CC,1,Good,normal; no risk of altered warfarin metabolism or NSAID metabolism
+rs1799853,TT,2,Bad,"~ 40% reduction in warfarin metabolism, greater NSAID risk"
+rs1048661,GG,1,,possibly higher glaucoma risk?
+rs1048661,TT,0,,average
+rs6265,AG,2.6,Bad,Slightly increased risk for ADHD or depression; somewhat quicker mental decline in Alzheimer patients
+rs3788853,GG,0,,
+rs10883365,AA,1,Good,Normal risk of developing Crohn's disease
+rs10210302,CC,0,Good,common/normal
+rs11209026,GG,1.1,Bad,"Normal, but higher risk for certain autoimmune diseases."
+rs11209026,AA,3,Good,0.26x lower risk for certain autoimmune diseases.
+rs1801282,CC,0.1,Good,normal fat metabolism; common in clinvar
+rs1801282,GG,3,Bad,Unconfirmed higher risk of cardiovascular disease with high saturated fat diet
+rs5219,TT,2.5,Bad,2.5x increased risk for type-2 diabetes
+rs1229984,AA,2,Good,0.56x decreased risk of oral/throat cancers
+rs1229984,GG,1.1,,normal oral/throat cancer risk; more frequent alcohol consumption
+rs569108,TT,0,Good,normal
+rs2241880,TT,0,Good,normal
+rs2241880,CC,2.5,Bad,2x-3x increased risk for Crohn's disease in Caucasians
+rs10490924,GG,0,Good,normal
+rs10490924,TT,3.5,Bad,8.2x risk for age related macular degeneration
+rs4988235,CC,2.5,Bad,likely to be lactose intolerant as an adult
+rs6152,A,3,,
+rs13266634,CC,3,Bad,increased risk for type-2 diabetes
+rs13266634,TT,0,Good,Normal risk for type-2 diabetes
+rs4504469,CC,0,Good,common
+rs421016,AA,0,Good,normal/common
+rs421016,GG,6,Bad,Gaucher disease; at least 5x higher risk of Parkinson's
+rs9939609,AA,3,Bad,obesity risk and 1.6x risk for T2D
+rs1815739,TT,2.2,,Impaired muscle performance. Likely endurance athlete.
+rs1815739,CC,2.2,Good,Better performing muscles. Likely sprinter.
+rs6136,AA,0,Good,common
+rs17070145,TT,2.1,Good,greatly increased memory performance
+rs4420638,AA,0,Good,Normal/Average risk for Alzheimer's
+rs1042725,CT,1.5,,~0.4cm taller
+rs9939609,AT,2.4,Bad,1.3x risk for T2D; obesity risk
+rs4129148,CC,3,Bad,>3x risk of schizophrenia
+rs1333049,CG,3,Bad,1.5x increased risk for CAD
+rs6922269,GG,0,,normal
+rs8055236,GG,1.7,Bad,"common, but 2.2x higher risk for heart disease"
+rs17672135,CT,1.4,Good,Reduced risk (0.7x) for heart disease
+rs688034,TT,2,Bad,1.6x risk
+rs7250581,GG,2,Bad,1.4x risk
+rs383830,AA,2,Bad,1.9x risk
+rs964201,AA,2,,
+rs964201,GG,0,Good,common in complete genomics
+rs1799944,AA,0,Good,common in complete genomics
+rs1799944,GG,2,Bad,
+rs283413,TT,2.5,Bad,3x higher risk for PD
+rs283413,GG,0,Good,normal
+rs2273535,AA,0,,common
+rs2273535,TT,2.1,Bad,slightly higher (~1.5x or less) risk for certain cancers
+rs1801280,TT,0,Good,common in clinvar
+rs1799930,GG,0,Good,Normal
+rs1799930,AA,2.4,Bad,Somewhat increased risk of hearing loss
+rs1208,GG,0,Good,common in clinvar
+rs1208,AA,0,,
+rs1799931,GG,0,Good,common in clinvar
+rs1800460,GG,0,Good,normal
+rs1800460,AA,3.5,Bad,incapable of detoxifying byproducts of certain drugs
+rs1142345,AA,0,Good,common in clinvar
+rs1142345,GG,3.5,Bad,possibly incapable of detoxifying certain drugs
+rs1800462,GG,0,Good,normal for 23andMe
+rs1800462,CC,3.5,Bad,incapable of detoxifying certain drugs
+rs4986850,GG,0,Good,common in complete genomics
+rs4986850,AA,2,,
+rs2227945,AA,0,Good,common in complete genomics
+rs2227945,GG,2,,
+rs16942,AA,0,Good,common in clinvar
+rs16942,GG,2,Bad,very slightly increased breast cancer risk
+rs1799966,AA,0,Good,common in clinvar
+rs766173,TT,0,Good,common in complete genomics
+rs1799954,CC,0,Good,common in complete genomics
+rs1799954,TT,2,,
+rs11571746,TT,0,Good,common in complete genomics
+rs11571746,CC,2,,
+rs11571747,AA,0,Good,common in complete genomics
+rs11571747,CC,2,,
+rs4987047,AA,0,Good,common in complete genomics
+rs4987047,TT,2,,
+rs11571833,AA,0,Good,common in complete genomics
+rs11571833,TT,2,,
+rs1801426,AA,0,Good,common in complete genomics
+rs1801426,GG,2,,
+rs17879961,TT,0,Good,common in clinvar
+rs1799950,AA,0,Good,normal breast cancer risk
+rs1799950,GG,2,Bad,very slightly increased breast cancer risk
+rs523349,GG,0,Good,common in clinvar
+rs1800497,CC,3,Good,Normal (A2/A2)
+rs1800497,TT,4,Bad,A1/A1: Bad at avoidance of errors. 0.25x lower OCD; 0.56x lower Tardive Diskinesia; higher ADHD; 1.4x Alcohol Dependence; lower Postoperative Nausea; Increased obesity; less pleasure response; Bupropion ineffective for smoking cessation.; 2.4x risk for adenoma recurrence.
+rs2293870,GG,0,Good,common in clinvar
+rs2230500,GG,0,Good,normal risk
+rs334,AGAG,0,Good,common in clinvar
+rs699,CC,2,Bad,increased risk of hypertension
+rs1800795,CC,2,Bad,"less IL6; certain risks, see details"
+rs1800795,GG,2,Bad,"more IL6; certain risks, see details"
+rs10516487,CC,0,Good,common in clinvar
+rs10516487,TT,1.4,Bad,slightly higher risk for lupus
+rs5174,GG,1,Good,Normal risk for heart disease
+rs5174,AA,2,Bad,1.3x increased risk for heart disease
+rs601338,GG,0.1,Bad,susceptible to Norovirus infections
+rs601338,AA,2.5,Good,resistance to Norovirus infection
+rs268,AA,0,Good,common in clinvar
+rs268,GG,2.1,Bad,3X+ increased risk for venous thromboembolism
+rs20455,TT,0,Good,common in clinvar
+rs688,CT,0,,normal risk for Alzheimer's; higher total and LDL cholesterol in females
+rs9858542,GG,0,,normal
+rs6897932,CC,2,Bad,1.08x increased risk for multiple sclerosis
+rs509749,AG,0,,common; slight increase in SLE risk
+rs3129934,CT,2,Bad,Increased risk of Multiple Sclerosis.
+rs12593813,GG,1,Bad,normal risk of restless leg syndrome
+rs11635424,GG,1,Bad,normal risk of restless leg syndrome
+rs3087243,AG,1.5,Bad,increased risk for auto-immune diseases
+rs420259,CT,1.5,Good,Possibly reduced risk of Bipolar Disorder.
+rs7019241,CC,0,,average
+rs8050136,AC,1.2,Bad,1.2x increased risk for T2D in some populations
+rs16964201,CC,0,Good,common in complete genomics
+rs16901979,CC,0,Good,normal risk
+rs3761218,CT,0,,normal
+rs7961152,AA,2,Bad,1.5x higher risk for hypertension
+rs10134944,CC,0,,normal risk of bipolar disorder.
+rs4402960,GG,0,Good,normal
+rs7566605,GG,0,,common
+rs4792311,AG,2,Bad,Increased risk of prostate cancer
+rs4129148,CG,2,Bad,3x risk of schizophrenia.
+rs4825476,AA,0,,normal
+rs6457617,CT,2,Bad,2.3x risk of rheumatoid arthritis
+rs1799930,AG,1.7,Bad,Possibly slightly increased risk of hearing loss
+rs4506565,AT,1.5,Bad,1.4x increased risk for type-2 diabetes
+rs10505483,GG,0,,common
+rs10519262,GG,0,Good,average
+rs2820037,AA,0,,normal
+rs11171739,CT,1.5,Bad,1.34x risk of developing Type-1 diabetes
+rs2107301,CC,0,Good,normal risk
+rs17234657,TT,0,,normal
+rs3816587,TT,0,,normal
+rs10811661,TT,2.1,Bad,1.2x increased risk for type-2 diabetes
+rs4779584,CT,2,Bad,1.23x risk for colorectal cancer
+rs599839,AG,1.3,Bad,1.3x increased risk for heart disease; slightly lower (0.8x) risk for abdominal aortic aneurysm
+rs2073711,CT,2,Good,Back Pain: lower risk of Lumbar Disc Disease.
+rs2300478,TT,1,Good,Normal risk of developing restless legs syndrome
+rs10489535,GG,0,Good,
+rs1000113,CC,0,Good,normal
+rs2056116,GG,2,Bad,1.41x risk for breast cancer
+rs4027132,GG,1,Good,Normal risk of developing bipolar disorder
+rs6601764,TT,1,Good,Normal risk of developing Crohn's disease
+rs3825776,AA,1,Good,Normal risk for ALS
+rs9272346,AA,3,Bad,18.5x risk for type-1 diabetes
+rs2953145,CC,0,,normal
+rs4970834,CC,0,Good,common in complete genomics
+rs2104286,AG,0,Bad,1.4x risk for RA; 1.3x for T1D; also MS?
+rs7577363,GG,0,Good,common
+rs10510468,GG,0,Good,common in complete genomics
+rs6920220,GG,0,Good,normal
+rs9550642,GG,0,Good,normal
+rs11805303,CC,0,Good,normal
+rs1566734,GT,0.5,Bad,"Somatic mutation, cancer associated"
+rs6679677,CC,0,Good,normal
+rs3803662,TT,3,Bad,1.6x increased risk for breast cancer
+rs383830,TT,0,,normal
+rs6997709,GT,2,Bad,1.2x higher risk for hypertension
+rs9886784,AC,1,,
+rs17465637,CC,1.34,Bad,1.34x higher risk for myocardial infarction
+rs2373115,GG,0.1,,
+rs1333049,CC,4,Bad,1.9x increased risk for coronary artery disease
+rs1121980,CT,2.5,Bad,Slight increase (1.67x) in risk for obesity
+rs3784709,CC,1,Bad,Normal risk of developing restless legs syndrome
+rs2639703,TT,0,,normal
+rs17672135,TT,2,Bad,1.3x risk of heart disease
+rs13207033,GG,0,Bad,normal
+rs10868366,GG,0,,average
+rs6604026,CT,1.5,Bad,1.15x risk of multiple sclerosis
+rs2617170,CC,0,Good,Normal
+rs27388,AG,1.5,Bad,Slightly increased risk of developing schizophrenia
+rs2201841,TT,2,Bad,2.4x increased risk for Graves' disease
+rs1375144,TT,1,Good,Normal risk of developing bipolar disorder
+rs6908425,CT,1.5,Bad,1.63x increased risk of developing Crohn's disease
+rs2254958,CT,1.2,Bad,"1.24x reported increased risk for Alzheimer's; however, see comments on main rs-page"
+rs2235040,GG,1.1,Bad,possibly lesser chances of remission only for inpatients on certain antidepressants
+rs7794745,TT,2,Bad,slightly increased risk for autism
+rs867186,AA,0,,normal risk for VTE
+rs629242,CC,0,Good,normal risk
+rs4968451,AA,0,Good,Normal risk for meningioma
+rs6458307,CC,0,,1.4x risk
+rs9296249,TT,0,,common
+rs2609653,TT,0,Good,normal
+rs12037606,AG,1.5,Bad,1.22x risk of developing Crohn's disease
+rs9289231,TT,0,,
+rs10984447,AA,2,Bad,>1.17x increased risk for multiple sclerosis
+rs892086,CT,0,,normal
+rs10490924,GT,2.5,Bad,2.7x risk for age related macular degeneration
+rs13149290,CT,1.5,Bad,Slightly increased risk of developing prostate cancer
+rs11110912,CC,0,Good,common/normal
+rs688034,CC,0,,normal
+rs2837960,TT,0,,normal
+rs11761231,TT,0,,normal
+rs3764220,AA,0,Good,common in complete genomics
+rs358806,CC,2,Bad,1.78x increased risk of developing Type-2 diabetes
+rs6494696,GG,0,,common
+rs1026732,GG,1,Bad,normal risk of restless leg syndrome
+rs10492519,AA,1,Good,Normal risk of developing prostate cancer
+rs10761659,AG,1,Bad,1.2x risk of Crohn's disease
+rs9357271,TT,1,Good,Normal risk of developing restless legs syndrome
+rs2542151,TT,0,Good,normal
+rs2854344,GG,0,Good,
+rs1442295,TT,0,Good,common in complete genomics
+rs7652331,CT,0,,normal risk
+rs17228212,CC,2,Bad,>1.26x increased risk for heart disease
+rs17696736,AG,2,Bad,1.34x risk of type-1 diabetes
+rs683395,TT,0,Good,normal
+rs17070145,CT,2,Good,increased memory performance
+rs4489954,GG,1,Bad,Normal risk of developing restless legs syndrome
+rs17110563,CC,0,Good,common in complete genomics
+rs505151,GG,0,Good,common in clinvar
+rs505151,AA,0,Good,common in complete genomics
+rs1049331,CC,0,Good,common in clinvar
+rs11887534,GG,0,Good,normal risk for gallstones
+rs6280,TT,0,,normal
+rs671,AG,3.5,Bad,Asian Flush; worse hangovers; increased risk of esophageal cancer; East Asian ancestry; Disulfiram probably not effective for alcoholism.
+rs3912,TT,2.5,,M21+Relevant to haplogroup I1a (Y-DNA)
+rs2032637,GG,2.5,,M72+Relevant to haplogroup I1b1 (Y-DNA)
+rs2032597,CC,1,,M170+Relevant to haplogroup I (Y-DNA)
+rs9341274,GG,2.5,,M227+Relevant to haplogroup I1b (Y-DNA)
+rs9341296,TT,1,,M253+Relevant to haplogroup I1 (Y-DNA)
+rs9341301,CC,1,,M258+Relevant to haplogroup I (Y-DNA)
+rs13447354,AA,1,,M307+ P203+Relevant to haplogroup I1 (Y-DNA)Relevant to haplogroup O1a1 (Y-DNA)
+rs17316597,AA,1,,M450+ S109+Relevant to haplogroup I1 (Y-DNA)
+rs16981293,TT,2,,Relevant to haplogroup R1b1b2g
+rs2319818,AA,1,,U179+Relevant to haplogroup I (Y-DNA)
+rs2075291,GG,0,Good,normal
+rs2814778,AA,1,Good,Duffy-positive
+rs1801278,GG,0,Good,normal
+rs1050565,AA,0,Good,normal
+rs1050565,GG,2,Bad,"if testicular cancer patient, 5x poorer response to bleomycin chemotherapy"
+rs1126809,GG,0,Good,normal
+rs1801394,AA,0,Good,common/normal
+rs1801394,GG,2,Bad,1.4x higher risk for meningiomas
+rs1800566,CC,0,Good,common in clinvar
+rs1800566,TT,3.1,Bad,Benzene toxicity; cancer risks
+rs26722,CT,2.1,,"perhaps darker eye, hair, skin"
+rs1233478,AA,2.1,,
+rs45539432,CC,0,Good,normal
+rs45539432,TT,8.9,Bad,"Parkinson's disease, type 6, early-onset; likely"
+rs1800858,AA,0,,normal
+rs1800858,GG,0,,may predispose somehow to Hirschsprung disease
+rs16969968,GG,0,,normal
+rs16969968,AA,3,Bad,"higher risk for nicotine dependence, lower risk for cocaine dependence"
+rs3792876,CC,0,,
+rs1344484,CC,0,,normal
+rs4276227,TT,0,,normal
+rs27388,GG,1,Good,Normal risk of developing schizophrenia
+rs27072,TT,1.9,Good,"Lower risk of alcohol withdrawal seizures, and probably lower odds of ADHD."
+rs3748079,TT,0,,
+rs1805388,AA,2,Good,reduced risk of multiple myeloma
+rs1805388,CT,1.2,Good,1.5x reduced risk of multiple myeloma
+rs7530511,CT,0,,normal
+rs9739493,CC,0,,higher risk for hypertension
+rs10239794,TT,0,Good,common/normal
+rs11614913,TT,2,Good,decreased risk for colorectal cancer and lung cancer
+rs3087243,AA,1,Good,Normal risk for auto-immune diseases
+rs7903146,CC,2,Good,Normal (lower) risk of Type 2 Diabetes and Gestational Diabetes.
+rs4430796,GG,0,,normal risk
+rs5443,CC,1.5,Good,"normal, but higher risk for several conditions"
+rs3761218,GG,0,,
+rs10975200,AA,0,,
+rs7753394,TT,0,,normal
+rs4704397,CC,0,,
+rs9326506,TT,0,,
+rs3738919,AA,1,Good,Normal risk of developing rheumatoid arthritis
+rs6449213,CC,2,Bad,~4x higher risk for hyperuracemia
+rs13149290,TT,1,Good,Normal risk of developing prostate cancer
+rs767603,CT,0,,normal
+rs501120,CC,0,,
+rs2930291,TT,0,,normal
+rs8055236,AA,0,,
+rs1375144,CC,1.5,Bad,1.59x increased risk of developing bipolar disorder (one study)
+rs11622475,TT,0,,normal
+rs2837960,GT,0,,normal
+rs788016,AG,0,,
+rs1038304,AG,0,,
+rs1792113,GG,0,,0.90x risk for Alzheimers
+rs9886784,CC,0,,average
+rs30187,CC,1.2,Good,Normal low risk (0.1%) for ankylosing spondylitis.
+rs11465804,TT,0,Bad,normal risk
+rs7570682,GG,0,,normal
+rs683395,AA,0,,
+rs5051,CC,0,Good,normal risk
+rs2076756,AA,0,,normal
+rs8111071,AA,0,,normal
+rs7997012,AG,0,,normal risk
+rs793862,GG,0,Good,common
+rs3212236,CT,0,,
+rs3026785,TT,0,Good,normal
+rs2811712,AA,2,Bad,Normal (higher) risk of physical impairment with age.
+rs1676486,GG,0,,
+rs3748079,CT,0,,
+rs1800630,CC,0,,normal
+rs4763655,GG,0,,common
+rs4553808,AA,0,,normal
+rs733618,TT,0,,
+rs6939340,AA,0,Good,normal
+rs4712653,TT,0,Good,common/normal
+rs9295536,CC,0,,normal
+rs2072797,CC,0,Good,normal
+rs1528133,TT,0,,
+rs3736228,CC,0,Good,normal
+rs1545985,AA,0,,normal risk
+rs7652331,CC,0,,normal risk
+rs1571801,GG,0,,
+rs1447295,CC,0,,normal
+rs4714156,CC,1.8,Good,<0.61x risk for restless legs
+rs7528684,AA,1.1,Good,0.73x reduced risk of Graves' disease
+rs6280,CT,0,,normal
+rs6675281,CC,0,Good,common
+rs4911414,GG,0,Good,normal
+rs5219,CC,0,Good,normal
+rs27072,CT,1.9,Good,"Lower risk of alcohol withdrawal seizures, and perhaps lower odds of ADHD."
+rs27048,CT,0,,normal
+rs1799971,AA,0,Good,normal
+rs10050860,CC,1.3,Good,Normal risk (about 0.1%) for Ankylosing Spondylitis.
+rs2278206,AG,0,,
+rs10892759,GG,0,,normal
+rs1535,GG,0,,normal
+rs1699103,GG,0,,0.85x risk for Alzheimers
+rs17070145,CC,2.1,Bad,reduced memory abilities
+rs17782313,TT,0,Good,normal
+rs1799884,GG,2,Good,Mothers have typical Birth-Weight babies. Slightly lower risk of Type 2 Diabetes.
+rs1800437,CC,0,,average
+rs2298566,AA,0,,normal
+rs4794067,TT,1.1,,Lower risk of Aspirin Induced Asthma. Normal (higher) risk of lupus and intractable Grave's Disease.
+rs4825476,TT,0,,
+rs6013029,GG,0,Good,normal
+rs603965,AA,0,,normal
+rs6060369,AA,0,,
+rs6166,CT,0,,
+rs699947,CC,0,,normal
+rs7341475,AG,0,,normal
+rs892086,CC,0,,normal
+rs9951307,AA,0,,normal
+rs10260404,TT,1,Good,Normal risk of developing ALS
+rs10494366,GT,0,,average QT interval
+rs10868366,CC,0,,
+rs10883365,TT,0,,
+rs1111875,TT,0,,
+rs11614913,CT,0,,normal
+rs11868035,GG,0,,normal
+rs1545985,TT,0,,
+rs1573496,CC,0,Good,normal
+rs17166496,GG,0,,normal
+rs17234657,AA,0,,
+rs17696736,TT,0,,
+rs1859962,TT,0,Good,normal risk
+rs2077119,TT,0,,1x normal risk
+rs2156921,AA,1,Good,normal risk for depression
+rs2165241,CC,0,Good,normal
+rs2167270,AG,0,,normal
+rs2167270,GG,0,Good,normal
+rs2300478,AA,0,,
+rs2609653,AA,0,,
+rs2639703,AA,0,,
+rs27048,TT,0,,normal
+rs3194051,AA,1,Bad,>1.1x risk of type-1 diabetes
+rs363050,GG,0.1,Bad,
+rs3761847,AA,0,Good,normal
+rs3803662,CC,0,Good,normal
+rs3865418,GG,0,,
+rs4242382,GG,0,,normal risk
+rs440446,GG,0,Bad,increased risk in men for biliary conditions
+rs4779584,CC,0,Good,average
+rs509749,AA,0,,common; slight increase in SLE risk
+rs6439886,AA,0,,normal form
+rs6457617,CC,0,Good,normal
+rs6458307,GG,0,,
+rs688,CC,0,Good,normal risk
+rs7017300,AA,0,,normal risk
+rs7019241,GG,0,,
+rs7216389,CC,2,Good,0.69x lower risk of Childhood Asthma.
+rs726601,CC,0,,normal
+rs726601,CT,0,,normal
+rs7528684,AG,0,,normal
+rs7530511,CC,0,,normal
+rs7570682,CC,0,,
+rs7577363,CC,0,,
+rs7757037,GG,0,,normal
+rs7794745,AA,1.1,Good,normal risk (for autism)
+rs7807268,CC,2,Bad,1.4x risk for Crohn's disease
+rs7837688,GG,0,Good,Normal
+rs7923837,AA,0,Good,normal risk for T2D
+rs867186,TT,0,,
+rs9272346,GG,1.5,Good,No increased risk of Type 1 Diabetes on an important SNP
+rs10871777,AA,0,Good,normal
+rs11650354,CC,0,Good,common/normal
+rs12821256,TT,0,Good,normal
+rs12970134,GG,0,Good,normal
+rs1799724,CC,0,Good,normal risk
+rs1800437,GG,0,,average
+rs1801394,AG,0,,normal
+rs2267013,AA,0,Good,normal
+rs2839471,CC,0,,normal
+rs363043,CC,0,,
+rs3900940,TT,0,,normal
+rs5186,AA,0,Good,normal risk
+rs5498,AA,0,,normal
+rs601338,AG,0.1,Bad,susceptible to Norovirus infections
+rs6166,TT,0,,
+rs1360780,CC,0,Good,normal
+rs17696736,AA,0,,normal
+rs1954787,CT,0,,normal risk
+rs2296336,CC,0,Bad,2.9x risk of type-1 diabetes
+rs2306536,CC,0,,average
+rs2308327,AA,0,Bad,normal
+rs2518224,AA,0,,normal
+rs3184504,CC,0,Good,normal
+rs3740066,CC,0,,
+rs3825776,TT,0,,
+rs4149056,TT,0,Good,normal
+rs569108,AA,0,,
+rs6136,TT,0,,
+rs6503691,CC,0,Good,common
+rs6971091,GG,0,Good,normal
+rs9589207,GG,0,Good,common
+rs10505483,CC,0,,
+rs12255372,GG,0,Good,normal
+rs1695,AA,0,Good,normal asthma risk in certain populations
+rs251177,TT,0,,normal risk
+rs34330,CC,0,Good,normal risk for endometrial/breast cancer
+rs4939827,TT,1.5,Bad,1x risk for colorectal cancer
+rs6604026,TT,0,Good,common
+rs6983267,TT,2,Good,normal risk for cancers; aspirin reduces risk for colorectal cancer
+rs7574865,GG,1,Good,"normal risk of rheumatoid arthritis, SLE, Sjögren's syndrome, type-1 diabetes, and primary biliary cirrhosis."
+rs1801028,GG,0,,normal risk
+rs1800858,AG,0,,probably normal
+rs361525,GG,0,Good,complex; generally normal risk
+rs2223841,GG,2.1,Good,less likely to go bald
+rs17822931,CT,2,Good,Wet earwax. Slightly better body odour.
+rs2165241,CT,2.2,Bad,4.4x increased risk of exfoliation glaucoma
+rs10494366,TT,2,,Shorter QT interval
+rs1800497,CT,2.9,Bad,"A1/A2: Bad at avoidance of errors. 0.5x lower OCD risk, 0.87x lower Tardive Diskinesia risk, higher ADHD risk. More Alcohol Dependence. Lower risk of Postoperative Nausea. Increased obesity. Bupropion is not effective for smoking cessation."
+rs1136287,TT,2,Bad,3.9x increased risk of wet ARMD in a Taiwanese Chinese population
+rs17576,AG,2,Bad,"higher risk for MI and lung cancer, and COPD in smokers"
+rs660895,AA,0,Good,normal
+rs10246939,CT,0.1,,can taste bitter
+rs6910071,AA,0,Good,normal
+rs6449213,TT,0,Good,normal
+rs326,AA,2,Bad,lower HDL cholesterol
+rs2383207,AG,2,Bad,increased risk for heart disease
+rs3803,GG,0,,
+rs6457617,TT,2.1,Bad,5.2x risk of rheumatoid arthritis
+rs1566734,AA,0,,
+rs11761231,AA,0,,
+rs3761218,AG,0,,
+rs6060369,AG,2,,
+rs17782313,CT,2,Bad,adults likely to be 0.22 BMI units higher
+rs7442295,AA,2,Bad,~4x higher risk for hyperuracemia
+rs509749,CT,0,,
+rs2201841,AA,2,,
+rs2298566,AC,2,,increased risk of coronary heart disease; better response to statins
+rs11650354,CT,1.1,Bad,possible risk for allergic asthma
+rs1056836,CG,0,,normal
+rs4864548,GG,0,,1.8x higher risk for obesity if in haplotype
+rs1800629,GG,0.1,Good,complex; generally normal risk
+rs1815739,CT,2.1,Good,Mix of muscle types. Likely sprinter.
+rs4986852,CC,0,,
+rs1805389,GG,0,,
+rs6195,TT,0,,
+rs1800709,GG,0,,
+rs4987117,CC,0,Good,common in complete genomics
+rs3772534,CC,0,,
+rs2241766,TT,0,,most common genotype
+rs17107315,TT,0,Good,normal
+rs11554290,TT,0,,
+rs11547328,GG,0,,
+rs11540652,CC,0,,
+rs3810710,AA,0,,
+rs1050152,CC,0,Good,normal
+rs1050152,TT,2.1,Bad,2.1x increased risk of Crohn's disease
+rs4253623,AA,0,,normal
+rs2059693,CC,0,,normal
+rs2241766,GG,2,Good,Slightly lower risk of breast cancer
+rs2881766,GG,1,Good,Normal risk for pregnancy-induced hypertension
+rs131690,AA,0,,normal risk
+rs2383207,AA,0,Good,normal
+rs11052552,TT,0,,normal
+rs1495965,TT,0,,
+rs892086,AG,0,,
+rs2249358,AA,0,,normal risk for priapism in SCA patients
+rs1699103,CT,0,,
+rs11209032,GG,0,Good,normal risk
+rs7250581,AG,0,,normal
+rs1784931,AC,0,,normal
+rs4825476,AG,0,,normal
+rs1042838,GG,0,Good,normal risk
+rs2302009,TT,0,,normal
+rs2287987,TT,0,,normal risk
+rs17482078,CC,0,,0.76x lower risk for spondylitis
+rs8089,TT,0,Good,normal risk
+rs16260,CC,0,Good,normal
+rs3816587,CT,0,,normal
+rs5082,CT,0,,normal risk
+rs3095870,GG,0.1,Bad,1.7x increased risk for SLE (lupus)
+rs8192678,GG,0,,normal
+rs997669,AA,0,Good,common/normal
+rs3761418,AA,0,Bad,1.3x increased risk for depression
+rs1495965,AA,0,Bad,1.2x higher risk for spondylitis
+rs1051730,CC,2,Good,Smokes normal (lower) number of cigarettes if a smoker.
+rs9469220,GG,0,,normal
+rs2398162,AG,0,,normal
+rs1050283,TT,0,,normal risk
+rs17817449,TT,0,,normal
+rs2076530,GG,0,,normal
+rs1421085,TT,0.1,Good,normal obesity risk
+rs1501299,AA,2,Good,slightly lower risk of breast cancer
+rs1528133,AA,0,Good,normal risk
+rs2572886,GG,0,Good,normal
+rs5361,AA,0,Good,normal risk
+rs4648317,CC,0,Good,normal
+rs5067,AA,0,,normal
+rs25489,GG,0,Good,normal risk
+rs3731566,AG,0,,normal
+rs2229616,GG,0,Bad,normal
+rs5800,GG,0,,normal
+rs12037606,CC,0,,
+rs131702,TT,0,,normal risk
+rs17388568,GG,0,,normal
+rs11171739,AA,0,,
+rs9469220,CC,0,,
+rs520354,GG,1,Good,normal risk in men for biliary conditions
+rs10982256,GG,0,,
+rs9465871,TT,0,,normal
+rs7961152,CC,0,,normal
+rs1927911,GG,0,,
+rs1042725,CC,1.5,,~0.8cm taller
+rs1121980,CC,0,Good,average
+rs892086,GG,0,,
+rs2165241,TT,2.3,Bad,>10x increased risk of exfoliation glaucoma
+rs363050,AA,1.1,Good,
+rs3865418,CC,0,,normal
+rs2056116,AA,0,Good,normal
+rs1699103,CC,0,,
+rs6060369,TT,0,,normal height
+rs1784931,AA,0,,normal
+rs9394492,CC,0,Good,<0.76x risk for restless legs
+rs17228212,TT,0,Good,normal
+rs3788853,CC,0,,
+rs16947078,AA,0,,common
+rs12304921,AA,0,Good,normal
+rs6684865,AA,0,Bad,1.5x risk of rheumatoid arthritis
+rs1375144,GG,0,,
+rs8055236,TT,0,,normal
+rs6908425,TT,1,Good,Normal risk of developing Crohn's disease
+rs1535435,AG,0,,
+rs1219648,AA,0,Good,
+rs1800169,AG,0,,normal
+rs251124,TT,0.1,,
+rs1535435,GG,0,,
+rs1535435,AA,0,,
+rs6232,AA,0,Good,common in complete genomics
+rs6232,GG,2.1,Bad,Higher risk of obesity and insulin sensitivity
+rs2398162,GG,0,,normal
+rs713041,CC,0,,normal
+rs6910071,GG,2,Bad,6x higher risk of rheumatoid arthritis
+rs363039,TT,0,,
+rs10761659,AA,0,Bad,1.5x risk of Crohn's disease
+rs4146894,AA,2.1,,"9.1x risk for AMD, but replication is lacking"
+rs1954787,TT,2,,~10% less likely to respond to citalopram
+rs2383207,GG,2.1,Bad,increased risk for heart disease
+rs2302009,GT,1,,normal
+rs1004819,CC,1,Bad,"1.5x risk of Crohn's disease, 1.2 for developing ankylosing spondylitis"
+rs6596189,TT,2,,
+rs619203,CG,1.5,Bad,increases susceptibility to Myocardial Infarction 1.15 times
+rs6604026,CC,2,Bad,>1.15x risk of multiple sclerosis
+rs806368,CC,2.5,Bad,Associated with Alcohol Dependence;  associated with nicotine dependence (female)
+rs1554973,CC,2,,increased risk for chorionic plate inflammation
+rs6495306,GG,2,,
+rs10987386,TT,0,,
+rs964201,AG,1.1,,
+rs1057910,AC,2.5,Bad,CYP2C9*3 carrier; average 40% reduction in warfarin metabolism
+rs1130866,CC,0,Good,normal
+rs6313,TT,2.1,Bad,"depression, panic, stress response"
+rs521102,CC,0,,normal
+rs7646054,AA,0,,normal
+rs11554495,CC,0,,
+rs16906252,CC,0,,
+rs17215437,CC,0,,
+rs17848368,GG,0,,
+rs17879961,AA,0,,
+rs1800955,CC,2,,increased susceptibility to novelty seeking
+rs10488631,TT,1,Good,"Normal risk of developing SLE, primary biliary cirrhosis, and Sjögren's syndrome"
+rs2285644,GG,0,,
+rs662799,AA,0,Good,normal
+rs1800056,TT,0,Good,normal
+rs16853571,AA,0,Good,common in complete genomics
+rs1012672,GG,0,,
+rs2735839,GG,0,,
+rs2303064,GG,0,Good,common in clinvar
+rs10985112,GG,0,Good,common in complete genomics
+rs2073838,GG,0,,
+rs4399848,GG,0,,normal
+rs2697962,CC,0,,
+rs2245218,TT,0,,
+rs709932,CC,0,,
+rs2070874,CC,0,,
+rs2071421,TT,0,,
+rs2836061,CC,0,,
+rs1800796,GG,0,Good,common in complete genomics
+rs2250889,CC,0,Bad,1.69x higher risk for lung cancer
+rs3817964,TT,0,,
+rs2297404,CC,0,,
+rs28997576,CC,2.5,Bad,probably increased risk of breast cancer
+rs16980363,CC,0,,
+rs28928870,GG,0,,
+rs28928871,CC,0,,
+rs28928873,CC,0,Good,
+rs28928893,AA,0,,
+rs28928894,AA,0,,
+rs28928896,TT,0,,
+rs28928898,AA,0,,
+rs28928904,AA,0,,
+rs28928905,CC,0,,
+rs28929469,GG,0,,
+rs28929471,CC,0,,
+rs28929480,CC,0,,
+rs28929485,GG,0,,
+rs28929488,CC,0,,
+rs28929497,TT,0,Good,common in complete genomics
+rs28929768,AA,0,,
+rs28930074,AA,0,,
+rs28930076,GG,0,,
+rs28931569,AA,0,,
+rs28931570,GG,0,,
+rs28931577,GG,0,Good,common in complete genomics
+rs28931584,CC,0,,
+rs28931591,GG,0,,
+rs28931593,CC,0,,
+rs28931596,TT,0,,
+rs28931598,CC,0,,
+rs28931599,CC,0,,
+rs28931603,GG,0,,
+rs28931604,GG,0,,
+rs28931605,GG,0,,
+rs28931609,GG,0,,
+rs28931612,CC,0,,
+rs28931613,CC,0,,
+rs28932769,AA,0,,
+rs28933074,TT,0,,
+rs28933077,AA,0,,
+rs28933080,AA,0,,
+rs28933087,AA,0,,
+rs28933088,AA,0,,
+rs28933089,AA,0,,
+rs28933098,GG,0,,
+rs28933100,CC,0,,
+rs28933374,GG,0,,
+rs28933376,GG,0,,
+rs28933384,GG,0,Good,common in complete genomics
+rs28933386,TT,0,,
+rs28933388,CC,0,Good,common in complete genomics
+rs28933391,GG,0,,
+rs28933402,CC,0,,
+rs28933406,GG,0,,
+rs28933408,GG,0,,
+rs28934611,AA,0,,
+rs28934607,GG,0,,
+rs28934604,CC,0,,
+rs28934602,AA,0,,
+rs28934598,CC,0,Good,common in complete genomics
+rs28934588,AA,0,,
+rs28934584,CC,0,,
+rs28934582,CC,0,,
+rs28934580,CC,0,,
+rs28934579,AA,0,,
+rs28934575,CC,0,,
+rs28934574,GG,0,,
+rs28934573,GG,0,,
+rs28934572,CC,0,,
+rs28934571,CC,0,,
+rs28934570,GG,0,Good,common in complete genomics
+rs28933990,GG,0,,
+rs28933985,CC,0,,
+rs28933988,CC,0,,
+rs28933699,CC,0,,
+rs28933697,GG,0,,
+rs28933696,GG,0,,
+rs28933694,AA,0,Good,common in complete genomics
+rs28933692,CC,0,,
+rs28933997,GG,0,,
+rs28934001,CC,0,,
+rs28933683,GG,0,,
+rs28933684,GG,0,,
+rs28933685,TT,0,,
+rs28934876,TT,0,,
+rs28934877,AA,0,Good,common in clinvar
+rs28934891,CC,0,,
+rs28934892,GG,0,,
+rs28934904,GG,0,,
+rs28934905,AA,0,,
+rs28934907,GG,0,,
+rs28935172,CC,0,,
+rs28934906,GG,0,,
+rs28935171,CC,0,,
+rs28935468,GG,0,,
+rs28935470,CC,0,,
+rs28935471,TT,0,,
+rs28935472,CC,0,,
+rs28935473,GG,0,,
+rs28935478,TT,0,,
+rs28935475,GG,0,,
+rs28935480,CC,0,,
+rs28935483,AA,0,,
+rs28935499,CC,0,,
+rs28935769,TT,0,,
+rs28936368,GG,0,,
+rs28936371,GG,0,,
+rs28936397,TT,0,,
+rs28936416,AA,0,,
+rs28936682,GG,0,,
+rs28936670,GG,0,,reversed normal
+rs28936403,CC,0,,
+rs28936668,TT,0,,
+rs28936669,TT,0,,
+rs28936694,CC,0,,
+rs28936683,AA,0,,
+rs28936701,GG,0,,
+rs28936671,GG,0,,
+rs28936672,CC,0,,
+rs28937286,CC,0,,
+rs28936704,TT,0,,
+rs28937871,TT,0,,
+rs28936681,AA,0,,
+rs28937312,AA,0,,
+rs28936695,AA,0,,
+rs28936703,GG,0,,
+rs28937585,TT,0,Good,common in complete genomics
+rs28937313,TT,0,,
+rs28937314,TT,0,,
+rs28937318,CC,0,,
+rs28937571,TT,0,,
+rs28937579,TT,0,,
+rs28937884,AA,0,,
+rs28937582,TT,0,,
+rs28937586,CC,0,Good,common in complete genomics
+rs28937595,CC,0,,
+rs28937868,CC,0,,
+rs28937898,CC,0,,
+rs28937598,GG,0,,
+rs28939680,GG,0,Good,common in complete genomics
+rs28939378,GG,0,,
+rs28937872,GG,0,,
+rs28937877,TT,0,,
+rs28937881,CC,0,,
+rs28939715,CC,0,,
+rs28939707,AA,0,Good,common in complete genomics
+rs28937897,AA,0,,
+rs28940304,AA,0,,
+rs28940309,TT,0,,
+rs28940310,CC,0,,
+rs28940303,TT,0,,
+rs28940571,GG,0,,
+rs28940573,GG,0,,
+rs28940581,CC,0,,
+rs28940572,CC,0,,
+rs28939677,GG,0,,
+rs28939091,AA,0,,
+rs28939681,GG,0,Good,common in complete genomics
+rs28939692,GG,0,,
+rs28939698,CC,0,,
+rs28939702,GG,0,,
+rs28940302,GG,0,,
+rs28940583,CC,0,,
+rs28940869,GG,0,,
+rs28940882,CC,0,,
+rs28940883,TT,0,,
+rs28940884,TT,0,,
+rs28940887,GG,0,,
+rs28940886,CC,0,,
+rs28940892,TT,0,,
+rs28940895,GG,0,,
+rs28940896,GG,0,,
+rs28942075,CC,0,,
+rs28941476,CC,0,,
+rs28942090,AA,0,,
+rs28942069,GG,0,,
+rs28940897,TT,0,,
+rs28942070,AA,0,,
+rs28942105,TT,0,,
+rs28942114,TT,0,,
+rs29001584,AA,0,,
+rs28999110,GG,0,,
+rs28942106,TT,0,,
+rs28942099,GG,0,,
+rs29001571,GG,0,Good,common/normal
+rs28999112,GG,0,,
+rs29001665,GG,0,,
+rs5744168,GG,0,,
+rs3025039,CC,0,,normal
+rs3188996,AA,0,,
+rs28934887,CC,0,,
+rs28935477,GG,0,,
+rs28936675,CC,0,,
+rs28937315,TT,0,,
+rs28934003,TT,0,,
+rs28935176,CC,0,,
+rs28935186,TT,0,Good,common in complete genomics
+rs28936370,CC,0,,
+rs28936689,CC,0,Good,common in complete genomics
+rs28937273,AA,2,,
+rs28940584,CC,0,,
+rs28940890,AA,0,,
+rs28942113,CC,0,,
+rs4149056,CC,3.2,Bad,17x myopathy risk for statin users
+rs4149056,CT,2.1,Bad,reduced breakdown of some drugs; 5x increased myopathy risk for statin users
+rs719725,CC,0,,normal
+rs3923809,AA,2,Bad,1.9x risk for developing restless legs syndrome
+rs12469063,AA,1,Good,Normal risk of developing restless legs syndrome
+rs1975197,CC,1,Good,Normal risk of developing restless legs syndrome
+rs4626664,GG,1,Good,Normal risk of developing restless legs syndrome
+rs1975197,GG,0,,
+rs1042713,AA,1.7,Bad,1.7x increased risk that pediatric inhaler use may make asthma worse
+rs10509305,AA,0,Good,common in clinvar
+rs10509305,CC,3,Bad,fetuses with this genotype may cause maternal pre-eclampsia
+rs1052030,TT,0,Good,common in clinvar
+rs1057090,CC,0,Good,common in clinvar
+rs1057091,CC,0,Good,common in clinvar
+rs1063856,AA,0,Good,common in clinvar
+rs1064074,GG,0,Good,common in clinvar
+rs10817610,CC,0,Good,common in clinvar
+rs10817610,TT,0,Good,common in complete genomics
+rs1110627,AA,0,Good,common in clinvar
+rs1129187,CC,0,Good,common in clinvar
+rs1136743,CC,0,Good,common in clinvar
+rs1154510,AA,0,Good,common in clinvar
+rs1154510,GG,0,Good,common in complete genomics
+rs12021720,TT,0.1,Good,rare genotype but harmless
+rs12021720,CC,0,Good,
+rs12075,GG,1,Good,Duffy Fy(a+b-) phenotype likely (unless Duffy null mutation is present)
+rs12339210,GG,0,Good,common in clinvar
+rs12917189,TT,0,Good,common in clinvar
+rs13031859,GG,0,Good,common in clinvar
+rs13078881,GG,0,Good,common in clinvar
+rs13078881,CC,6.7,Bad,Biotinidase deficiency; note ability to treat & variable penetrance
+rs154001,CC,0,Good,common in clinvar
+rs169547,AA,0,Good,common in clinvar
+rs169547,GG,0,Good,common in complete genomics
+rs1788799,CC,0,Good,common in clinvar
+rs1796993,CC,0,Good,common in complete genomics
+rs1800556,CC,0,Good,common in clinvar
+rs1801334,GG,0,Good,common in clinvar
+rs1801475,AA,0,Good,common in clinvar
+rs2020908,CC,0,Good,common in complete genomics
+rs2064318,GG,0,Good,common in clinvar
+rs2135720,GG,0,Good,common in clinvar
+rs2230288,GG,0,Good,common in clinvar
+rs2230288,AA,1,,Homozygous for E326K variant of GBA gene
+rs2258689,TT,0,Good,common in clinvar
+rs2258689,CC,0,,
+rs2266782,GG,0,Good,common in clinvar
+rs2269529,TT,0,Good,common in clinvar
+rs2274158,GG,0,Good,common in clinvar
+rs2274159,AA,0,Good,common in clinvar
+rs2277598,AA,0,Good,common in clinvar
+rs2277598,GG,0,,
+rs2297950,CC,0,Good,common in clinvar
+rs33910054,GG,0,Good,common in clinvar
+rs34116584,CC,0,Good,common in clinvar
+rs34967813,AA,0,Good,common in clinvar
+rs35441642,GG,0,Good,common in clinvar
+rs4265781,TT,0,Good,common in clinvar
+rs4935502,TT,0,Good,common in complete genomics
+rs4978584,CC,0,Good,common in clinvar
+rs5911,AA,0,Good,common in clinvar
+rs5911,CC,1.5,Bad,BAK platelet-specific alloantigen
+rs6180,AA,0,Good,common in clinvar
+rs6180,CC,0,,
+rs641615,CC,0,Good,common in clinvar
+rs6746030,AA,1,Bad,Increased perception of pain
+rs6746030,GG,0,Good,Normal perception of pain
+rs743616,GG,0,Good,common in clinvar
+rs7481951,AA,0,Good,common in clinvar
+rs7764472,GG,0,Good,common in clinvar
+rs799917,CC,0,Good,common in clinvar
+rs8023524,GG,0,Good,common in clinvar
+rs928302,CC,0,Good,common in complete genomics
+rs930557,GG,0,Good,common in clinvar
+rs942519,AA,0,Good,common in clinvar
+rs2834167,AA,2.1,Bad,2.67x increased risk for systemic sclerosis
+rs2834167,GG,0,,normal
+rs1470579,AA,0,,normal
+rs13293564,GT,0,,normal
+rs279858,GG,2.1,Bad,apparently more prone to alcoholism
+rs216321,CC,0,Good,common on affy axiom data
+rs17316910,GG,0,,
+rs3760511,GG,1.2,,
+rs7892900,CC,0,Good,common on affy axiom data
+rs2839110,AA,0,,
+rs6083,GG,0,,
+rs622082,AA,0,Good,common in clinvar
+rs600753,TT,0,Good,common in clinvar
+rs6436669,AG,0,,
+rs10178458,CT,0,,
+rs643788,TT,0,Good,common in clinvar
+rs13181,TT,1,Good,Normal risk for cutaneous melanoma
+rs2240308,AA,0,,
+rs228406,CC,0,,
+rs7624750,GG,0,Good,common in clinvar
+rs3734110,CT,0,,
+rs11558492,AG,0,,
+rs1230345,GT,0,,
+rs2820312,AG,0,,
+rs363050,AG,1.1,,
+rs2274159,AG,0,Good,
+rs11650915,AG,0,,
+rs103612,CT,0,,
+rs11756977,CC,0,,
+rs133885,AG,0,,
+rs11895564,AG,0,,
+rs1003483,GT,0,,
+rs1043424,AA,0,Good,common in clinvar
+rs1805081,CT,0,,
+rs1042713,AG,1.3,Bad,1.3x increased risk that pediatric inhaler use may make asthma worse
+rs2306541,GG,0,,
+rs529038,CT,0,,
+rs1053312,AG,0,,
+rs2303436,CT,0,,
+rs627441,CT,0,,
+rs1592377,AC,0,,
+rs1796993,GG,0,,
+rs12828016,GG,0,Good,common in clinvar
+rs7426114,CT,0,,
+rs6713162,AG,0,,
+rs938952,TT,0,,
+rs4689278,TT,0,Good,common in complete genomics
+rs2043556,TT,0,,
+rs1801376,AA,0,,
+rs10503929,TT,0,,
+rs805708,AA,0,,
+rs446227,GG,0,Good,common in clinvar
+rs444772,GG,0,Good,common in clinvar
+rs9640663,AG,0,,
+rs6687605,CT,0,,
+rs532964,AG,0,,
+rs730469,TT,0,Good,common in clinvar
+rs1129187,GT,0,,
+rs942519,AG,0,Good,
+rs8373,AA,0,,
+rs17846179,CT,0,,
+rs2866413,AG,0,,
+rs10896380,AA,0,Good,common in clinvar
+rs227368,CT,0,,
+rs3820129,CT,0,,
+rs7278737,GT,0,,
+rs2069556,AG,0,,
+rs4715630,TT,0,,
+rs414352,TT,0,Good,common in clinvar
+rs238238,GG,0,,
+rs11758339,CC,0,,
+rs162036,AA,0,Good,common in complete genomics
+rs2824721,AA,0,,
+rs3130340,TT,0,,
+rs1426310,AG,0,,
+rs2288904,GG,0,,
+rs1801159,TT,0,,
+rs6544718,CC,0,,
+rs1042031,CC,0,,
+rs10407022,TT,0,,
+rs2302075,AA,0,,
+rs4280262,TT,0,,
+rs9536314,TT,0,Good,Most common genotype for this SNP
+rs6471482,CC,0,Good,common on affy axiom data
+rs805722,CC,0,,
+rs1042034,TT,0,,
+rs217086,GG,0,Good,common on affy axiom data
+rs2272495,GG,0,,
+rs2309428,AA,0,Good,common in complete genomics
+rs6580873,CC,0,Good,common on affy axiom data
+rs2243250,CC,0,,normal
+rs3812153,TT,0,,
+rs10883841,TT,0,Good,common on affy axiom data
+rs1503185,GG,0,,
+rs4242182,CC,0,,
+rs3788964,TT,0,,
+rs1041951,CC,0,Good,common on affy axiom data
+rs1130495,GG,0,,
+rs4972946,AA,0,Good,common on affy axiom data
+rs2412541,TT,0,,
+rs5522,TT,0,,
+rs6461593,TT,0,Good,
+rs956868,CC,0,,
+rs1154510,CC,0,,
+rs12926089,CC,0,Good,common in complete genomics
+rs2228561,GG,0,,
+rs3130062,TT,0,Good,common on affy axiom data
+rs3219156,TT,0,,
+rs34677,CC,0,,
+rs6414624,CC,0,,
+rs3735972,TT,0,,
+rs4954449,CC,0,Good,common in complete genomics
+rs4956145,CC,0,,
+rs1062087,TT,0,,
+rs11170164,CC,0,,
+rs2070739,CC,0,,
+rs2243380,CC,0,,
+rs2296949,GG,0,,
+rs339445,CC,0,Good,common in complete genomics
+rs6003,TT,0,,
+rs1042636,AA,0,Good,common in complete genomics
+rs8176785,AA,0,,
+rs1769259,TT,0,,
+rs4576240,GG,0,Good,common on affy axiom data
+rs11014002,CC,0,Good,common in complete genomics
+rs4855271,TT,0,Good,common on affy axiom data
+rs557337,AA,0,Good,common in clinvar
+rs1013579,TT,0,,
+rs1800067,GG,0,Good,common in complete genomics
+rs1800280,TT,0,,
+rs2306033,GG,0,Good,common on affy axiom data
+rs578430,GG,0,Good,common in complete genomics
+rs1800215,CC,0,,
+rs3213119,CC,0,,
+rs2442513,TT,0,,
+rs10103355,GG,0,Good,common in complete genomics
+rs2515569,GG,0,Good,common in complete genomics
+rs2643103,GG,0,Good,common in complete genomics
+rs1800974,CT,0,,
+rs4819756,AG,0,,
+rs7756992,AA,0,Good,normal
+rs2279744,TT,0,Good,normal
+rs5746059,GG,0,Good,normal
+rs660895,GG,2.5,Bad,6x higher risk of rheumatoid arthritis
+rs1953126,CC,0,,normal
+rs1050565,AG,0,,normal
+rs1128503,CC,0,,normal
+rs1792113,AG,0,,normal
+rs911541,AA,0,Good,normal
+rs2074190,TT,0,,common
+rs2745557,GG,0,Good,normal
+rs1801133,CC,0,Good,Common genotype: normal homocysteine levels
+rs3731239,TT,0,,normal risk
+rs1799969,GG,0,Good,normal
+rs733618,AA,0,,normal
+rs664143,CC,0,,normal
+rs419788,GG,0,Good,average
+rs1734787,AA,0,,normal
+rs2187668,GG,0,Good,average
+rs4363657,CC,4,Bad,17x increased myopathy risk for statin users
+rs4363657,CT,2.1,Bad,4.5x increased myopathy risk for statin users
+rs4363657,TT,0,Good,normal
+rs9923231,TT,2.1,,reduced warfarin dose if treated for VTE
+rs1256049,GG,0,Good,common in complete genomics
+rs173686,TT,0,,
+rs1446109,AA,0,,
+rs663048,TT,2.5,Bad,3x increased risk of developing lung cancer
+rs6477872,TT,0,Good,common/normal
+rs2297480,AA,0,Good,normal
+rs1571801,CC,0,,average
+rs2279744,GG,2.1,Bad,Generally more cancer prone
+rs2071152,AA,0,,
+rs12913832,AA,0,,"brown eye color, 80% of the time"
+rs9923231,CC,0,Good,normal
+rs8050894,CC,2.1,,warfarin sensitivity (~2.5 mg/day)
+rs1076560,CC,0,Good,normal
+rs34637584,GG,0,Good,normal
+rs34637584,AA,3,Bad,"possible miscall in Ancestry V2.0 datasets; otherwise, 15 to 30% chance of Parkinson's disease, depending on age, family history, and ethnicity"
+rs34778348,GG,0,Good,normal
+rs34637584,AG,3,Bad,"possible miscall in Ancestry V2.0 datasets; otherwise, 15 to 30% chance of Parkinson's disease, depending on age, family history, and ethnicity"
+rs721048,AA,1.9,Bad,slightly increased prostate cancer risk
+rs721048,GG,0,Good,normal
+rs2290602,GT,2,,2.7x increased risk for nonalcoholic fatty liver disease
+rs9272346,AG,3,Bad,5.49x risk of type-1 diabetes
+rs7923837,GG,2,Bad,3.2x risk for T2D
+rs3758391,CC,2,Bad,Normal (worse) aging.
+rs1801155,TT,0,Good,common in complete genomics
+rs1801155,AA,6,Bad,risk of colon cancer and familial adenomatous polyposis (FAP) which usually progresses to malignancy
+rs12487066,CC,0,,>1.09x increased risk for multiple sclerosis
+rs2180439,TT,3,Bad,2x increased risk of Male Pattern Baldness.
+rs1160312,AA,2,Bad,2.56x increased risk of Male Pattern Baldness.
+rs5770917,TT,0,Good,normal
+rs3798220,TT,0,Good,normal
+rs35264875,AA,0,Good,common in clinvar
+rs35264875,TT,3,,blonde hair color
+rs4795400,TT,0,Bad,"if 4 years old or younger, ~2.5x increased asthma risk if exposed to smoke"
+rs10892759,AG,0,,normal
+rs2180439,CC,2,Good,Reduced risk of Male Pattern Baldness.
+rs1160312,GG,2,Good,Reduced risk of Baldness.
+rs9642880,GG,2,Good,Slightly lower risk of Bladder Cancer.
+rs8192287,GG,0,,normal
+rs1937506,AA,0,,1.6x risk
+rs11164838,TT,0,,common
+rs6498169,AA,2,Bad,>1.14x risk of multiple sclerosis
+rs7536563,GG,0,Good,common
+rs3129934,CC,2.1,Good,Normal lower risk of Multiple Sclerosis.
+rs9930506,AA,0,,normal
+rs7639618,CC,0,Good,normal
+rs1799836,CC,0,,
+rs887466,AA,0,,
+rs11171739,TT,1,Good,Normal risk of developing Type-1 diabetes
+rs7659604,CC,0,Bad,1.1x risk of type II diabetes
+rs768983,GG,0,,
+rs1889018,TT,0,,1.12x increased risk for T2D
+rs780094,GG,0,,average
+rs1111875,AA,0,,1x normal risk of T2D
+rs3802177,TT,0,,normal
+rs1130866,CT,0,,normal
+rs966221,TT,0,Good,normal
+rs2251746,TT,0,,normal but highest IgE levels
+rs1049353,AA,1,Good,Likely better response to antidepressants if female
+rs2420946,CC,0,,common
+rs2981582,CC,0,Good,normal
+rs5275,TT,0,Bad,normal
+rs2200733,CC,1.9,Good,0.86x decreased risk of Atrial Fibrillation
+rs2427837,GG,0,,normal but highest IgE levels
+rs8069176,AA,0,,normal
+rs2305480,TT,2,Bad,"if 4 years old or younger, ~3x increased asthma risk if exposed to smoke"
+rs3775291,GG,2,Bad,common but higher risk of age related macular degeneration
+rs4146894,GG,0,,average
+rs2511989,GG,0,,normal
+rs1329428,AA,0,Good,normal
+rs1667394,AA,1.5,,blond hair & blue eyes is 4x more likely
+rs3890745,GG,0,Good,0.79x Reduced risk of RA
+rs3758549,CC,1.1,Bad,increased risk of parkinson's disease
+rs3758549,CT,0,,normal risk of parkinson's disease
+rs3758549,TT,0,,normal risk of parkinson's disease
+rs6679677,AA,3,Bad,5.2x risk for T1D; 3.3x for RA
+rs6679677,AC,2.3,Bad,1.8x risk for T1D; 2x risk for RA
+i3003626,II,0,Bad,
+rs768983,AA,0,,
+i3003626,DD,5,Good,resistant to HIV
+rs807701,CC,2.1,Bad,2-5x increased dyslexia risk
+rs5400,TT,1.8,,significantly higher sugar consumption
+rs5400,CC,0.1,,normal sugar consumption
+rs5400,CT,1.7,,significantly higher sugar consumption?
+rs324650,AA,0,,
+rs10759932,CC,2,Bad,increased risk for chorionic plate inflammation
+rs3796529,AA,0,,
+rs3796529,AG,0,,
+rs3796529,GG,0,Good,common/normal
+rs41293463,TT,0,Good,normal
+i3003626,DI,2,Good,
+rs41293455,CC,0,Good,normal
+rs28897672,GG,6,Bad,considered a pathogenic BRCA1 breast cancer variant
+rs4987117,TT,2,,
+rs766173,GG,2,,
+rs41293455,TT,2,,predisposition to breast cancer?
+rs1799966,GG,2,Bad,very slightly increased risk for breast cancer
+rs573225,CC,0,,normal
+rs6983267,GG,3.2,Bad,1.6x increased risk for prostate cancer; also other cancers
+rs1800629,AA,2.5,Bad,complex; generally higher risk for certain diseases
+rs12708716,GG,0,,normal
+rs763361,CC,1,Good,Normal risk for multiple autoimmune diseases
+rs3003609,CC,0,Good,normal
+rs2834167,AG,0,,normal
+rs521102,CT,0,,normal
+rs3892097,AA,3,Bad,CYP2D6 poor metabolizer; many associations related to drug metabolism
+rs2653349,AA,0,,normal
+rs2383206,GG,3,Bad,1.7x increased risk for heart disease
+rs17236239,GG,2,,higher risk for speech development delay and/or impairment
+rs7213516,GG,0,Good,normal
+rs1143699,CC,2,Bad,"In men, 2.19x risk of type 2 diabetes"
+rs1899951,GG,0,,
+rs7024934,AA,0,Good,
+rs28940304,GG,2,,
+rs28940303,CC,2,,
+rs28940302,TT,2,,
+rs9923231,CT,2,,reduced warfarin dose if treated for VTE
+rs8050894,GG,2.1,,warfarin resistance (~6.5 mg/day)
+rs1015362,AA,1.9,Good,Probably tans instead of freckles and sunburns.
+rs1805007,TT,3.2,Bad,increased response to anesthetics; 13-20x higher likelihood of red hair; increased risk of melanoma
+rs2948694,AA,0,,normal
+rs2948694,GG,2,,increased risk for heavy alcohol consumption
+rs1799971,GG,2.6,Bad,more pain
+rs763317,GG,0,,normal
+rs2268578,CC,0,,normal
+rs5751876,TT,2.1,Bad,significantly higher anxiety levels after moderate caffeine consumption
+rs2232165,CC,0,Good,normal
+rs334558,AA,0,,later onset of BP
+rs2287939,CC,0,,
+rs334,TT,5,Bad,sickle cell anemia
+rs334,AT,4,Bad,"carrier of, but unaffected by, sickle cell anemia; greater malaria resistance"
+rs334,AA,0,Good,normal allele
+rs33930165,GG,0,Good,common in clinvar
+rs33950507,GG,0,Good,normal
+rs1801274,TT,1.5,Bad,complex; generally greater risk for cancer progression
+rs1801274,CC,1,Good,normal risk for cancer progression
+rs1024611,CT,2,Bad,increased risk of exercise induced ischemia
+rs1024611,CC,2.2,Bad,"increased risk of exercise induced ischemia, Increased CCL2 levels; increased rate of HIV progression"
+rs1024611,TT,0,Good,normal risk
+rs1800871,TT,0,,normal
+rs7538876,GG,2,Good,0.78x decreased Basal Cell Carcinoma risk.
+rs266729,CC,0,,normal
+rs17703883,TT,0,,
+rs28371685,CC,0,Good,normal
+rs28371706,CC,0,Good,normal
+rs28371686,CC,0,Good,normal
+rs16981293,CC,0,Good,common on affy axiom data
+rs17222279,GG,0,Good,common on affy axiom data
+rs20321,GG,0,Good,common on affy axiom data
+rs1801279,GG,0,Good,common in complete genomics
+rs11178997,TT,0,,
+rs8179176,CC,0,Good,common in complete genomics
+rs612709,GG,0,,
+rs574174,CC,0,,
+rs34126399,AA,0,,
+rs28934587,TT,0,Good,common in complete genomics
+rs28357980,AA,0,Good,normal
+rs2269648,CC,0,,
+rs2032602,TT,0,,
+rs17222814,GG,0,,
+rs2227945,TT,0,,
+rs20415,CC,0,,
+rs16964476,AA,0,Good,common in complete genomics
+rs16964465,AA,0,Good,common in complete genomics
+rs284875,GG,0,,
+rs641153,CC,0,Good,common in clinvar
+rs4151667,TT,0,Good,common in clinvar
+rs4151667,AA,3.1,Bad,age related macular degeneration
+rs9332739,GG,0,Good,normal
+rs9332739,CC,2.1,Good,0.47x decreased risk for AMD
+rs4244285,GG,0,Good,normal
+rs4244285,AA,4,Bad,"poor metabolizer of several popular medicines; patients prescribed Plavix get less benefit, and have higher risk for adverse cardiovascular events"
+rs1801272,TT,0,Good,common in clinvar
+rs1801272,AA,2,,Reduced CYP2A6 metabolism; impaired nicotine metabolism?
+rs9939609,TT,1.5,Good,lower risk of obesity and Type-2 diabetes
+rs7566605,CC,0.2,,"mixed evidence of increased obesity risk, may suppress excercise effects in men"
+rs4244285,AG,3,Bad,"poorer metabolizer of several popular medicines; patients prescribed Plavix get less benefit, and have higher risk for adverse cardiovascular events"
+rs1047781,AA,0,Good,"ABH blood group ""Secretor"" status if Japanese"
+rs11200638,AA,3.5,Bad,~10x increased risk of wet age related macular degeneration
+rs1136287,CC,0,Good,normal
+rs2511989,AA,2.2,Good,0.44x decreased age-related macular degeneration risk
+rs2511989,AG,2.1,Good,0.63x decreased age-related macular degeneration risk
+rs3775291,AA,2.2,Good,0.44x decreased risk for dry age related macular degeneration
+rs3775291,AG,2.1,Good,0.71x decreased risk for dry age related macular degeneration
+rs3025039,TT,2,Bad,2.6x increased risk for ARMD in a Taiwanese population
+rs3025039,CT,2,Bad,2.6x increased risk for ARMD in a Taiwanese population
+rs572515,TT,2,,
+rs572515,CC,0,,
+rs3793784,CC,0,,normal
+rs380390,CC,2.1,Bad,increased risk for ARMD
+rs3793784,GG,2,Bad,1.6x risk for ARMD
+rs11200638,GG,0,Good,normal
+rs1800955,TT,0,,normal
+rs2143340,CC,2.3,Bad,> 2x risk of dyslexia and poor reading performance
+rs2143340,CT,2,Bad,increased risk of dyslexia and poor reading performance
+rs4570625,GG,1.5,Bad,maybe: higher scores on anxiety-related personality traits; greater placebo response
+rs2736098,GG,0,Good,normal
+rs1265159,TT,2.5,,22.6x increased psoriasis risk for Chinese
+rs1265181,GG,2.5,Bad,possibly increased risk of psoriasis
+rs1800562,AG,3,Bad,"One copy of C282Y, carrier of hemochromatosis, likely unaffected unless also H63D carrier."
+rs1333049,GG,0,Good,normal
+rs7754840,GG,0,Good,normal
+rs7754840,CG,3,Bad,1.3x increased risk for type-2 diabetes
+rs7754840,CC,3,Bad,1.3x increased risk for type-2 diabetes
+rs662799,AG,2,Bad,1.4x higher early heart attack risk; less weight gain on high fat diets
+rs662799,GG,2,Bad,2x higher early heart attack risk; less weight gain on high fat diets
+rs1801282,CG,3,Bad,Unconfirmed higher risk of cardiovascular disease with high saturated fat diet
+rs55770810,CC,0,Good,normal
+rs55770810,TT,6,Bad,carrier of two copies of BRCA1 variant; likely to be at higher risk for breast/ovarian cancer
+rs28897696,CC,0,Good,normal
+rs55770810,CT,6,Bad,"Likely miscall in Ancestry data; otherwise, BRCA1 variant likely to be pathogenic for breast cancer"
+rs28897696,AA,7,Bad,carrier of two copies of BRCA1 variant; likely to be at high risk for breast/ovarian cancer
+rs28897756,GG,0,Good,normal
+rs28897756,AA,6,Bad,"BRCA2, breast cancer mutation"
+rs2227589,GG,0,,
+rs4148323,GG,0,Good,normal
+rs17602729,AA,3,Bad,AMPD1 deficiency homozygous (orientation reversed)
+rs17602729,AG,2.8,Bad,AMPD1 deficiency heterozygous (orientation reversed)
+rs2070600,GG,0,Good,normal
+rs2802288,AA,2.4,Good,longer lifespan
+rs2802288,GG,0,,normal
+rs28935474,CT,2,,
+rs543749,GG,2.1,Bad,"If a smoker, higher risk risk for COPD in smokers in a Hispanic population."
+rs2046210,CC,0,Good,common in clinvar
+rs438034,CC,0,,normal
+rs763110,CC,0,Bad,normal
+rs763110,TT,2,Good,~0.80x reduced cancer risk
+rs3213409,GG,0,Good,common in complete genomics
+rs6544718,TT,0,Good,common in clinvar
+rs16847548,CC,2.5,Bad,2.6x increased risk for sudden cardiac death in Caucasians
+rs2740574,GG,2,,2.5x increased risk for prostate or ovarian cancer; CYP3A4*1B homozygote
+rs2108622,CC,2,,lower warfarin dosing
+rs2108622,TT,2,,higher warfarin dosing
+rs1805128,GG,0,Good,common in complete genomics
+rs3829241,GG,0,Good,common in clinvar
+rs1426654,AG,2.5,,mixed European + (African or Asian) ancestry possible
+rs6025,AG,4.1,Bad,3.5-4.4x risk of thrombosis
+rs5491,AA,0,Good,common in complete genomics
+rs1805123,AA,0,Good,common in clinvar
+rs1858830,GG,0,Good,normal
+rs12425791,GG,0,Good,normal
+rs11833579,GG,0,Good,normal
+rs8042919,GG,0,Good,common on affy axiom data
+rs328,CC,0,Good,common in clinvar
+rs11591147,GG,0,Bad,normal
+rs11591147,TT,4.5,Good,2-3 fold lower risk of heart disease
+rs5558,AA,0,,
+rs4765623,TT,0,,normal
+rs2231142,CC,0,Good,normal
+rs5558,TT,0,Good,normal
+rs13010627,GG,0,Good,common in clinvar
+rs10485057,AA,0,Good,normal
+rs10485057,GG,3,,"increased risk for smoking, nicotine dependence"
+rs235756,CC,0,,normal
+rs56337013,CC,0,Good,normal
+rs56337013,TT,3,,CYP2C19*5 homozygote
+rs1051730,TT,2.5,Bad,"1.8x increased risk of lung cancer; reduced response to alcohol, therefore possibly increased risk of alcohol abuse"
+rs1051730,CT,2,Bad,1.3x increased risk of lung cancer
+rs41291556,TT,0,Good,normal
+rs17884712,GG,0,Good,normal
+rs6413438,CC,0,Good,normal
+rs17879685,CC,0,Good,normal
+rs12248560,CC,0,Good,normal
+rs3758581,GG,0,Good,normal
+rs5787121,GG,0,Good,normal
+rs17878459,GG,0,Good,normal
+rs1045642,TT,3,Bad,altered drug metabolism and bioavailability; moderately increased risk for certain cancers
+rs7771980,TT,0,,normal
+rs7771980,CC,1,,lower bone mineral density in postmenopausal Korean women
+rs7771980,CT,1,,higher bone mineral density in postmenopausal Spanish women
+rs6997709,TT,0,,normal
+rs6997709,GG,2,Bad,1.5x higher risk for hypertension
+rs7961152,AC,2,Bad,1.2x higher risk for hypertension
+rs2802292,GG,2.5,Good,1.5x~2.7x more likely to live to 100.
+rs1154155,GG,2.5,Bad,2.5x increased risk for narcolepsy
+rs1154155,GT,1.5,Bad,1.94x increased risk for narcolepsy
+rs1154155,TT,0,Good,normal
+rs12248560,CT,2,,CYP2C19*17 ultra fast metabolizer; drug metabolism effects; also 0.77x decreased breast cancer risk
+rs12248560,TT,2,,CYP2C19*17 ultra fast metabolizer; drug metabolism effects; also 0.77x decreased breast cancer risk
+rs1803274,GG,0,Good,normal
+rs1265181,CC,0,Good,normal
+rs1265181,CG,2,Bad,increased risk for psoriasis
+rs1799807,AG,3.5,Bad,"Heterozygous for ""atypical"" BuChE"
+rs776746,AA,0,Good,reference allele
+rs28365083,CC,0,Good,normal
+rs776746,GG,2.5,Bad,CYP3A5*3 homozygote;  CYP3A5 non-expressor
+rs56411402,TT,0,Good,normal
+rs10264272,CC,0,Good,normal
+rs41303343,--,0,Good,normal
+rs55817950,GG,0,Good,normal
+rs28383479,GG,0,Good,normal
+rs41279854,AA,0,Good,normal
+rs72552791,AA,0,Good,normal
+rs56244447,AA,0,Good,normal
+rs28365085,TT,0,Good,normal
+rs45593941,TT,0,Good,normal
+rs41279857,GG,0,Good,normal
+rs28383468,CC,0,Good,normal
+rs28365083,AA,2.5,Bad,CYP3A5*2 homozygote; nonexpressor for CYP3A5
+rs56411402,CC,2.5,Bad,CYP3A5*4 homozygote; nonexpressor for CYP3A5
+rs10264272,TT,2.5,Bad,CYP3A5*6 homozygote; nonexpressor for CYP3A5
+rs41303343,TT,2.5,Bad,"Miscall in 23andMe v4 data; otherwise, CYP3A5*7 homozygote; nonexpressor for CYP3A5"
+rs55817950,AA,2.5,Bad,CYP3A5*8 homozygote; nonexpressor for CYP3A5
+rs28383479,AA,2.5,Bad,CYP3A5*9 homozygote; nonexpressor for CYP3A5
+rs41279854,GG,2.5,Bad,CYP3A5*10 homozygote; nonexpressor for CYP3A5
+rs72552791,GG,2.5,Bad,CYP3A5*11 homozygote; nonexpressor for CYP3A5
+rs56244447,CC,2.5,Bad,CYP3A5*3D homozygote; nonexpressor for CYP3A5
+rs28365085,CC,2.5,Bad,CYP3A5*3F homozygote; nonexpressor for CYP3A5
+rs45593941,CC,2.5,Bad,CYP3A5*3F homozygote; nonexpressor for CYP3A5
+rs41279857,TT,2.5,Bad,CYP3A5*S100Y homozygote; nonexpressor for CYP3A5
+rs28383468,TT,2.5,Bad,CYP3A5*H30Y homozygote; nonexpressor for CYP3A5
+rs28365083,AC,2,,carrier of one CYP3A5*2 allele
+rs776746,AG,2,,carrier of 1 nonfunctional CYP3A5 allele; drug metabolism affects
+rs10264272,CT,0,,carrier of a silent polymorphism in CYP3A5
+rs41303343,-T,2,,carrier of one CYP3A5*7 allele
+rs55817950,AG,2,,carrier of one CYP3A5*8 allele
+rs28383479,AG,2,,carrier of one CYP3A5*9 allele
+rs41279854,AG,2,,carrier of one CYP3A5*10 allele
+rs72552791,AG,2,,carrier of one CYP3A5*11 allele
+rs56244447,AC,2,,carrier of one CYP3A5*3D allele
+rs28365085,CT,2,,carrier of one CYP3A5*3F allele
+rs45593941,CT,2,,carrier of one CYP3A5*3F allele
+rs41279857,GT,2,,carrier of one CYP3A5*S100Y allele
+rs28383468,CT,2,,carrier of one CYP3A5*H30Y allele
+rs56411402,CT,2,,carrier of one CYP3A5*4 allele
+rs2070672,AA,0,Good,normal
+rs4646976,AA,0,Good,normal
+rs6413419,GG,0,Good,normal
+rs915909,GG,0,,
+rs2070676,CC,0,Good,normal
+rs2031920,CC,0,Good,normal
+rs6413420,GG,0,Good,normal
+rs915909,CC,0,Good,normal
+rs3813867,GG,0,Good,normal
+rs2515641,CC,0,Good,normal
+rs2070673,TT,0,Good,normal
+rs1042580,AA,0,Good,common in clinvar
+rs28935207,AA,0,,
+rs28935208,TT,0,,
+rs28935212,GG,0,,
+rs28935213,CC,0,,
+rs28936083,AA,0,,
+rs28936968,TT,0,,
+rs28936969,GG,0,,
+rs28936970,CC,0,,
+rs28937268,CC,0,,
+rs28937269,AA,0,,
+rs28937270,TT,0,,
+rs28937274,TT,0,,
+rs28937275,AA,0,,
+rs28937276,GG,0,,
+rs28937277,CC,0,,
+rs28937279,GG,0,,
+rs28937280,AA,0,,
+rs28937281,AA,0,,
+rs28937283,TT,0,,
+rs28937290,GG,0,,
+rs28937292,CC,0,,
+rs28937293,CC,0,,
+rs28937295,GG,0,,
+rs28937296,GG,0,,
+rs28937297,CC,0,,
+rs28937298,CC,0,,
+rs28937303,GG,0,,
+rs28937304,CC,0,,
+rs28937307,GG,0,,
+rs28937308,AA,0,,
+rs28935205,TT,0,,
+rs28935206,TT,0,,
+rs28935215,AA,0,,
+rs28937273,TT,0,,
+rs28937288,GG,0,,
+rs28937305,GG,0,,
+rs28937306,CC,0,,
+rs28935214,CC,0,,
+rs28937284,GG,0,,
+rs28935207,CC,3,,
+rs28935208,GG,3,,
+rs28935212,TT,3,,
+rs28935213,TT,3,,
+rs28936083,GG,3,,
+rs28936968,CC,3,,
+rs28936969,AA,3,,
+rs28936970,TT,3,,
+rs28937268,TT,3,,
+rs28937269,GG,3,,
+rs28937270,CC,3,,
+rs28937274,CC,3,,
+rs28937275,GG,3,,
+rs28937276,AA,3,,
+rs28937277,TT,3,,
+rs28937279,AA,3,,
+rs28937280,GG,3,,
+rs28937281,GG,3,,
+rs28937283,CC,3,,
+rs28937290,AA,3,,
+rs28937292,AA,3,,
+rs28937293,TT,3,,
+rs28937296,TT,3,,
+rs28937298,TT,3,,
+rs28935214,TT,3,,
+rs28937284,TT,3,,
+rs28933668,TT,5.5,Bad,Hemophilia A (severity varies)
+rs28937295,AA,3,,
+rs28937297,TT,3,,
+rs28937303,AA,3,,
+rs28937304,TT,3,,
+rs28937307,TT,3,,
+rs28937308,GG,3,,
+rs28935214,CT,2.5,,
+rs28937284,GT,2.5,,
+rs28933668,CT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933669,CT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933670,GT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933671,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933672,GT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933673,AG,2.5,,
+rs28933674,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933675,CT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933676,AC,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933677,CT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933679,AG,2.5,,
+rs28933681,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28933682,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28935207,AC,2.5,,
+rs28935208,GT,2.5,,
+rs28935212,GT,2.5,,
+rs28935213,CT,2.5,,
+rs28936083,AG,2.5,,
+rs28936968,CT,2.5,,
+rs28936969,AG,2.5,,
+rs28936970,CT,2.5,,
+rs28937268,CT,2.5,,
+rs28937269,AG,2.5,,
+rs28937270,CT,2.5,,
+rs28937272,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28937274,CT,2.5,,
+rs28937275,AG,2.5,,
+rs28937276,AG,2.5,,
+rs28937277,CT,2.5,,
+rs28937279,AG,2.5,,
+rs28937280,AG,2.5,,
+rs28937281,AG,2.5,,
+rs28937282,CT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28937283,CT,2.5,,
+rs28937285,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28937287,GT,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28937289,AG,3.5,Bad,Carrier of a Hemophilia A mutation
+rs28937290,AG,2.5,,
+rs28937292,AC,2.5,,
+rs28937293,CT,2.5,,
+rs28937295,AG,2.5,,
+rs28937296,GT,2.5,,
+rs28937297,CT,2.5,,
+rs28937298,CT,2.5,,
+rs28937303,AG,2.5,,
+rs28937304,CT,2.5,,
+rs28937307,GT,2.5,,
+rs28937308,AG,2.5,,
+rs3135388,CC,0,Good,normal
+rs3135388,TT,2,Bad,3-6x higher risk of multiple sclerosis
+rs3135388,CT,1.8,Bad,3x higher risk of multiple sclerosis
+rs1800255,GG,0,Good,normal
+rs1800255,AA,2.5,Bad,increased risk for pelvic organ prolapse
+rs12720461,CC,0,Good,normal
+rs2069526,TT,0,Good,normal
+rs28399424,CC,0,Good,normal
+rs2470890,TT,0,Good,normal
+rs2740574,AA,0,Good,normal
+rs5030865,CC,1,Good,normal
+rs5030655,--,3,,CYP2D6*6 poor metabolizer phenotype
+rs72558187,TT,0,Good,normal
+rs72558189,GG,0,Good,normal
+rs72558189,AA,2.5,Bad,CYP2C9*14 homozygote
+rs6356,GG,0,Good,common in clinvar
+rs1057909,AA,0,Good,normal
+rs2017319,CC,0,Good,normal
+rs2256871,TT,0,Good,normal
+rs7900194,GG,0,Good,normal
+rs9332130,AA,0,Good,normal
+rs9332239,CC,0,Good,normal
+rs1057911,AA,0,Good,normal
+rs5030867,AA,0,Good,normal
+rs5030865,AA,2,,CYP2D6*8 inactive type homozygote
+rs5030862,GG,0,Good,normal
+rs28371725,GG,0,Good,normal
+rs16947,GG,0,,normal
+rs4570625,TT,0,,normal
+rs3762271,CC,0,Good,common in clinvar
+rs5030655,TT,0,Good,normal
+rs5030656,AAGAAG,0,Good,normal
+rs5030656,-AAG,2,,carrier of one CYP2D6*9 allele
+rs5030656,--,2,,CYP2D6*9 homozygote
+rs1385699,TT,2,Bad,increased risk of baldness
+rs1385699,CC,1.5,Good,slightly less likely to go bald
+rs1799945,CC,0,Good,Not a H63D hemochromatosis carrier.
+rs1799945,GG,4,Bad,"Two copies of H63D, likely affected by mild form of hemochromatosis"
+rs1799945,CG,3,Bad,"One copy of H63D, carrier of hemochromatosis, likely unaffected unless also C282Y carrier."
+rs9332131,AA,0,Good,normal
+rs7181866,GG,3,,
+rs12255372,TT,2.2,Bad,slight increases (~1.5x) in risk for type-2 diabetes and possibly breast cancer and aggressive prostate cancer
+rs1799929,CC,0,,
+rs3740066,GG,0,Good,average
+rs3918290,GG,0,Good,common in complete genomics
+rs1041983,CC,0,Good,common in clinvar
+rs2287622,TT,0,Good,normal
+rs1041988,TT,0,Good,normal
+rs12721634,TT,0,Good,normal
+rs28371759,TT,0,Good,normal
+rs3091339,AA,0,Good,normal
+rs3208361,AA,0,Good,normal
+rs3208363,TT,0,Good,normal
+rs3842,AA,0,,
+rs4986908,GG,0,Good,normal
+rs4986909,CC,0,Good,normal
+rs4986910,TT,0,Good,normal
+rs4986913,CC,0,Good,normal
+rs4987161,TT,0,Good,normal
+rs9934438,GG,0,Good,common in clinvar
+rs2066853,GG,0,,
+rs2267668,AA,0,,
+rs4474514,AA,1.8,Bad,>3x increased testicular cancer risk for men
+rs4474514,GG,1.2,Good,normal
+rs3782179,TT,1.5,Bad,"common, but increased risk of testicular cancer"
+rs3782179,CC,2.5,Good,9x lower odds of testicular cancer
+rs4324715,TT,1,,Normal risk of testicular cancer.
+rs4324715,CC,1.2,Bad,>1.5x increased testicular cancer risk for men
+rs6897876,CC,1.2,Bad,slight increase in testicular cancer risk for men
+rs6897876,TT,0,Good,normal
+rs3827760,TT,0,Good,common in clinvar
+rs3827760,CC,2,,"straighter, thicker hair, and increased odds of having shovel-shaped incisors"
+rs1333048,CC,2.1,Bad,1.5x increased coronary artery disease risk; 2x increased periodontitis risk
+rs1333048,AA,0,Good,normal
+rs12536657,GG,0,Good,
+rs631090,TT,0,,
+rs17501108,GG,0,,
+rs16960620,AA,0,Good,common in complete genomics
+rs143383,TT,1.8,Bad,1.3x increased risk for osteoarthritis
+rs143383,CC,0,Good,normal risk for osteoarthritis
+rs143383,CT,1.2,Bad,1.1x increased risk for osteoarthritis
+rs1800454,AG,1.3,,carrier
+rs2200733,TT,3,Bad,1.5x increased risk of Atrial Fibrillation and ischemic stroke.
+rs2200733,CT,3,Bad,1.4x increased risk of Atrial Fibrillation and ischemic stroke.
+rs1804495,GT,0.1,,
+rs2231142,AA,3.5,Bad,causes gout
+rs8177374,CC,0,Bad,"very common, but it seems better to have the minor allele which is protective against several diseases"
+rs8177374,TT,3.5,Good,resistance to several diseases
+rs11614913,CC,2,Bad,Somewhat increased risk of various types of cancer
+rs2910164,CC,2.5,Bad,higher cancer risk ? (ambiguous flip)
+rs2910164,GG,0,Good,normal
+rs8177400,GG,0,Good,common in complete genomics
+rs8177400,AA,3,,
+rs6152,GG,0.5,,able to go bald
+rs6152,AG,2,,Increased risk of baldness
+rs6152,AA,4,Good,won't go bald
+i3003137,AA,4,Bad,Sickle Cell Anemia
+i3003137,AT,3.5,Bad,Sickle Cell Anemia carrier; malaria resistance
+i3003137,TT,0,Good,normal
+rs17580,AT,2.3,Bad,Carrier of one PiS variant; slight chance of Alpha-1 Antitrypsin Deficiency
+rs28929474,AG,3,Bad,Carrier for Alpha-1 Antitrypsin Deficiency
+rs4986893,AG,2,,"carrier of a CYP2C19*3 allele, a ""slow metabolizer"" allele"
+rs28399504,AG,2,,"carrier of a CYP2C19*4 allele, considered a ""slow metabolizer"" variant"
+rs41291556,CC,3,,CYP2C19*8 homozygote
+rs41291556,CT,2,,"carrier of one CYP2C19*8 allele, considered a ""slow metabolizer"""
+rs1805010,AA,0,Good,common in clinvar
+rs72559710,GG,0,,normal
+rs28939703,TT,0,,
+rs28939691,GG,0,,
+rs28939669,GG,0,,
+rs28939368,AA,0,,
+rs28939095,GG,0,,
+rs28939090,CC,0,,
+rs28938471,GG,0,,
+rs28937323,GG,0,,
+rs28936411,GG,0,,
+rs28936400,TT,0,,
+rs28936386,TT,0,,
+rs28936380,CC,0,Good,common in clinvar
+rs28934903,AA,0,,
+rs28934883,GG,0,,
+rs28933978,CC,0,,
+rs28933968,AA,0,,
+rs28933097,CC,0,,
+rs28933075,CC,0,,
+rs28933073,CC,0,,
+rs28932768,GG,0,,
+rs28930073,GG,0,,
+rs28929499,GG,0,,
+rs28929472,AA,0,,
+rs28928887,GG,0,Good,common in complete genomics
+rs28942068,CG,2,,
+rs28939716,CG,2,,
+rs35742686,AA,0,Good,normal
+rs57081121,GG,0,,not a CYP2C19*3 carrier
+rs28940305,TT,0,Good,common in complete genomics
+rs55964869,CC,0,Good,common in complete genomics
+rs8176750,CC,0,Good,common in complete genomics
+rs17334242,AA,0,,
+rs2280090,CC,0,,
+rs17859515,GG,0,,
+rs332,TTTTTT,0,Good,normal form
+rs34210653,CC,0,Good,normal risk
+rs28935201,GG,0,,
+rs28935204,GG,0,,
+rs28935209,AA,0,,
+rs28935211,AA,0,,
+rs28935216,GG,0,,
+rs28937271,GG,0,,
+rs28937278,CC,0,,
+rs28937291,CC,0,,
+rs28937299,TT,0,,
+rs28937300,CC,0,,
+rs28937301,AA,0,,
+rs28937302,GG,0,,
+rs17857727,GG,0,,
+rs35908728,CC,0,,
+rs1143679,GG,0,Good,normal
+rs17856511,AA,0,,
+rs33949390,GG,0,Good,normal
+rs2870983,GG,0,,
+rs4894,AA,0,,normal
+rs16859834,CC,0,,
+rs8052394,AA,0,,
+rs1800422,GG,0,,
+rs17882687,AA,0,Good,normal
+rs55640102,AA,0,Good,normal
+rs55752064,TT,0,Good,normal
+rs58973490,GG,0,Good,normal
+rs72552267,GG,0,Good,normal
+rs56165452,TT,0,Good,normal
+rs67807361,CC,0,Good,normal
+rs72558190,CC,0,Good,normal
+rs55897648,GG,0,Good,normal
+rs2032618,GG,0,,
+rs3212291,CC,0,,
+rs3211371,CC,0,Good,common in complete genomics
+rs45614732,CC,0,,
+rs34693726,CC,0,Good,common in complete genomics
+rs34230288,GG,0,Good,common on affy axiom data
+rs1800561,CC,0,Good,common in complete genomics
+rs35142681,CC,0,Good,common in complete genomics
+rs3765187,CC,0,,
+rs7418956,CC,0,,
+rs11083750,CC,0,Good,common in complete genomics
+rs1135728,GG,0,Good,common in complete genomics
+rs11557488,GG,0,Good,common in clinvar
+rs12329790,TT,0,,
+rs13336129,AA,0,,
+rs28939095,CG,2,,
+rs28939095,CC,3,,
+rs28929472,AT,2,,
+rs28929472,TT,3,,
+rs28932768,CG,2,,
+rs28932768,CC,3,,
+rs28933073,CG,2,,
+rs28933073,GG,3,,
+rs28936386,AT,2,,
+rs28936386,AA,3,,
+rs28937899,CG,2,,
+rs28937899,GG,3,,
+rs28938471,CG,2,,
+rs28938471,CC,3,,
+rs165688,GG,0,,
+rs17015215,GG,0,,
+rs17241062,CC,0,,
+rs17241090,CC,0,,
+rs17407754,GG,0,,
+rs17513769,TT,0,,
+rs17845454,AA,0,,
+rs17847042,AA,0,,
+rs17851360,AA,0,,
+rs17855902,CC,0,,
+rs17856968,AA,0,,
+rs17858963,GG,0,,
+rs17860404,GG,0,,
+rs17876142,CC,0,,
+rs2228325,CC,2.1,,better performing muscles
+rs2734830,GG,0,,
+rs2870984,CC,0,,
+rs28928869,AA,0,Good,common in complete genomics
+rs28928888,TT,0,Good,common in complete genomics
+rs28929475,GG,0,,
+rs28929477,GG,0,,
+rs28929481,AA,0,,
+rs28929482,TT,0,,
+rs28929490,AA,0,,
+rs28929492,CC,0,,
+rs28929493,CC,0,,
+rs28929494,GG,0,,
+rs28929496,GG,0,,
+rs28929501,GG,0,,
+rs28930070,GG,0,,
+rs28930071,TT,0,,
+rs28930075,AA,0,,
+rs28930970,GG,0,,
+rs28930971,CC,0,,
+rs17856195,CC,0,,
+rs28930973,CC,0,,
+rs28930977,CC,0,,
+rs28931571,GG,0,,
+rs28931587,GG,0,,
+rs28933069,GG,0,,
+rs28933070,GG,0,,
+rs28933071,GG,0,,
+rs28933078,AA,0,Good,common in complete genomics
+rs28933085,AA,0,,
+rs28933099,GG,0,,
+rs28934896,AA,0,,
+rs28933992,GG,0,,
+rs28933995,TT,0,,
+rs28933996,CC,0,,
+rs28933998,CC,0,,
+rs28934000,CC,0,,
+rs28934004,GG,0,,
+rs28934005,CC,0,,
+rs28934271,GG,0,,
+rs28934868,GG,0,,
+rs28934870,AA,0,,
+rs28934276,TT,0,,
+rs28934869,CC,0,,
+rs28934879,GG,0,,
+rs28934871,CC,0,,
+rs28934881,AA,0,,
+rs28934884,TT,0,,
+rs28933999,GG,0,,
+rs28933380,TT,0,Good,
+rs28933393,CC,0,,
+rs28933980,GG,0,,
+rs28933982,CC,0,,
+rs28933983,TT,0,,
+rs28933404,GG,0,,
+rs28933686,TT,0,Good,common in complete genomics
+rs28933974,GG,0,,
+rs28934898,CC,0,,
+rs28934900,CC,0,,
+rs28935179,GG,0,,
+rs28935182,CC,0,,
+rs28935189,AA,0,,
+rs28934901,CC,0,,
+rs28934902,GG,0,,
+rs28935190,GG,0,,
+rs28935768,TT,0,,
+rs28936074,CC,0,,
+rs28936075,GG,0,,
+rs28936073,GG,0,,
+rs28936078,CC,0,,
+rs28936372,AA,0,,
+rs28936377,GG,0,,
+rs28936384,GG,0,,
+rs28936393,GG,0,,
+rs28936398,GG,0,,
+rs28936404,CC,0,,
+rs28936405,CC,0,,
+rs28936410,GG,0,Good,common in complete genomics
+rs28936412,TT,0,,
+rs28936414,GG,0,,
+rs28937309,GG,0,,
+rs28936972,AA,0,,
+rs28937310,TT,0,,
+rs28937311,AA,0,,
+rs28937570,GG,0,,
+rs28937888,GG,0,Good,common in complete genomics
+rs28937577,AA,0,Good,common in complete genomics
+rs28938470,GG,0,,
+rs28938475,GG,0,,
+rs28935175,GG,0,,
+rs28939096,TT,0,,
+rs28939384,GG,0,,
+rs28939671,CC,0,,
+rs28939673,GG,0,,
+rs28939098,AA,0,,
+rs28939674,GG,0,,
+rs28939676,CC,0,,
+rs28939678,TT,0,,
+rs28939682,AA,0,,
+rs28939686,TT,0,,
+rs28939704,CC,0,,
+rs28939705,AA,0,,
+rs28939380,TT,0,,
+rs28939706,GG,0,,
+rs28940277,GG,0,,
+rs28940299,CC,0,,
+rs28940587,GG,0,,
+rs28940873,CC,0,,
+rs28942086,AA,0,Good,common in complete genomics
+rs29001567,CC,0,,
+rs2904551,TT,0,,
+rs3180383,CC,0,,
+rs45438698,GG,0,,common
+rs45477792,CC,0,,common
+rs460897,CC,0,,
+rs28939100,CC,0,,
+rs15793179,AA,6,Good,"normal, for chickens"
+rs15793179,AC,6,,"carrier, also a chicken"
+rs15793179,CC,6,Bad,deadly mutation for chickens
+rs5219,CT,1.5,Bad,1.3x increased risk for type-2 diabetes
+rs2241880,CT,1.5,Bad,1.4x increased risk for Crohn's disease in Caucasians
+rs13361189,CC,2.6,Bad,2.6x increased risk for Crohn's disease
+rs13361189,CT,1.3,Bad,1.3x increased risk for Crohn's disease
+rs13361189,TT,0,Good,normal
+rs4958847,AA,2.6,Bad,2.6x increased risk for Crohn's disease
+rs4958847,AG,1.3,Bad,1.3x increased risk for Crohn's disease
+rs4958847,GG,0,Good,normal
+rs4474514,AG,1.8,Bad,3x increased testicular cancer risk for men
+rs3732378,GG,0,Good,common on affy axiom data
+rs3732378,AA,2,Bad,more rapid progression to full-blown AIDS and probably increased susceptibility to HIV infection
+rs4149584,GG,0,Good,common in clinvar
+rs3928305,GG,0,Good,Ancestral value
+rs3928305,AA,2,,Derived value
+rs3928305,AG,3,,Heteroplasmy
+rs2235371,CC,0,Good,common in clinvar
+rs16901979,AC,2.9,Bad,1.5x increased risk for prostate cancer
+rs16901979,AA,2.9,Bad,1.5x increased risk for prostate cancer
+rs265981,AA,0,,
+rs4532,CC,0,,
+rs686,GG,0,,
+rs1800734,GG,0,Good,common in clinvar
+rs3802842,AA,0,,normal
+rs7517847,TT,0,,normal
+rs6435862,TT,0,,Normal risk of aggressive neuroblastoma.
+rs6435862,GT,1.5,Bad,1.7x higher risk of aggressive neuroblastoma
+rs6435862,GG,2,Bad,2.8x higher risk of aggressive neuroblastoma
+rs2854128,AA,1,Bad,"G2706A+, probably MT-Haplogroup H."
+rs1805192,CC,0,Good,common in clinvar
+rs332,TCTTCT,0.5,,Homozygous for F508C variant of cystic fibrosis gene; benign
+rs35077384,CC,0,Good,common in clinvar
+rs13387042,AA,1.25,Bad,1.24x increased risk for breast cancer
+rs13387042,AG,1.1,Bad,1.12x increased risk for breast cancer
+rs25409,CC,0,Good,
+rs5030737,CC,0,Good,common in clinvar
+rs5030737,TT,1.6,Bad,mannose binding deficiency but of low clinical importance
+rs2282440,CC,0,Good,common in complete genomics
+rs2491132,CC,0,Good,common in clinvar
+rs1805124,AA,0,Good,common in clinvar
+rs5743618,GG,2,Good,greater resistance to leprosy; but also consequence for Lyme patients
+rs846664,TT,0,Good,common in clinvar
+rs1801968,GG,0,Good,common in clinvar
+rs4684677,TT,0,Good,common on affy axiom data
+rs61747071,CC,0,Good,common in clinvar
+rs6994992,TT,1,,increased creativity?
+rs6994992,CT,1,,
+rs5030980,GG,0,Good,common in complete genomics
+rs5742912,TT,0,Good,common in clinvar
+rs910873,GG,0,Good,normal
+rs910873,AA,4,Bad,3x increased risk of melanoma
+rs910873,AG,3,Bad,1.7x increased risk of melanoma; increased risk of squamous cell carcinoma
+rs1050501,TT,0,Good,common in complete genomics
+rs6277,TT,2,Good,"normal schizophrenia risk, learns NoGo faster"
+rs201571,TT,2,Bad,more likely to go bald
+rs2223841,AA,1.2,Bad,more likely to go bald before age 40
+rs6625163,AA,1.2,Bad,increased risk of baldness
+rs6036025,GG,1.2,Bad,more likely to go bald
+rs1799852,TT,2.5,Bad,lower serum transferrin levels
+rs1799852,CC,0,Good,common on affy axiom data
+rs1799977,AA,0,Good,common in clinvar
+rs1858830,CC,2,Bad,2x risk of autism reported by some (but not other) publications
+rs1805874,AA,0,,
+rs1805874,AC,0,,
+rs1805874,CC,0,,
+rs5368,CC,0,Good,common in complete genomics
+rs2070744,TT,2.1,Good,cardiovascular differences
+rs187238,GG,2.5,Bad,hypertension increases risk 3.75x for sudden cardiac death
+rs17235409,GG,0,Good,common in complete genomics
+rs4988496,GG,0,Good,common in complete genomics
+rs10895068,AA,1.5,Bad,2.5x increased odds of breast cancer among hormone-using postmenopausal women
+rs10895068,AG,1.5,Bad,2.5x increased odds of breast cancer among hormone-using postmenopausal women
+rs16022,GG,0,Good,common in clinvar
+rs16023,AA,0,Good,common in clinvar
+rs1050450,CC,0,Good,common in clinvar
+rs28897759,AA,0,Good,common in complete genomics
+rs2303428,TT,0,Good,common in clinvar
+rs1867277,AA,2,Bad,2x increased risk for thyroid cancer
+rs1867277,AG,1.5,Bad,1.5x increased risk for thyroid cancer
+rs36119840,GG,0,Good,common in complete genomics
+rs11558538,CC,0,Good,common on affy axiom data
+rs1065852,CT,2,Bad,Carrier of one CYP2D6 decreased or non-functioning variant.
+rs12777823,AA,3.5,Bad,"Avoid Plavix, higher risk for adverse cardiovascular events. CYP2C19 poor metabolizer."
+rs12777823,AG,2.5,Bad,"Avoid Plavix, higher risk for adverse cardiovascular events."
+rs12777823,GG,0,Good,common in clinvar
+rs3918290,AA,3.5,Bad,"5-fluorouracil toxicity, dihydropyrimidine dehydrogenase deficiency"
+rs3918290,AG,3,Bad,"some 5-fluorouracil toxicity, dihydropyrimidine dehydrogenase deficiency carrier"
+rs10825269,CC,0,Good,common in clinvar
+rs5888,CT,2.5,Bad,3x higher risk for age-related macular degeneration
+rs1057868,TT,1.6,,1.6x higher overall CYP3A activity
+rs1800462,CG,2.5,Bad,detoxifying ability of certain drugs may be diminished
+rs1800460,AG,3,Bad,(TPMT*3B) impaired drug metabolism
+rs1142345,AG,3,Bad,TPMT*3C . impaired drug metabolism
+rs3764880,GG,0,,normal
+rs3764880,AG,1.5,Bad,possible 1.2 - 1.8x increased tuberculosis susceptibility in females
+rs3764880,AA,1.6,Bad,1.2 - 1.8x increased tuberculosis risk
+rs5743708,AA,3,Bad,6x increased risk of tuberculosis
+rs1695,GG,2.1,Bad,3.5x asthma risk in certain populations
+rs2280714,AA,1.5,Bad,1.4x increased risk of SLE
+rs1047031,AA,1.3,Bad,1.3x increased risk for periodontitis
+rs2981745,CT,1.6,Bad,1.6x increased risk for breast cancer in females over 60
+rs2981745,TT,1.6,Bad,>1.6x increased risk for breast cancer in females over 60
+rs11523871,AC,1.6,Bad,1.6x increased breast cancer risk for women over 60
+rs11523871,CC,1.6,Bad,>1.6x increased breast cancer risk for women over 60
+rs9306160,CT,1.2,Good,0.75x (reduced) risk for metastasis in LN-/ER+ breast cancer patients
+rs9306160,TT,1.3,Good,0.75x (reduced) risk for metastasis in LN-/ER+ breast cancer patients
+rs70991108,--,1.5,,"high folic acid intake leads to high unmetabolized folic acid circulating levels, whereas low intake leads to low RBC folate"
+rs1434536,AA,2,Bad,1.94x increased breast cancer risk
+rs1434536,AG,1.3,Bad,1.29x increased breast cancer risk
+rs4641,CC,0,Good,common in clinvar
+rs7041,TT,1.5,,ex-smokers at 2x higher risk for COPD; supplement with Vitamin D?
+rs4588,CC,0,Good,common in clinvar
+rs4481887,GG,1.5,,least likely to be able to smell asparagus metabolites in urine
+rs4481887,AA,2,,most likely to smell asparagus metabolites in urine
+rs13181,GG,2,Bad,>1.12x increased risk for cutaneous melanoma; possible increase in ovarian cancer risk
+rs16996652,AA,0,Good,common in complete genomics
+rs16910526,TT,0,Good,normal
+rs16910526,GG,3,,
+rs17646946,AA,2.5,,straighter curl
+rs7349332,TT,2.5,,hair curl
+rs2230600,GG,1.9,,
+rs3738401,AA,2,,
+rs793862,AA,2,Bad,3-5x dyslexia risk
+rs751229,GG,2,,
+rs53576,GG,2.5,Good,Optimistic and empathetic; handle stress well
+rs1052553,AA,0,Good,common in clinvar
+rs1801133,TT,2.8,Bad,"homozygous for C677T of MTHFR = 10-20% efficiency in processing folic acid = high homocysteine, low B12 and folate levels"
+rs1801133,CT,2.2,Bad,1 copy of C677T allele of MTHFR = 65% efficiency in processing folic acid
+rs1801131,AA,0,Good,most common genotype
+rs12722477,CC,0,,
+rs1676486,AA,2,,>1.4x risk for LDH
+rs1676486,AG,2,,1.4x risk for LDH
+rs2143340,TT,0,Good,common
+rs2254958,TT,0,Good,common
+rs2518224,AC,0,,normal
+rs8053188,CC,0,Good,common in complete genomics
+rs8053188,TT,0,,Considered benign in ClinVar
+rs16940342,AA,0,Good,common in clinvar
+rs249954,CC,0,Good,common in clinvar
+rs249954,TT,1.2,Bad,Potentially increased risk of Breast Cancer
+rs447529,GG,0,Good,common in clinvar
+rs447529,CC,0,,Benign variant
+rs3738414,AA,1.6,Good,0.4x decreased risk of breast cancer
+rs10801935,CC,1.6,Good,0.3x decreased risk of breast cancer
+rs10754339,AG,1.3,,1.3x increased risk of breast cancer
+rs10754339,GG,1.4,,1.45x increased risk of breast cancer
+rs1537415,CG,1.6,Bad,1.6x increased risk for periodontitis
+rs1537415,GG,2,Bad,2x increased risk for periodontitis
+rs632148,CC,0,Good,common in clinvar
+rs10754339,AA,0,Good,normal
+rs5082,TT,0,,normal risk
+rs28934270,GG,0,,
+rs28934269,AA,0,,
+rs28933405,GG,0,Good,common in complete genomics
+rs28932774,TT,0,,
+rs12402521,GG,2,,12–15 mmHg higher blood pressure when under stress
+rs1800443,GT,3,,Uncommon DRD4 polymorphism
+rs1800955,CT,2,,increased susceptibility to novelty seeking
+rs5742913,CC,0,,
+rs7495174,AA,0,Good,blue/gray eyes more likely
+rs10033464,GG,1.9,Good,0.92x decreased risk of Atrial Fibrillation and cardioembolic stroke.
+rs10033464,GT,3,Bad,1.28x increased risk of Atrial Fibrillation and cardioembolic stroke.
+rs10033464,TT,3,Bad,1.4x increased risk of Atrial Fibrillation and cardioembolic stroke
+rs1004819,CT,1,Bad,"1.5x risk of Crohn's disease, 1.2 for developing ankylosing spondylitis"
+rs10050860,TT,1.7,Good,Half the risk (about 0.05%) of Ankylosing Spondylitis.
+rs10050860,CT,1.4,Good,0.71x lower risk for Ankylosing Spondylitis.
+rs10086908,CC,2,Bad,1.7x increased risk for prostate cancer
+rs10086908,CT,2,Bad,1.7x increased risk for prostate cancer
+rs10086908,TT,0,Good,normal risk
+rs10090154,CC,0,,normal
+rs10090154,CT,2,Bad,1.4x increased risk for prostate cancer
+rs10090154,TT,2.1,Bad,1.4x increased risk for prostate cancer
+rs1010,AA,0.5,,normal risk of MI
+rs1010,AG,1,Bad,1.75x risk of MI
+rs1010,GG,1.75,Bad,1.75x risk of MI
+rs1012729,GG,0,Good,altered pediatric blood pressure
+rs10134944,TT,1.3,Bad,1.3x risk of bipolar disorder
+rs10134944,CT,1.4,Bad,1.4x risk of bipolar disorder.
+rs1015362,AG,2,Bad,2-4x higher risk of sun sensitivity if part of risk haplotype.
+rs1015362,GG,2,Bad,2-4x higher risk of sun sensitivity if part of risk haplotype.
+rs10181656,CC,0,Good,common/normal
+rs10181656,CG,1.7,Bad,1.7x increased SLE risk
+rs10181656,GG,2,Bad,1.7x increased SLE risk
+rs10210302,TT,1.8,Bad,1.8x increased risk for Crohn's disease
+rs10210302,CT,1.2,Bad,1.2x increased risk for Crohn's disease
+rs10239794,CC,1,,Probably benign; one 2008 study reports 1.3x higher risk for ALS
+rs10239794,CT,1,,Probably benign; only one 2008 study reports 1.3x higher risk for ALS
+rs10248420,GG,1.1,Good,possibly more likely to remit on certain antidepressants
+rs10248420,AG,0,,"possibly, normal rate of remission on certain antidepressants"
+rs10248420,AA,1.1,Bad,possibly less likely to remit on certain antidepressants
+rs10250779,TT,2,Bad,possible exercise-inducing cramping in African-Americans
+rs10260404,CT,1.5,Bad,1.20x risk of developing ALS
+rs10260404,CC,2,Bad,1.60x risk of developing ALS
+rs1026732,AA,2,Good,<0.70x risk for restless legs
+rs1026732,AG,1.5,Good,0.70x risk for restless legs
+rs1034428,CC,0,Good,common/normal
+rs1042173,TT,0,Bad,"among alcoholics, likely to be heavier drinkers"
+rs1042522,CG,2,Good,Slightly increased lifespan?
+rs1042838,GT,2,Bad,1.28x risk for endometrial ovarian cancer; overlaps with rs608995
+rs1042838,TT,3,Bad,1.42x risk for endometrial ovarian cancer; overlaps with rs608995
+rs1043994,AA,0,Good,?
+rs1043994,GG,0,,common
+rs1047031,AG,0.5,Good,normal
+rs1047031,GG,0,Good,normal
+rs1047552,TT,0,Good,normal
+rs1048661,GT,0.5,,possibly higher glaucoma risk?
+rs10488631,CC,3,Bad,2x increased risk of developing SLE; 3.2x increased risk of developing primary biliary cirrhosis; and 3.4x increased risk of developing Sjögren's syndrome
+rs10488631,CT,2,Bad,2x increased risk of developing SLE; 1.6x increased risk of developing primary biliary cirrhosis; and 1.7x increased risk of developing Sjögren's syndrome
+rs1467558,GG,0,Good,common on affy axiom data
+rs10492519,GG,2,Bad,Increased risk of developing prostate cancer
+rs10492519,AG,1.5,Bad,Slightly increased risk of developing prostate cancer
+rs1049353,AG,1,Good,less likely depressed in response to stress
+rs1049353,GG,1,Good,Likely better response to antidepressants if male
+rs10495584,AA,1.1,,Normal (higher) blood pressure.
+rs10495584,AG,2,Good,Lowers men's blood pressure by -6.3/-3.8 mm Hg.
+rs2293347,GG,1.1,Good,"among NSCLC patients, better Gefitinib response; common"
+rs10495584,GG,2.5,Good,Lowers men's blood pressure by -6.3/-3.8 mm Hg.
+rs10937275,GG,0,Good,
+rs2844682,CC,0,Good,common in complete genomics
+rs10498345,TT,0,Good,normal
+rs1050152,CT,2,Bad,2.1x increased risk of Crohn's disease
+rs1050829,AG,2.2,Bad,G6PD Type A/B; possibly benign though
+rs2075650,AA,0,Good,normal; some association with greater longevity
+rs10513025,CC,2.1,Good,>0.55x reduced risk for autism
+rs10513025,CT,2,Good,0.55x reduced risk for autism
+rs10513025,TT,0.1,Bad,normal risk of Autism
+rs1052133,CC,0,Good,normal
+rs1052133,CG,2.1,Bad,normal for bladder cancer risk; 1.9x increased risk for gallbladder cancer
+rs1052133,GG,2.2,Bad,2x increased bladder cancer risk; 4.5x increased risk for gallbladder cancer
+rs1056836,GG,2,Good,0.3x decreased risk for prostate cancer
+rs1057868,CC,0,Good,normal
+rs1057909,GG,4,Bad,CYP2C9_42612A>G homozygote
+rs1057909,AG,3,,carrier of one CYP2C9_42612A>G allele
+rs1057911,AT,3,,carrier of one CYP2C9_50298A>T allele
+rs1057911,TT,3,,CYP2C9_50298A>T homozygote
+rs1061646,CC,0,Bad,1.16x increased risk for breast cancer
+rs1063192,CC,1.5,Good,0.71x reduced risk of myocardial infarction
+rs1063192,CT,1.5,Good,0.71x reduced risk of myocardial infarction
+rs1063192,TT,1,Good,Normal risk of myocardial infarction
+rs10757272,CC,1,Good,Normal risk for Coronary artery disease
+rs10757272,CT,1.5,Bad,1.30x increased risk for Coronary artery disease
+rs10757272,TT,2,Bad,1.54x increased risk for Coronary artery disease
+rs10757278,AA,1.9,Good,0.78x reduced risk for Coronary Heart Disease. 0.77x reduced risk for Brain Aneurysm and Abdominal Aortic Aneurysm.
+rs10757278,AG,2,Bad,1.3x risk for Heart Attack. Normal risk for Abdominal Aortic Aneurysm and Brain Aneurysm.
+rs10757278,GG,2.5,Bad,1.6x risk for Heart Attack; 1.3x risk for Abdominal Aortic Aneurysm and Brain Aneurysm.
+rs10761659,GG,0,Good,normal
+rs1076560,AA,2,,influences working memory
+rs1080985,CC,0.1,,a common variant
+rs1080985,CG,0.1,,a common variant
+rs10811661,CC,0,Good,normal
+rs10811661,CT,2,Bad,1.2x increased risk for type-2 diabetes
+rs10830963,CC,0,Good,normal risk of Type-2 Diabetes
+rs10830963,CG,2.7,Bad,increased type-2 diabetes risk; higher gestational diabetes risk
+rs10830963,GG,3.1,Bad,increased type-2 diabetes risk; higher gestational diabetes risk
+rs10835638,GG,0,,common
+rs10871777,AG,2,Bad,adults likely to be 0.22 BMI units higher
+rs10871777,GG,2.1,Bad,adults likely to be 0.44 BMI units higher
+rs10883365,AG,1.5,Bad,1.2x increased risk for developing Crohn's disease
+rs10883365,GG,2,Bad,1.62x increased risk for developing Crohn's disease
+rs10889677,AA,1.5,Bad,1.5x increased risk for certain autoimmune diseases
+rs10889677,AC,2,Bad,1.5x increased risk for certain autoimmune diseases; 2x increased risk for Graves disease
+rs10889677,CC,2,Bad,"Baseline (average) risk for certain autoimmune diseases; however, 2.3x increased risk for Graves disease"
+rs10892759,AA,1.01,Good,reduced risk for Alzheimers?
+rs10895068,GG,0,Good,normal
+rs10897346,CC,3,Bad,"If depressed, 2.6x more likely to not respond to antidepressants"
+rs10897346,CT,3,Bad,"If depressed, 2.6x more likely to not respond to antidepressants"
+rs10897346,TT,0,Good,normal
+rs10958409,GG,0,,normal
+rs10980705,CC,1,Good,Normal risk for knee osteoarthritis
+rs10980705,CT,1.5,Bad,2.3x increased risk for knee osteoarthritis
+rs10980705,TT,2,Bad,3.7x increased risk for knee osteoarthritis
+rs10984447,AG,2,Bad,1.17x increased risk for multiple sclerosis
+rs10984447,GG,1,Good,Normal risk for multiple sclerosis
+rs11045585,AA,2,Good,24% chance (lower than average) of docetaxel-induced leukopenia/neutropenia
+rs11045585,AG,2,Bad,63% chance (higher than average) of docetaxel-induced leukopenia/neutropenia
+rs11110912,CG,0.1,Bad,Maybe some quite minor increase in high blood pressure risk; data not replicated though
+rs11110912,GG,0.1,Bad,Maybe some quite minor increase in high blood pressure risk; data not replicated though
+rs11136000,CC,0,,normal
+rs11136000,CT,1.5,Good,0.84x decreased risk for Alzheimer's disease
+rs11136000,TT,1.5,Good,0.84x decreased risk for Alzheimer's disease
+rs11171739,CC,2,Bad,1.75x risk of developing Type-1 diabetes
+rs11200638,AG,2,Bad,~2x increased risk of age related macular degeneration
+rs11209026,AG,2.5,Good,0.26x lower risk for certain autoimmune diseases.
+rs1121980,TT,3,Bad,Moderate increase (2.76x) in risk for obesity
+rs1126742,TT,0,Good,higher hypertension risk
+rs1126809,AG,0,Good,slight increase in skin cancer risk
+rs1128503,TT,0,Bad,likely to require more methadone during heroin withdrawal
+rs1128535,AA,0.5,Bad,normal
+rs1128535,AG,1.8,Good,0.77x risk for Crohn's disease
+rs1128535,GG,2,Good,reduced risk (0.77x) for Crohn's disease
+rs1135840,CC,2,,Homozygous for CYP2D6 variants (non-CYP2D6*1)
+rs1135840,CG,1.5,,Carrier of at least one CYP2D6 variant (non-CYP2D6*1)
+rs1135840,GG,0,Good,normal
+rs11362,AG,1,,
+rs1136287,CT,1.8,Bad,1.5x increased risk of wet ARMD in a Taiwanese Chinese population
+rs1136410,CC,2.4,Good,0.80x reduced risk for glioblastoma as well a 84% in CAD risk
+rs1136410,CT,2,Good,0.80x reduced risk for glioblastoma
+rs1136410,TT,0,,normal
+rs1143634,CC,0,Good,normal
+rs1143674,AA,1,Bad,1.3x increased autism risk
+rs1143674,AG,1,Bad,1.3x increased autism risk
+rs1143674,GG,0.1,Good,normal (risk of Autism)
+rs1143679,AA,3,Bad,>1.78x increased risk for SLE
+rs1143679,AG,2.4,Bad,1.78x increased risk for SLE
+rs11465804,GG,1.5,Good,0.68x lower risk for spondylitis
+rs11465804,GT,1.5,Good,0.68x lower risk for spondylitis
+rs11635424,AA,2,Good,<0.70x risk for restless legs
+rs11635424,AG,1.5,Good,0.70x risk for restless legs
+rs11650354,TT,2,Bad,8x risk for allergic asthma
+rs1165205,AA,1.5,Good,0.85x decreased gout risk
+rs1165205,AT,1.4,Good,0.85x decreased gout risk
+rs1165205,TT,1,Bad,normal
+rs11718863,AA,0,Good,normal
+rs11887534,CC,3,Bad,7x increased risk for gallstones
+rs11887534,CG,2.1,Bad,2x increased risk for gallstones
+rs11983225,CC,0,,
+rs11983225,CT,0,,
+rs11983225,TT,0,,
+rs12037606,AA,2,Bad,1.52x risk of developing Crohn's disease
+rs12037606,GG,1,Good,Normal risk of developing Crohn's disease
+rs12094543,AA,0,Bad,>1.3x risk of type I diabetes
+rs1219648,GG,2.1,Bad,1.64x risk for breast cancer
+rs1229984,AG,2,Good,0.56x decreased risk of oral/throat cancers
+rs1234,AA,2,Bad,summary of something bad
+rs1234,AC,1.5,Good,heterozygote for something good
+rs1234,CC,0,,normal
+rs12469063,AG,1.5,Bad,Slightly increased risk of developing restless legs syndrome
+rs12469063,GG,2,Bad,Increased risk of developing restless legs syndrome
+rs12593813,AA,2,Good,<0.71x risk for restless legs
+rs12593813,AG,1.5,Good,0.71x risk for restless legs
+rs12720461,TT,2,Bad,"CYP1A2*1K_-729C>T homozygote, decreased CYP1A2 activity"
+rs12720461,CT,2,Bad,"carrier of one CYP1A2*1K_-729C>T allele, decreased CYP1A2 activity"
+rs12721627,CC,0,Good,normal
+rs12721629,CC,0,Good,normal
+rs12721629,TT,2.5,,CYP3A4*12 homozygote
+rs12913832,GG,2.5,,"blue eye color, 99% of the time"
+rs12936511,CC,0,Good,normal
+rs12979860,CC,2,Good,~80% of such hepatitis C patients respond to treatment
+rs12979860,CT,2.5,Bad,~20-40% of such hepatitis C patients respond to treatment
+rs12979860,TT,3,Bad,~20-25% of such hepatitis C patients respond to treatment
+rs13149290,CC,1.5,Bad,Slightly increased risk of developing prostate cancer
+rs131702,GG,0.2,,
+rs13181,GT,1.5,Bad,1.12x increased risk for cutaneous melanoma
+rs13207033,AA,2,Good,reduced risk of rheumatoid arthritis
+rs13266634,CT,2.5,Bad,increased risk for type-2 diabetes
+rs1328674,GG,0,Good,average
+rs1329428,GG,2.1,Bad,2x increased risk for macular degeneration
+rs1333048,AC,2,Bad,1.3x increased coronary artery disease risk
+rs13387042,GG,0,,normal
+rs1343151,CC,0,,normal risk
+rs1360780,CT,2,Bad,1.3x increased risk for depression
+rs1360780,TT,2.1,Bad,1.3x increased risk for depression
+rs1375144,CT,1.3,Bad,1.32x increased risk of developing bipolar disorder (one study)
+rs140701,AA,1.5,Bad,Increased risk for anxiety disorders
+rs140701,AG,1.5,Bad,Increased risk for anxiety disorders
+rs140701,GG,1,Good,Normal risk for anxiety disorders
+rs1421085,CC,3.1,Bad,~1.7x increased obesity risk
+rs1421085,CT,2.5,Bad,~1.3x increased obesity risk
+rs1434536,GG,0,Good,normal
+rs1447295,AA,1.7,Bad,1.7x increased risk of prostate cancer
+rs1447295,AC,1.4,Bad,1.4x increased risk of prostate cancer
+rs144848,GT,1.5,Bad,very slightly increased breast cancer risk
+rs1495377,CC,0,Good,normal
+rs1501299,AC,2,Good,slightly lower risk of breast cancer
+rs1537415,CC,0,,normal
+rs1571801,AA,1.5,Bad,>1.36x risk for prostate cancer
+rs1585215,AA,0,Good,normal
+rs1585215,AG,2,Bad,2x increased risk for Hodgkin lymphoma
+rs1585215,GG,2.1,Bad,3.5x increased risk for Hodgkin lymphoma
+rs1611115,TT,0,Bad,somewhat more associated with impulsiveness and adult ADHD
+rs16847548,CT,1.3,Bad,1.3x increased risk for sudden cardiac death in Caucasians
+rs16890979,CC,0,Good,3.4x risk of gout
+rs16890979,TT,2,Good,"lower systolic blood pressure, serum uric acid and gout risk"
+rs16947,AA,0,Good,Homozygous for CYP2D6 variants (non-CYP2D6*1)
+rs16969968,AG,2.5,Bad,"slightly higher risk for nicotine dependence, lower risk for cocaine dependence"
+rs17001266,--,2,Bad,1.58x increased risk for schizophrenia in males
+rs17001266,-C,2,Bad,1.58x increased risk for schizophrenia in males
+rs17001266,CC,0,Good,normal
+rs17173608,TT,0,Good,normal
+rs17221417,GG,2,Bad,1.9x higher risk for Crohn's disease
+rs17221417,CG,1.5,Bad,1.3x higher risk for Crohn's disease
+rs17228212,CT,2,Bad,1.26x increased risk for heart disease
+rs17238540,TT,0,Good,common
+rs17244841,AA,0,Good,more responsive to statin treatment
+rs17300539,AA,1,Bad,higher adiponectin levels
+rs17300539,GG,1,Bad,increased risk of insulin resistance
+rs1734791,AA,2,Bad,1.4x increased risk for lupus
+rs1734791,AT,2,Bad,1.4x increased risk for lupus
+rs17376328,GG,0,Good,normal
+rs17435,AT,2,Bad,1.4x increased risk for lupus
+rs17435,TT,2,Bad,1.4x increased risk for lupus
+rs174537,TT,2,Good,lower LDL-C and total cholesterol
+rs174575,CC,0,,
+rs17482753,GG,0,Good,normal
+rs17576,AA,2,,normal risk for lung cancer; higher risk for MI
+rs17576,GG,2,Bad,"higher risk for lung cancer, and COPD in smokers; normal risk for MI"
+rs17696736,GG,2.5,Bad,1.94x risk of type-1 diabetes
+rs17782313,CC,2.5,Bad,adults likely to be 0.44 BMI units higher
+rs1784931,CC,1.01,Good,reduced risk for Alzheimers?
+rs1799724,CT,2,Bad,"if ApoE4(-), 1.6x risk of AD; if (+), 6.6x risk"
+rs1799724,TT,2,Bad,"if ApoE4(-), 1.6x risk of AD; if (+), 6.6x risk"
+rs1799732,--,2,Bad,less favorable clinical outcome when on antipsychotics
+rs1799732,-C,2,Bad,1.3x increased adenoma recurrence risk
+rs1799732,CC,0,Good,normal
+rs1799750,--,0,Good,normal
+rs1799750,-G,0,Good,normal
+rs1799750,GG,1.5,Bad,"in breast cancer patients, slightly higher risk for poorer prognosis"
+rs1799782,CC,0,Good,lower risk for skin cancer
+rs1799782,CT,1.3,,1.3x increased risk for oral cancer among Asians
+rs1799782,TT,1.4,,1.4x increased risk for oral cancer among Asians
+rs1799853,CT,1.5,Bad,~20% reduction in warfarin metabolism; some NSAID risk
+rs1799884,AA,3,Bad,2.7x increased risk for Type 2 Diabetes. Mothers have babies 54g heavier.
+rs1799884,AG,2,Bad,1.3x increased risk for Type 2 Diabetes. Mothers have babies 27g heavier.
+rs1799950,AG,1.5,Bad,very slightly increased breast cancer risk
+rs1799963,AA,7,Bad,6.74x risk of thrombosis; 2-20x risk for cerebral stroke if PFO+
+rs1799963,AG,2.8,Bad,2.8x risk of thrombosis; higher risk for cerebral stroke if PFO+
+rs1799963,GG,0,Good,normal/common risk of thrombosis
+rs1799990,AG,2.1,Good,"Resistance to vCJD (PrP 129 Met/Val heterozygote), 4.6x reduced risk of sporadic CJD and 0.87x reduced risk for late-onset Alzheimer in a Caucasian population"
+rs1800012,GG,0,Good,normal
+rs1800012,TT,2,Good,"Complex; possibly lower risk of ACL ruptures, yet higher risk for bone loss and disc disease"
+rs1800255,AG,1,,benign
+rs1800401,CT,1,,brown/black eyes more likely
+rs1800407,AG,1,,green/hazel/brown/black eyes more likely
