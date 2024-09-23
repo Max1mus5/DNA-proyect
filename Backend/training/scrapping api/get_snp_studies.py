@@ -73,7 +73,7 @@ async def fetch_snp_data(session, offset):
 # Función principal para gestionar múltiples solicitudes
 async def gather_snp_data():
     print("Iniciando solicitudes asincrónicas...")
-    offsets = range(0, 5000, 500)  # Desde offset 0 hasta 5000, de 500 en 500
+    offsets = range(0, 5500, 500)  # Desde offset 0 hasta 5000, de 500 en 500
     
     # Crear un conector TCP que ignore SSL
     sslcontext = ssl.create_default_context()
