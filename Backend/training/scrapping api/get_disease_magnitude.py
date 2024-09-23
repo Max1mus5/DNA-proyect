@@ -3,6 +3,22 @@ import aiohttp
 import pandas as pd
 from bs4 import BeautifulSoup
 
+def preprocess_genome_data(filepath):
+    # Cargar el archivo genome.csv
+    genome_data = pd.read_csv(filepath)
+
+    # Asegurarse de que los genotipos estén en el formato adecuado "A;A"
+    def format_genotype(genotype):
+        return ';'.join(list(genotype))
+
+    # Aplicar la transformación a los genotipos
+    genome_data['genotype'] = genome_data['genotype'].apply(format_genotype)
+
+    # Convertir rsid a mayúsculas
+    genome_data['rsid'] = genome_data['rsid'].str.upper()
+
+    return genome_data
+
 async def fetch_snp_info(session, rsid, genotype):
     """
     segund el rsid y el genotipo, devuelve la magnitud y reputación de la enfermedad asociada
