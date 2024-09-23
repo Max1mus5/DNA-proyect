@@ -52,6 +52,7 @@ def parse_row(row):
 async def fetch_snp_data(session, offset):
     url = BASE_URL.format(offset=offset)
     try:
+        print(f"Fetching data from {url}...")
         async with session.get(url, ssl=False) as response:  # Deshabilitamos SSL
             page_content = await response.text()
             soup = BeautifulSoup(page_content, 'html.parser')
@@ -71,6 +72,7 @@ async def fetch_snp_data(session, offset):
 
 # Función principal para gestionar múltiples solicitudes
 async def gather_snp_data():
+    print("Iniciando solicitudes asincrónicas...")
     offsets = range(0, 5000, 500)  # Desde offset 0 hasta 5000, de 500 en 500
     
     # Crear un conector TCP que ignore SSL
