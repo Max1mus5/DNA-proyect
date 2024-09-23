@@ -77,7 +77,7 @@ async def process_snps_async(rsids_genotypes):
 
 
  # Preprocesar los datos de genome.csv
-genome_data = preprocess_genome_data('genome.csv')
+genome_data = preprocess_genome_data('..\genome.csv')
 
 # Crear una lista de tuplas (rsid, genotype)
 rsids_genotypes = list(zip(genome_data['rsid'], genome_data['genotype']))
