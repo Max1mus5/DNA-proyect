@@ -32,7 +32,7 @@ async def fetch_snp_info(session, rsid, genotype):
     dict: Diccionario con la magnitud y reputación de la enfermedad asociada.
     """
 
-    # Convertir el genotipo al formato "A;A" (o similar)
+    # Convertir el genotipo al formato "A;A"
     genotype = genotype.replace('', ';')
     url = f"https://www.snpedia.com/index.php/{rsid}({genotype})"
     
@@ -74,3 +74,19 @@ async def process_snps_async(rsids_genotypes):
         tasks = [fetch_snp_info(session, rsid, genotype) for rsid, genotype in rsids_genotypes]
         results = await asyncio.gather(*tasks)
     return results
+
+
+ # Preprocesar los datos de genome.csv
+genome_data = preprocess_genome_data('genome.csv')
+
+# Crear una lista de tuplas (rsid, genotype)
+rsids_genotypes = list(zip(genome_data['rsid'], genome_data['genotype']))
+
+# Ejecutar las solicitudes asincrónicas
+results = asyncio.run(process_snps_async(rsids_genotypes))
+
+# Crear un DataFrame con los resultados
+results_df = pd.DataFrame(results)
+
+# Guardar los resultados en disease.csv
+results_df.to_csv('disease.csv', index=False, columns=['rsid', 'genotype', 'magnitude', 'reputation'])
