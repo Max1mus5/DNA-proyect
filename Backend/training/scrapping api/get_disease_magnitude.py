@@ -15,7 +15,7 @@ def preprocess_genome_data(filepath):
     genome_data['genotype'] = genome_data['genotype'].apply(format_genotype)
 
     # Convertir rsid a mayúsculas
-    genome_data['rsid'] = genome_data['rsid'].str.upper()
+    genome_data['rsid'] = genome_data['rsid'].str.capitalize()
 
     return genome_data
 
@@ -31,13 +31,11 @@ async def fetch_snp_info(session, rsid, genotype):
     Returns:
     dict: Diccionario con la magnitud y reputación de la enfermedad asociada.
     """
-
-    # Convertir el genotipo al formato "A;A"
-    genotype = genotype.replace('', ';')
     url = f"https://www.snpedia.com/index.php/{rsid}({genotype})"
     
     try:
-        async with session.get(url) as response:
+        print(f"Fetching {rsid}...\n{url}")
+        async with session.get(url, ssl=False) as response:  # ssl=False disables SSL verification 
             if response.status != 200:
                 print(f"Error fetching {rsid}: Status code {response.status}")
                 return {'rsid': rsid, 'genotype': genotype, 'magnitude': -1, 'reputation': 'unmeasured'}
@@ -60,7 +58,7 @@ async def fetch_snp_info(session, rsid, genotype):
                 reputation = soup.find('a', {'title': 'Repute'}).find_next('td').text.strip()
             except AttributeError:
                 reputation = 'unmeasured'
-
+            print(f"Fetching {rsid} exitosamente.")
             return {'rsid': rsid, 'genotype': genotype, 'magnitude': magnitude, 'reputation': reputation}
 
     except Exception as e:
@@ -76,17 +74,26 @@ async def process_snps_async(rsids_genotypes):
     return results
 
 
- # Preprocesar los datos de genome.csv
+print("Preprocesando datos de genome.csv...")
 genome_data = preprocess_genome_data('..\genome.csv')
+print("Teminado datos de genome.csv exitosamente.")
+print(genome_data.head())
 
 # Crear una lista de tuplas (rsid, genotype)
+print("Creando lista de tuplas (rsid, genotype)...")
 rsids_genotypes = list(zip(genome_data['rsid'], genome_data['genotype']))
+print("Lista de tuplas (rsid, genotype) creada exitosamente.")
 
 # Ejecutar las solicitudes asincrónicas
+print("Ejecutando solicitudes asincrónicas...")
 results = asyncio.run(process_snps_async(rsids_genotypes))
+print("Solicitudes asincrónicas ejecutadas exitosamente.")
 
+print("Creando DataFrame con resultados...")
 # Crear un DataFrame con los resultados
 results_df = pd.DataFrame(results)
+print("DataFrame con resultados creada exitosamente.")
 
 # Guardar los resultados en disease.csv
-results_df.to_csv('disease.csv', index=False, columns=['rsid', 'genotype', 'magnitude', 'reputation'])
+print("Guardando resultados en disease.csv...")
+results_df.to_csv('..\disease.csv', index=False, columns=['rsid', 'genotype', 'magnitude', 'reputation']) 
