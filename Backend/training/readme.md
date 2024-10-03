@@ -4,8 +4,6 @@
 
 El análisis de SNPs (polimorfismos de nucleótido único) en el ADN nos permite comprender cómo variaciones genéticas pueden influir en la predisposición a ciertas enfermedades. Las redes neuronales son herramientas poderosas que pueden aprender a partir de estas variaciones para predecir fenotipos, como la presencia o ausencia de enfermedades. En esta exposición, desglosaremos el procesamiento de una cadena de ADN a través de un modelo de red neuronal.
 
-
-
 ## Estructura del ADN:
 <div align="center">
   <img src="../../assets/DNA.png" alt="ADN structure" width="400"/>
@@ -18,17 +16,16 @@ El análisis de SNPs (polimorfismos de nucleótido único) en el ADN nos permite
 
 Comprendiendo ahora la estructura del ADN, y cuando se identifica un SNP, vamos a ver los puntos clave de la capa de entrada de nuestro modelo de red neuronal:
 
-- **[Cromosoma](https://www.chromosomewalk.ch/en/list-of-chromosomes/) (numérico)**: Representa el cromosoma donde se encuentra el SNP. Por ejemplo, el cromosoma 12 se representaría simplemente como el número 1.
-
-- **Posición**: Indica la ubicación exacta del SNP en el cromosoma. Por ejemplo, si el SNP está en la posición 72017, se codifica como 72017.
-
-- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipos. Por ejemplo, para el genotipo AA, el vector sería [0, 0, 1] (donde [1, 0, 0] representa AA y [0, 1, 0] representa AG).
+- **[Cromosoma](https://www.chromosomewalk.ch/en/list-of-chromosomes/) (numérico)**: Representa el cromosoma donde se encuentra el SNP.
+- **Posición**: Indica la ubicación exacta del SNP en el cromosoma.
+- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipos.
 
 Así, un vector de entrada para un SNP específico podría verse así:
 
 ```
 [1, 72017, 1, 0, 0]
 ```
+
 <div align="center">
   <img src="../../assets/SNP-dataset.svg" alt="One-hot encoding" width="500"/>
 </div>
@@ -37,105 +34,90 @@ Así, un vector de entrada para un SNP específico podría verse así:
 
 Las capas ocultas son donde ocurre la mayor parte del procesamiento en la red neuronal. En este modelo, empleamos:
 
-- **Capas Densas con activación ReLU**: Cada capa densa aplica transformaciones lineales a la entrada y luego utiliza la función de activación ReLU (Rectified Linear Unit). Esto es importante porque permite que el modelo capture relaciones no lineales entre los diferentes SNPs y su relación con el fenotipo. La activación ReLU ayuda a resolver el problema del desvanecimiento del gradiente, permitiendo que los modelos profundos se entrenen de manera más efectiva.
-
-- **Conexiones Residuales**: Estas conexiones permiten que la información de la capa anterior se incorpore directamente a la siguiente, facilitando que el modelo aprenda tanto los efectos lineales directos de los SNPs como las interacciones no lineales entre ellos. Este enfoque es similar al utilizado en arquitecturas avanzadas como ResNet, y mejora la capacidad del modelo para capturar relaciones complejas que afectan el riesgo de enfermedades.
+- **Capas Densas con activación ReLU**: Cada capa densa aplica transformaciones lineales a la entrada y luego utiliza la función de activación ReLU (Rectified Linear Unit).
+- **Conexiones Residuales**: Estas conexiones permiten que la información de la capa anterior se incorpore directamente a la siguiente.
 
 ## 3. Capa de Salida
 
 La capa de salida produce la predicción final del modelo. Dependiendo del tipo de tarea, se elige la función de activación adecuada:
 
-- **Clasificación binaria**: Para problemas que implican una predicción de sí/no (por ejemplo, presencia o ausencia de una enfermedad), utilizamos una función de activación sigmoide. Esta función devuelve un valor entre 0 y 1, que se interpreta como la probabilidad de que la enfermedad esté presente.
-
-- **Clasificación multiclase**: Si el objetivo es predecir entre varias categorías (por ejemplo, diferentes tipos de color de ojos), se utiliza la función de activación softmax. Esto produce un vector de probabilidades para cada clase, donde la clase con la mayor probabilidad es la predicción final.
+- **Clasificación binaria**: Para problemas que implican una predicción de sí/no.
+- **Clasificación multiclase**: Para predecir entre varias categorías.
 
 ## 4. Técnicas Clave
 
 Para asegurar que el modelo sea robusto y generalice bien, implementamos varias técnicas clave:
 
-- **Regularización**: Utilizamos técnicas como la regularización L2, que penaliza los pesos grandes para evitar el sobreajuste, y el dropout, que desconecta aleatoriamente algunas neuronas durante el entrenamiento. Esto ayuda a prevenir que el modelo dependa demasiado de ciertas características.
-
-- **Optimización**: Empleamos el optimizador Adam, que ajusta los pesos de la red de manera eficiente utilizando una tasa de aprendizaje adaptativa. Esto permite que el modelo converja más rápidamente a un buen mínimo en la función de pérdida.
+- **Regularización**: Utilizamos técnicas como la regularización L2 y el dropout.
+- **Optimización**: Empleamos el optimizador Adam, que ajusta los pesos de la red de manera eficiente.
 
 ## 5. Predicción de Fenotipos
 
-El modelo se basa en los principios de la herencia mendeliana y las técnicas de aprendizaje automático para inferir fenotipos a partir del genotipo. En esencia, el modelo aprende a identificar patrones en las variaciones genéticas que están asociadas con el riesgo de enfermedad. Esto se traduce en una capacidad predictiva que puede tener implicaciones significativas para la medicina personalizada.
+El modelo se basa en los principios de la herencia mendeliana y las técnicas de aprendizaje automático para inferir fenotipos a partir del genotipo.
 
 ## Resumen
 
 En resumen, el proceso de transformación de información genética en predicciones fenotípicas a través de redes neuronales implica:
 
-1. **Codificación de datos genéticos** en un formato numérico comprensible.
-2. **Aplicación de transformaciones no lineales** para capturar relaciones complejas entre SNPs y fenotipo.
-3. **Uso de técnicas de regularización y optimización** para mejorar la generalización y la eficacia del modelo.
-
-Con estas herramientas, podemos utilizar el poder del aprendizaje automático para predecir riesgos de enfermedades a partir de la genética, abriendo nuevas posibilidades en la atención médica y la investigación biomédica.
+1. **Codificación de datos genéticos**.
+2. **Aplicación de transformaciones no lineales**.
+3. **Uso de técnicas de regularización y optimización**.
 
 ## Ejemplo de Predicción de Fenotipos a partir de SNPs
 
-Para ilustrar cómo funciona nuestro modelo de red neuronal en la predicción de enfermedades, consideremos un conjunto de datos genéticos que contiene información sobre varios SNPs.
+En esta sección se describe el análisis genómico con los datos obtenidos.
 
 ### Datos de Entrada
 
-Supongamos que tenemos el siguiente conjunto de datos:
+Los datos utilizados en este análisis genómico contienen un total de **966,977 SNPs** distribuidos en **22 cromosomas únicos** y **20 genotipos únicos**. A continuación, un resumen de la estadística por cromosoma:
 
-| rsid | Chromosome | Position | Genotype |
-|------|------------|----------|----------|
-| rs1  | 12         | 345678   | GG       |
-| rs2  | 5          | 123456   | AG       |
-| rs3  | 3          | 987654   | AA       |
-| rs4  | 1          | 123456   | GG       |
+| Cromosoma | Número de SNPs | Posición mínima | Posición máxima | Posición media |
+|-----------|----------------|-----------------|-----------------|----------------|
+| 1         | 77,230         | 72,017          | 247,185,615      | 124,063,000    |
+| 2         | 77,691         | 8,674           | 242,697,433      | 117,604,200    |
+| 3         | 63,523         | 36,495          | 199,322,659      | 93,250,840     |
+| ...       | ...            | ...             | ...              | ...            |
+
+### Distribución de Genotipos
+
+El conjunto de datos contiene la siguiente distribución de genotipos:
+
+- **CC**: 174,242
+- **GG**: 173,508
+- **TT**: 147,357
+- **AA**: 147,284
+- **CT**: 115,917
+- **AG**: 115,604
+- Otros: Menos representados
 
 ### Transformación a Vectores de Entrada
 
-Transformamos cada SNP en un vector numérico que nuestro modelo puede procesar:
+Para el análisis, transformamos cada SNP en un vector numérico que nuestro modelo puede procesar. Un ejemplo de los SNPs transformados sería:
 
-- **Para el SNP rs1**: `Chromosome = 12`, `Position = 345678`, `Genotype = GG`  
-  **Vector**: `[12, 345678, 0, 0, 1]`
+- **SNP1**: `Cromosoma = 1`, `Posición = 72,017`, `Genotipo = CC`  
+  **Vector**: `[1, 72017, 1, 0, 0]`
 
-- **Para el SNP rs2**: `Chromosome = 5`, `Position = 123456`, `Genotype = AG`  
-  **Vector**: `[5, 123456, 0, 1, 0]`
-
-- **Para el SNP rs3**: `Chromosome = 3`, `Position = 987654`, `Genotype = AA`  
-  **Vector**: `[3, 987654, 1, 0, 0]`
-
-- **Para el SNP rs4**: `Chromosome = 1`, `Position = 123456`, `Genotype = GG`  
-  **Vector**: `[1, 123456, 0, 0, 1]`
-
-### Preparación de los Datos para el Modelo
-
-Ahora, podemos combinar estos vectores en un solo conjunto de datos de entrada para alimentar nuestro modelo. Esto puede verse como una matriz donde cada fila representa un SNP:
-
-```
-Inputs = [
-    [12, 345678, 0, 0, 1],
-    [5, 123456, 0, 1, 0],
-    [3, 987654, 1, 0, 0],
-    [1, 123456, 0, 0, 1]
-]
-```
+- **SNP2**: `Cromosoma = 2`, `Posición = 8,674`, `Genotipo = GG`  
+  **Vector**: `[2, 8674, 0, 0, 1]`
 
 ### Proceso a través del Modelo
 
-1. **Capa de Entrada**: Cada vector se alimenta a la red neuronal.
+1. **Capa de Entrada**: Los vectores de entrada se alimentan al modelo de red neuronal.
+2. **Capas Ocultas**: El modelo aplica capas densas con activación ReLU y conexiones residuales.
+3. **Capa de Salida**: En este análisis, utilizamos una salida para predicciones de clasificación binaria (sí/no).
 
-2. **Capas Ocultas**: A través de varias capas densas con activación ReLU, el modelo aprenderá las interacciones entre SNPs. Las conexiones residuales permitirán que la información fluya eficientemente entre las capas, facilitando el aprendizaje de relaciones complejas.
+### Análisis Clustering con KMeans
 
-3. **Capa de Salida**: Para un problema de clasificación binaria (por ejemplo, predecir la presencia o ausencia de una enfermedad), la red neuronal generará una salida que será un valor entre 0 y 1.
+Durante el análisis, se determinó que el número óptimo de clusters (K) es **3**, con los siguientes resultados:
 
-### Output Esperado
+| Cluster | Magnitud media | Cromosomas únicos (media) | Número de SNPs |
+|---------|----------------|--------------------------|----------------|
+| 0       | 0.32           | 10                       | 587,812        |
+| 1       | 0.32           | 13                       | 346,666        |
+| 2       | 2.01           | 22                       | 192            |
 
-Supongamos que, tras entrenar el modelo con suficientes datos, obtenemos una predicción de la probabilidad de que una enfermedad esté presente. El output del modelo podría ser:
-
-- **Probabilidad de enfermedad**: `0.87`
-
-Este valor indica que hay un 87% de probabilidad de que el paciente presente la enfermedad asociada a la combinación de SNPs analizados.
+El gráfico del **Elbow Plot** fue guardado en: `./processed_data/elbow_plot_20241002_223223.png`.
 
 ### Interpretación del Output
 
-Con un output de `0.87`, podríamos interpretar que el modelo sugiere una alta predisposición a la enfermedad. Esto podría llevar a:
-
-- **Recomendaciones para el paciente**: Realizar pruebas adicionales o implementar un seguimiento médico.
-- **Investigación adicional**: Estudiar más sobre la relación entre los SNPs identificados y la enfermedad en cuestión, contribuyendo así a la ciencia médica.
-
-
+Con base en los resultados del clustering, podemos interpretar que el **Cluster 2** contiene SNPs con una magnitud más alta, lo que podría indicar una mayor relevancia genética en la predisposición a enfermedades.
