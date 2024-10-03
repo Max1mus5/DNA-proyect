@@ -58,5 +58,6 @@
         "magnitude": 0,
         "reputation": 0,
         "summary": 0
-    }
+    },
+    "optimal_k": 3
 }

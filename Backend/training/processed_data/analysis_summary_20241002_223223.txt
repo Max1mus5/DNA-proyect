@@ -3,7 +3,7 @@ RESUMEN DEL ANÁLISIS GENÓMICO
 
 1. INFORMACIÓN GENERAL
 --------------------
-Fecha de análisis: 2024-10-02 22:21:47
+Fecha de análisis: 2024-10-02 22:32:26
 Número total de SNPs: 966977
 Número de cromosomas únicos: 22
 Número de genotipos únicos: 20
@@ -84,13 +84,16 @@ min         0.000000
 75%         0.315912
 max         5.900000
 
-6. INFORMACIÓN DEL PROCESAMIENTO
+6. CLUSTERING KMEANS
 --------------------
-Columnas en el conjunto de datos final:
-- rsid
-- chromosome
-- position
-- genotype
-- magnitude
-- reputation
-- summary
+Elbow plot guardado en: ./processed_data\elbow_plot_20241002_223223.png
+Número óptimo de clusters (K): 3
+
+Estadísticas por cluster:
+        magnitude               chromosome        
+             mean   std   count       mean nunique
+Cluster                                           
+0            0.32  0.01  587812       5.03      10
+1            0.32  0.01  346666      15.30      13
+2            2.01  0.69     192       9.86      22
+
