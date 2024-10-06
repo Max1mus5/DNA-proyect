@@ -2,7 +2,7 @@
 
 ## Introducción
 
-El análisis de SNPs (polimorfismos de nucleótido único) en el ADN nos permite comprender cómo variaciones genéticas pueden influir en la predisposición a ciertas enfermedades. Las redes neuronales son herramientas poderosas que pueden aprender a partir de estas variaciones para predecir fenotipos, como la presencia o ausencia de enfermedades. En esta exposición, desglosaremos el procesamiento de una cadena de ADN a través de un modelo de red neuronal.
+El análisis de SNPs (polimorfismos de nucleótido único) en el ADN nos permite comprender cómo variaciones genéticas pueden influir en la predisposición a ciertas enfermedades. Las redes neuronales son herramientas poderosas que pueden aprender a partir de estas variaciones para predecir fenotipos, como la presencia o ausencia de enfermedades. En esta exposición, desglosaremos el procesamiento de una cadena de ADN a través de un modelo de red neuronal
 
 ## Estructura del ADN:
 <div align="center">
