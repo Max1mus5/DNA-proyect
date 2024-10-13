@@ -18,7 +18,7 @@ Comprendiendo ahora la estructura del ADN, y cuando se identifica un SNP, vamos 
 
 - **[Cromosoma](https://www.chromosomewalk.ch/en/list-of-chromosomes/) (numérico)**: Representa el cromosoma donde se encuentra el SNP.
 - **Posición**: Indica la ubicación exacta del SNP en el cromosoma.
-- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipos.
+- **Genotipo**: Este es el tipo de alelo presente en la posición específica. Utilizamos codificación one-hot para representar los genotipo
 
 Así, un vector de entrada para un SNP específico podría verse así:
 
