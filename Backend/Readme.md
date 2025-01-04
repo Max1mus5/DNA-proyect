@@ -1,18 +1,4 @@
-Este proyecto forma parte de una aplicación interactiva que permite a los estudiantes explorar secuencias de ADN y predecir características fenotípicas, además de simular ediciones genéticas basadas en CRISPR.
-
-## Requisitos Previos
-
-Asegúrate de tener las siguientes herramientas instaladas:
-
-- Python 3.8 o superior
-- Jupyter Notebook
-- FastAPI
-- SQLite
-- Biopython
-- Scikit-learn
-- Numpy
-
-
+-- start
 ## Instalación
 
 ### Paso 1: Clona el Repositorio
