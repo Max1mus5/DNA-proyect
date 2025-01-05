@@ -1,7 +1,7 @@
 # Proyecto de Biotecnología para la Feria Tecnológica
 ![alt CRIsPR CRAFT](./assets//logo.png)
 
-Crearemos una red neuronal perceptrón multicapa (MLP) con conexiones residuales para predecir fenotipos a partir de datos genotípicos. El modelo incorporará el mapeo genotipo-fenotipo, utilizando características de entrada como los polimorfismos de nucleótido único (SNP) y las posiciones de los cromosomas para inferir rasgos fenotípicos, incorporaremos estadísticas de resumen (si están disponibles) y nos centraremos en las leyes mendelianas de la herencia para predecir fenotipos simples.
+El Proyecto es sobre una red neuronal perceptrón multicapa (MLP) con conexiones residuales para predecir fenotipos a partir de datos genotípicos. El modelo incorporará el mapeo genotipo-fenotipo, utilizando características de entrada como los polimorfismos de nucleótido único (SNP) y las posiciones de los cromosomas para inferir rasgos fenotípicos, incorporaremos estadísticas de resumen (si están disponibles) y nos centraremos en las leyes mendelianas de la herencia para predecir fenotipos simples.
 
 ## Conjunto de datos propuesto: genome.csv
 Estructura:
@@ -30,7 +30,7 @@ Estructura:
 ## Técnicas clave 
 - **Regularización**: Regularización L2 y dropout para evitar el sobreajuste. 
 - **Optimización**: Optimizador Adam con ajuste de la tasa de aprendizaje. 
-- **Predicción de fenotipos**: Aprovecha los principios de la herencia mendeliana y las técnicas de aprendizaje automático para inferir el fenotipo a partir del genotipo.
+- **Predicción de fenotipos**: Aprovecha los principios de la herencia mendeliana y las técnicas de aprendizaje automático para inferir el fenotipo a partir del genotipo
 
 ### Colores
 ![alt colores](.//assets/colores.png)
