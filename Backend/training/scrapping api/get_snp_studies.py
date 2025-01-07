@@ -3,7 +3,6 @@ import asyncio
 import csv
 import re
 from bs4 import BeautifulSoup
-import ssl
 from aiohttp import TCPConnector
 
 # URL base para consultas a SNPedia
@@ -22,18 +21,22 @@ def parse_row(row):
         
         # Extraer rsid y genotipo
         rsid_genotype = cells[0].find("a").get("title")
-        rsid, genotype = re.match(r'([^()]+)\(([^)]+)\)', rsid_genotype).groups()
+        match = re.match(r'([^()]+)\(([^)]+)\)', rsid_genotype)
+        if match:
+            rsid, genotype = match.groups()
+        else:
+            rsid, genotype = None, None
         rsid = rsid.lower() if rsid else "none"
         genotype = genotype.replace(";", "") if genotype else "none"
 
-        # Extraer los demás campos
-        magnitude = cells[1].text.strip() if cells[1].text.strip() else "1"
-        reputation = cells[2].text.strip() if cells[2].text.strip() else ""
-        summary = cells[3].text.strip() if cells[3].text.strip() else ""
+        # Extraer los demás campos utilizando una comprensión de lista
+        magnitude, reputation, summary = [
+            cell.text.strip() if cell.text.strip() else default 
+            for cell, default in zip(cells[1:], ["1", "", ""])
+        ]
 
     except Exception as e:
         print(f"Error parsing row: {e}")
-        # Valores por defecto en caso de error
         rsid = "none"
         genotype = "none"
         magnitude = "1"
@@ -53,40 +56,33 @@ async def fetch_snp_data(session, offset):
     url = BASE_URL.format(offset=offset)
     try:
         print(f"Fetching data from {url}...")
-        async with session.get(url, ssl=False) as response:  # Deshabilitamos SSL
+        async with session.get(url) as response: 
             page_content = await response.text()
             soup = BeautifulSoup(page_content, 'html.parser')
 
-            # Buscar las filas de la tabla
-            rows = soup.find_all("tr", class_=re.compile(r"row-\w+"))
+            # Buscar las filas de la tabla utilizando un selector CSS
+            rows = soup.select("tr[class^=row-]")
 
-            snp_data = []
-            for row in rows:
-                snp_info = parse_row(row)
-                snp_data.append(snp_info)
+            # Utilizar una comprensión de lista para obtener los datos de cada fila
+            snp_data = [parse_row(row) for row in rows]
 
             return snp_data
     except Exception as e:
         print(f"Error fetching data for offset {offset}: {e}")
-        return []  # Devolvemos una lista vacía si hay error
+        return [] 
 
 # Función principal para gestionar múltiples solicitudes
 async def gather_snp_data():
     print("Iniciando solicitudes asincrónicas...")
-    offsets = range(0, 5500, 500)  # Desde offset 0 hasta 5000, de 500 en 500
+    offsets = range(0, 5500, 500) 
     
-    # Crear un conector TCP que ignore SSL
-    sslcontext = ssl.create_default_context()
-    sslcontext.check_hostname = False
-    sslcontext.verify_mode = ssl.CERT_NONE
-
-    connector = TCPConnector(ssl=sslcontext)
-    
+    # Crear un conector TCP que ignore SSL (no recomendado en producción)
+    connector = TCPConnector(ssl=False)
     async with aiohttp.ClientSession(connector=connector) as session:
         tasks = [fetch_snp_data(session, offset) for offset in offsets]
         all_data = await asyncio.gather(*tasks)
 
-        # Flatten the list of lists
+        # Aplanar la lista de listas utilizando una comprensión de lista
         snp_data = [item for sublist in all_data for item in sublist]
 
         # Escribir los datos en un archivo CSV
